@@ -14,13 +14,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Scrape
+    - name: Scrape fplmaps.com
       run: |
         mkdir -p fplmaps.com
         curl 'https://www.fplmaps.com/customer/outage/StormFeedRestoration.json' \
           -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0' \
           -H 'Accept: application/json, text/javascript, */*; q=0.01' \
           | jq > fplmaps.com/StormFeedRestoration.json
+    - name: Scrape poweroutage.us
+      run: |
+        mkdir -p duke-energy.app
+        curl 'https://prod.apigee.duke-energy.app/outage-maps/v1/counties?jurisdiction=DEF' \
+          --compressed \
+          -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0' \
+          -H 'Accept: application/json, text/plain, */*' \
+          -H 'Accept-Language: en-US,en;q=0.5' \
+          -H 'Accept-Encoding: gzip, deflate, br, zstd' \
+          -H 'Authorization: Basic OVRkZHowR0FhdkttSjBaMVBBblFlcHJUV3JEcVhnNlF3Q0pIb1dPcU4zbnlQREhBOk1hU2JpcTNVSTBHWGljaEZwSXVzVW9MR2Ryck5JNTJHQ0dJcE9rdEdzWUVWUkdMNGF5U2hhbVZoMGNVQkdvNzA=' \
+          -H 'Origin: https://outagemap.duke-energy.com' \
+          -H 'Connection: keep-alive' \
+          -H 'Sec-Fetch-Dest: empty' \
+          -H 'Sec-Fetch-Mode: cors' \
+          -H 'Sec-Fetch-Site: cross-site' \
+          -H 'Pragma: no-cache' \
+          -H 'Cache-Control: no-cache' \
+          -H 'TE: trailers' | jq > duke-energy.app/counties.json
     - name: Commit and push
       run: |-
         git config user.name "Automated"
