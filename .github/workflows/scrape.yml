@@ -17,14 +17,16 @@ jobs:
     - name: Scrape fplmaps.com
       run: |
         mkdir -p fplmaps.com
-        curl 'https://www.fplmaps.com/customer/outage/StormFeedRestoration.json' \
+        if ! curl 'https://www.fplmaps.com/customer/outage/StormFeedRestoration.json' \
           -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0' \
           -H 'Accept: application/json, text/javascript, */*; q=0.01' \
-          | jq > fplmaps.com/StormFeedRestoration.json
+          | jq > fplmaps.com/StormFeedRestoration.json; then
+          echo "Failed to scrape fplmaps.com, but continuing..."
+        fi
     - name: Scrape poweroutage.us
       run: |
         mkdir -p duke-energy.app
-        curl 'https://prod.apigee.duke-energy.app/outage-maps/v1/counties?jurisdiction=DEF' \
+        if ! curl 'https://prod.apigee.duke-energy.app/outage-maps/v1/counties?jurisdiction=DEF' \
           --compressed \
           -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0' \
           -H 'Accept: application/json, text/plain, */*' \
@@ -38,7 +40,9 @@ jobs:
           -H 'Sec-Fetch-Site: cross-site' \
           -H 'Pragma: no-cache' \
           -H 'Cache-Control: no-cache' \
-          -H 'TE: trailers' | jq > duke-energy.app/counties.json
+          -H 'TE: trailers' | jq > duke-energy.app/counties.json; then
+          echo "Failed to scrape poweroutage.us, but continuing..."
+        fi
     - name: Commit and push
       run: |-
         git config user.name "Automated"
