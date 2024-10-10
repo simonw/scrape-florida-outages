@@ -43,6 +43,30 @@ jobs:
           -H 'TE: trailers' | jq > duke-energy.app/counties.json; then
           echo "Failed to scrape poweroutage.us, but continuing..."
         fi
+    - name: Scrape outage.tecoenergy.com
+      run: |
+        mkdir -p outage.tecoenergy.com
+        if ! curl 'https://mioutage-data-prod.azureedge.net/geopoints-elastic-v6/_outage' \
+          -X POST \
+          -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0' \
+          -H 'Accept: */*' \
+          -H 'Accept-Language: en-US,en;q=0.5' \
+          -H 'Referer: https://outage.tecoenergy.com/' \
+          -H 'authorization: Basic ZWxhc3RpYzpQSFVrdlg0UmdJVll6eE9iWHJGM2F0ejc=' \
+          -H 'content-type: application/json' \
+          -H 'Origin: https://outage.tecoenergy.com' \
+          -H 'Connection: keep-alive' \
+          -H 'Sec-Fetch-Dest: empty' \
+          -H 'Sec-Fetch-Mode: cors' \
+          -H 'Sec-Fetch-Site: cross-site' \
+          -H 'Priority: u=4' \
+          -H 'Pragma: no-cache' \
+          -H 'Cache-Control: no-cache' \
+          -H 'TE: trailers' \
+          --data-raw '{"size":10000,"query":{"bool":{"must":{"match_all":{}},"filter":{"geo_bounding_box":{"polygonCenter":{"top_left":{"lat":28.70343307240943,"lon":-83.79740182148437},"bottom_right":{"lat":27.003667078761065,"lon":-80.89975777851562}}}}}},"sort":[{"updateTime":"asc"},{"incidentId":"asc"}],"_source":["updateTime","status","reason","customerCount","polygonCenter","incidentId","estimatedTimeOfRestoration"]}' \
+          | jq > outage.tecoenergy.com/outage.json; then
+          echo "Failed to scrape outage.tecoenergy.com, but continuing..."
+        fi
     - name: Commit and push
       run: |-
         git config user.name "Automated"
