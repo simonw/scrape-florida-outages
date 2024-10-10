@@ -18,6 +18,8 @@ jobs:
       run: |
         mkdir -p fplmaps.com
         curl 'https://www.fplmaps.com/customer/outage/StormFeedRestoration.json' \
+          -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0' \
+          -H 'Accept: application/json, text/javascript, */*; q=0.01' \
           | jq > fplmaps.com/StormFeedRestoration.json
     - name: Commit and push
       run: |-
