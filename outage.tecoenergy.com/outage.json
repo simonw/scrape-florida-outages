@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-50eb7c64-a5c7-4748-8566-dc75fba808dd",
-        "_id": "nVRaBZMByckvcAhRR7fw",
+        "_index": "geopoints-prod-e2511834-013d-4f76-a515-919a2c257ddb",
+        "_id": "qlRsBZMByckvcAhRubjr",
         "_score": null,
         "_source": {
           "incidentId": "A202431005260",
@@ -28,37 +28,16 @@
           "estimatedTimeOfRestoration": "2024-11-07T02:35:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-11-07T01:40:09"
+          "updateTime": "2024-11-07T02:00:17"
         },
         "sort": [
-          1730943609000,
+          1730944817000,
           "A202431005260"
         ]
       },
       {
-        "_index": "geopoints-prod-50eb7c64-a5c7-4748-8566-dc75fba808dd",
-        "_id": "nFRaBZMByckvcAhRR7fw",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202431110678",
-          "polygonCenter": [
-            -82.32147000085054,
-            27.96703999674613
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-11-07T02:35:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're working onsite",
-          "updateTime": "2024-11-07T01:40:09"
-        },
-        "sort": [
-          1730943609000,
-          "A202431110678"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-50eb7c64-a5c7-4748-8566-dc75fba808dd",
-        "_id": "nlRaBZMByckvcAhRR7fw",
+        "_index": "geopoints-prod-e2511834-013d-4f76-a515-919a2c257ddb",
+        "_id": "q1RsBZMByckvcAhRubjr",
         "_score": null,
         "_source": {
           "incidentId": "A202431116918",
@@ -70,10 +49,10 @@
           "estimatedTimeOfRestoration": "2024-11-07T02:35:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2024-11-07T01:40:09"
+          "updateTime": "2024-11-07T02:00:17"
         },
         "sort": [
-          1730943609000,
+          1730944817000,
           "A202431116918"
         ]
       }
