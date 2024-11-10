@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-6d7a8677-6e6d-405d-9aeb-aadcd27373b1",
-        "_id": "x69yFZMByzIO-BRUNttB",
+        "_index": "geopoints-prod-3da71aef-b2f1-407c-8add-517a592f6a9c",
+        "_id": "41WEFZMByckvcAhRi6t2",
         "_score": null,
         "_source": {
           "incidentId": "A202431005260",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2024-11-10T13:06:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-11-10T04:40:09"
+          "updateTime": "2024-11-10T05:00:12"
         },
         "sort": [
-          1731213609000,
+          1731214812000,
           "A202431005260"
         ]
       },
       {
-        "_index": "geopoints-prod-6d7a8677-6e6d-405d-9aeb-aadcd27373b1",
-        "_id": "yK9yFZMByzIO-BRUNttB",
+        "_index": "geopoints-prod-3da71aef-b2f1-407c-8add-517a592f6a9c",
+        "_id": "5VWEFZMByckvcAhRi6t2",
         "_score": null,
         "_source": {
           "incidentId": "A202431422056",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2024-11-10T10:20:00",
           "reason": "Tree or tree limbs in contact with equipment",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-11-10T04:40:09"
+          "updateTime": "2024-11-10T05:00:12"
         },
         "sort": [
-          1731213609000,
+          1731214812000,
           "A202431422056"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3da71aef-b2f1-407c-8add-517a592f6a9c",
+        "_id": "5FWEFZMByckvcAhRi6t2",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202431504587",
+          "polygonCenter": [
+            -82.49900000075087,
+            28.11782999665921
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-11-10T10:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-11-10T05:00:12"
+        },
+        "sort": [
+          1731214812000,
+          "A202431504587"
         ]
       }
     ]
