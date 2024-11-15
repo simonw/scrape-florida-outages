@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 5,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-c9336b3f-3768-44e2-b23d-a7cc07f2a233",
-        "_id": "e7JWLpMByzIO-BRUSmeB",
+        "_index": "geopoints-prod-138666e6-039f-4e12-9eae-0737bc311a00",
+        "_id": "B1dtLpMByckvcAhRKUH1",
         "_score": null,
         "_source": {
           "incidentId": "A202431814296",
@@ -27,17 +27,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-11-15T02:11:00",
           "reason": "Damage to Tampa Electric equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2024-11-15T00:40:12"
+          "status": "We're working onsite",
+          "updateTime": "2024-11-15T01:05:12"
         },
         "sort": [
-          1731631212000,
+          1731632712000,
           "A202431814296"
         ]
       },
       {
-        "_index": "geopoints-prod-c9336b3f-3768-44e2-b23d-a7cc07f2a233",
-        "_id": "fLJWLpMByzIO-BRUSmeB",
+        "_index": "geopoints-prod-138666e6-039f-4e12-9eae-0737bc311a00",
+        "_id": "CFdtLpMByckvcAhRKUH1",
         "_score": null,
         "_source": {
           "incidentId": "A202431911008",
@@ -49,74 +49,32 @@
           "estimatedTimeOfRestoration": "2024-11-15T02:11:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-11-15T00:40:12"
+          "updateTime": "2024-11-15T01:05:12"
         },
         "sort": [
-          1731631212000,
+          1731632712000,
           "A202431911008"
         ]
       },
       {
-        "_index": "geopoints-prod-c9336b3f-3768-44e2-b23d-a7cc07f2a233",
-        "_id": "fbJWLpMByzIO-BRUSmeB",
+        "_index": "geopoints-prod-138666e6-039f-4e12-9eae-0737bc311a00",
+        "_id": "CVdtLpMByckvcAhRKUH1",
         "_score": null,
         "_source": {
           "incidentId": "A202431915303",
           "polygonCenter": [
-            -82.52183608480817,
-            27.910180534975805
+            -82.52148158558555,
+            27.91012255567611
           ],
-          "customerCount": 2,
-          "estimatedTimeOfRestoration": "2024-11-15T02:11:00",
-          "reason": "Tree or tree limbs in contact with equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2024-11-15T00:40:12"
-        },
-        "sort": [
-          1731631212000,
-          "A202431915303"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-c9336b3f-3768-44e2-b23d-a7cc07f2a233",
-        "_id": "frJWLpMByzIO-BRUSmeB",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202431916367",
-          "polygonCenter": [
-            -81.67824931713145,
-            27.998818281774668
-          ],
-          "customerCount": 39,
-          "estimatedTimeOfRestoration": "2024-11-15T02:11:00",
-          "reason": "Animal coming into contact with equipment",
-          "status": "We're working onsite",
-          "updateTime": "2024-11-15T00:40:12"
-        },
-        "sort": [
-          1731631212000,
-          "A202431916367"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-c9336b3f-3768-44e2-b23d-a7cc07f2a233",
-        "_id": "f7JWLpMByzIO-BRUSmeB",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202431919549",
-          "polygonCenter": [
-            -82.56158381931243,
-            28.00710133166841
-          ],
-          "customerCount": 45,
-          "estimatedTimeOfRestoration": "2024-11-15T02:40:00",
+          "customerCount": 14,
+          "estimatedTimeOfRestoration": "2024-11-15T05:00:00",
           "reason": "Pending Investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-11-15T00:40:12"
+          "updateTime": "2024-11-15T01:05:12"
         },
         "sort": [
-          1731631212000,
-          "A202431919549"
+          1731632712000,
+          "A202431915303"
         ]
       }
     ]
