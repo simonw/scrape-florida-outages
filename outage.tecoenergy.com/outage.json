@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,75 +9,11 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 0,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": [
-      {
-        "_index": "geopoints-prod-990e9765-8991-4595-a6aa-b5c624724209",
-        "_id": "g12eX5MByckvcAhRY3-f",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202432911106",
-          "polygonCenter": [
-            -82.21702000091273,
-            28.324999996542736
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-11-24T18:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-11-24T14:20:09"
-        },
-        "sort": [
-          1732458009000,
-          "A202432911106"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-990e9765-8991-4595-a6aa-b5c624724209",
-        "_id": "hF2eX5MByckvcAhRY3-f",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202432911136",
-          "polygonCenter": [
-            -82.20173000092188,
-            28.37723999651319
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-11-24T18:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-11-24T14:20:09"
-        },
-        "sort": [
-          1732458009000,
-          "A202432911136"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-990e9765-8991-4595-a6aa-b5c624724209",
-        "_id": "gl2eX5MByckvcAhRY3-f",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202432911387",
-          "polygonCenter": [
-            -82.52698064731506,
-            27.87925364618789
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-11-24T18:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-11-24T14:20:09"
-        },
-        "sort": [
-          1732458009000,
-          "A202432911387"
-        ]
-      }
-    ]
+    "hits": []
   },
   "cache": true
 }
