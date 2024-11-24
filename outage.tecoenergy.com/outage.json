@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,11 +9,75 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-d098177b-dcb1-4d3d-ba8d-77c622dd9c66",
+        "_id": "bb8QXpMByzIO-BRUHfI7",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202432904842",
+          "polygonCenter": [
+            -82.50584655099608,
+            27.956985502111554
+          ],
+          "customerCount": 4,
+          "estimatedTimeOfRestoration": "2024-11-24T11:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-11-24T07:05:08"
+        },
+        "sort": [
+          1732431908000,
+          "A202432904842"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-d098177b-dcb1-4d3d-ba8d-77c622dd9c66",
+        "_id": "br8QXpMByzIO-BRUHfI7",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202432904903",
+          "polygonCenter": [
+            -82.52686884853406,
+            27.878538925351194
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-11-24T11:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-11-24T07:05:08"
+        },
+        "sort": [
+          1732431908000,
+          "A202432904903"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-d098177b-dcb1-4d3d-ba8d-77c622dd9c66",
+        "_id": "b78QXpMByzIO-BRUHfI7",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202432904915",
+          "polygonCenter": [
+            -82.52698131297565,
+            27.879391172108093
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-11-24T11:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-11-24T07:05:08"
+        },
+        "sort": [
+          1732431908000,
+          "A202432904915"
+        ]
+      }
+    ]
   },
   "cache": true
 }
