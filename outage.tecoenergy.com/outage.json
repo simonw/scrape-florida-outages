@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-6264b4c4-beb0-4a3a-ada2-66d143ce221f",
-        "_id": "Yl02Y5MByckvcAhRfKMO",
+        "_index": "geopoints-prod-c3d3c986-dbe9-4120-a4ca-c350f73642b5",
+        "_id": "TV1NY5MByckvcAhRhaRP",
         "_score": null,
         "_source": {
           "incidentId": "A202433005045",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2024-11-25T10:40:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-11-25T07:05:10"
+          "updateTime": "2024-11-25T07:30:11"
         },
         "sort": [
-          1732518310000,
+          1732519811000,
           "A202433005045"
         ]
       },
       {
-        "_index": "geopoints-prod-6264b4c4-beb0-4a3a-ada2-66d143ce221f",
-        "_id": "Y102Y5MByckvcAhRfKMO",
+        "_index": "geopoints-prod-c3d3c986-dbe9-4120-a4ca-c350f73642b5",
+        "_id": "Tl1NY5MByckvcAhRhaRP",
         "_score": null,
         "_source": {
           "incidentId": "A202433005193",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2024-11-25T10:50:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-11-25T07:05:10"
+          "updateTime": "2024-11-25T07:30:11"
         },
         "sort": [
-          1732518310000,
+          1732519811000,
           "A202433005193"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-c3d3c986-dbe9-4120-a4ca-c350f73642b5",
+        "_id": "T11NY5MByckvcAhRhaRP",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202433005476",
+          "polygonCenter": [
+            -81.96021200453359,
+            27.8955460057892
+          ],
+          "customerCount": 30,
+          "estimatedTimeOfRestoration": "2024-11-25T11:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-11-25T07:30:11"
+        },
+        "sort": [
+          1732519811000,
+          "A202433005476"
         ]
       }
     ]
