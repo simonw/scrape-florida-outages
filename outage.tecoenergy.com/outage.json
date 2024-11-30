@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-9e7f9029-62dc-4a28-9ff6-72ea7d36a907",
-        "_id": "gIWse5MBvHAO_3Auvj8k",
+        "_index": "geopoints-prod-4bb80472-1294-4664-b518-8576266f6d20",
+        "_id": "r4W-e5MBvHAO_3Au_kH4",
         "_score": null,
         "_source": {
           "incidentId": "A202433500852",
@@ -28,13 +28,56 @@
           "estimatedTimeOfRestoration": "2024-11-30T04:50:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-11-30T01:05:13"
+          "updateTime": "2024-11-30T01:25:18"
         },
         "sort": [
-          1732928713000,
+          1732929918000,
           "A202433500852"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-4bb80472-1294-4664-b518-8576266f6d20",
+        "_id": "sIW-e5MBvHAO_3Au_kH4",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202433501841",
+          "polygonCenter": [
+            -81.78200000115748,
+            28.080839996685185
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-11-30T05:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-11-30T01:25:18"
+        },
+        "sort": [
+          1732929918000,
+          "A202433501841"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-4bb80472-1294-4664-b518-8576266f6d20",
+        "_id": "roW-e5MBvHAO_3Au_kH4",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202433501883",
+          "polygonCenter": [
+            -81.78280343561039,
+            28.082217835965352
+          ],
+          "customerCount": 38,
+          "estimatedTimeOfRestoration": "2024-11-30T05:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-11-30T01:25:18"
+        },
+        "sort": [
+          1732929918000,
+          "A202433501883"
         ]
       }
     ]
-  }
+  },
+  "cache": true
 }
