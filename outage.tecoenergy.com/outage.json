@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-4f5f9e65-f16d-4724-b99c-5179c99ec5a6",
-        "_id": "JIURe5MBvHAO_3AuHB1O",
+        "_index": "geopoints-prod-c9bfb399-e126-4404-8876-327d8075fba2",
+        "_id": "sYUee5MBvHAO_3Au0R2_",
         "_score": null,
         "_source": {
           "incidentId": "A202433436622",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2024-11-30T01:12:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2024-11-29T22:15:12"
+          "updateTime": "2024-11-29T22:30:12"
         },
         "sort": [
-          1732918512000,
+          1732919412000,
           "A202433436622"
         ]
       },
       {
-        "_index": "geopoints-prod-4f5f9e65-f16d-4724-b99c-5179c99ec5a6",
-        "_id": "JYURe5MBvHAO_3AuHB1O",
+        "_index": "geopoints-prod-c9bfb399-e126-4404-8876-327d8075fba2",
+        "_id": "soUee5MBvHAO_3Au0R2_",
         "_score": null,
         "_source": {
           "incidentId": "A202433440328",
@@ -47,13 +47,34 @@
           ],
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-11-29T23:50:00",
-          "reason": "Pending Investigation",
+          "reason": "Tree or tree limbs in contact with equipment",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-11-29T22:15:12"
+          "updateTime": "2024-11-29T22:30:12"
         },
         "sort": [
-          1732918512000,
+          1732919412000,
           "A202433440328"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-c9bfb399-e126-4404-8876-327d8075fba2",
+        "_id": "s4Uee5MBvHAO_3Au0R2_",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202433446796",
+          "polygonCenter": [
+            -82.47488855477695,
+            27.93425545751606
+          ],
+          "customerCount": 159,
+          "estimatedTimeOfRestoration": "2024-11-30T02:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-11-29T22:30:12"
+        },
+        "sort": [
+          1732919412000,
+          "A202433446796"
         ]
       }
     ]
