@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-5d5355c6-5d25-43d9-8cb5-6102d243351b",
-        "_id": "pYZkgJMBvHAO_3Au1ikM",
+        "_index": "geopoints-prod-6e70f860-ba9d-45e8-98f6-f7b7157967a4",
+        "_id": "CMp3gJMByzIO-BRUvAOJ",
         "_score": null,
         "_source": {
           "incidentId": "A202433534902",
@@ -25,19 +25,19 @@
             28.07932764327441
           ],
           "customerCount": 4,
-          "estimatedTimeOfRestoration": "2024-11-30T23:53:00",
+          "estimatedTimeOfRestoration": "2024-12-01T01:15:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2024-11-30T23:05:10"
+          "updateTime": "2024-11-30T23:25:11"
         },
         "sort": [
-          1733007910000,
+          1733009111000,
           "A202433534902"
         ]
       },
       {
-        "_index": "geopoints-prod-5d5355c6-5d25-43d9-8cb5-6102d243351b",
-        "_id": "pIZkgJMBvHAO_3Au1ikM",
+        "_index": "geopoints-prod-6e70f860-ba9d-45e8-98f6-f7b7157967a4",
+        "_id": "B8p3gJMByzIO-BRUvAOJ",
         "_score": null,
         "_source": {
           "incidentId": "A202433547672",
@@ -46,14 +46,35 @@
             27.76408682208849
           ],
           "customerCount": 7,
-          "estimatedTimeOfRestoration": "2024-12-01T02:30:00",
+          "estimatedTimeOfRestoration": "2024-12-01T01:15:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-11-30T23:05:10"
+          "updateTime": "2024-11-30T23:25:11"
         },
         "sort": [
-          1733007910000,
+          1733009111000,
           "A202433547672"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-6e70f860-ba9d-45e8-98f6-f7b7157967a4",
+        "_id": "Ccp3gJMByzIO-BRUvAOJ",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202433548962",
+          "polygonCenter": [
+            -82.4783968534428,
+            27.96770499650235
+          ],
+          "customerCount": 8,
+          "estimatedTimeOfRestoration": "2024-12-01T01:15:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2024-11-30T23:25:11"
+        },
+        "sort": [
+          1733009111000,
+          "A202433548962"
         ]
       }
     ]
