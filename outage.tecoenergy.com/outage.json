@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,29 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-421d4567-1de2-42b7-a68d-7a3bd5cfec3a",
-        "_id": "_oYHh5MBvHAO_3Auk7zh",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202433707476",
-          "polygonCenter": [
-            -81.96315670105233,
-            27.83563089682366
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-02T09:00:00",
-          "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2024-12-02T06:00:20"
-        },
-        "sort": [
-          1733119220000,
-          "A202433707476"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-421d4567-1de2-42b7-a68d-7a3bd5cfec3a",
-        "_id": "_YYHh5MBvHAO_3Auk7zh",
+        "_index": "geopoints-prod-ae2c747d-9cea-4af3-9f34-3bbb0d5d84ce",
+        "_id": "x8wZh5MByzIO-BRU6WC0",
         "_score": null,
         "_source": {
           "incidentId": "A202433709079",
@@ -49,11 +28,32 @@
           "estimatedTimeOfRestoration": "2024-12-02T09:50:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2024-12-02T06:00:20"
+          "updateTime": "2024-12-02T06:20:20"
         },
         "sort": [
-          1733119220000,
+          1733120420000,
           "A202433709079"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-ae2c747d-9cea-4af3-9f34-3bbb0d5d84ce",
+        "_id": "yMwZh5MByzIO-BRU6WC0",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202433709883",
+          "polygonCenter": [
+            -82.44820055922719,
+            27.95246141802636
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-02T10:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-02T06:20:20"
+        },
+        "sort": [
+          1733120420000,
+          "A202433709883"
         ]
       }
     ]
