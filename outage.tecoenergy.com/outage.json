@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-3d945909-4a33-430d-b4e1-2d7184eedae4",
-        "_id": "s4bihJMBvHAO_3AuMqg4",
+        "_index": "geopoints-prod-1124cf5a-6633-4e22-9a2c-78600a8401d1",
+        "_id": "wIYYhZMBvHAO_3Au0KpJ",
         "_score": null,
         "_source": {
           "incidentId": "A202433634314",
@@ -28,53 +28,11 @@
           "estimatedTimeOfRestoration": "2024-12-01T23:00:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-01T20:00:13"
+          "updateTime": "2024-12-01T21:00:14"
         },
         "sort": [
-          1733083213000,
+          1733086814000,
           "A202433634314"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-3d945909-4a33-430d-b4e1-2d7184eedae4",
-        "_id": "sYbihJMBvHAO_3AuMqg4",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202433635249",
-          "polygonCenter": [
-            -82.48008463695601,
-            27.93830755590018
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-01T23:30:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-01T20:00:13"
-        },
-        "sort": [
-          1733083213000,
-          "A202433635249"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-3d945909-4a33-430d-b4e1-2d7184eedae4",
-        "_id": "sobihJMBvHAO_3AuMqg4",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202433635281",
-          "polygonCenter": [
-            -81.75171606092671,
-            28.067795093284495
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-01T23:30:00",
-          "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2024-12-01T20:00:13"
-        },
-        "sort": [
-          1733083213000,
-          "A202433635281"
         ]
       }
     ]
