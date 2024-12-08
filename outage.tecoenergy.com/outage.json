@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-2479581b-978b-4555-952e-74afb9466211",
-        "_id": "TbN_ppMByzIO-BRU8AiG",
+        "_index": "geopoints-prod-3a9eae70-8db6-4843-8ebf-7cb24592bd65",
+        "_id": "XQiSppMBvHAO_3AuPkmi",
         "_score": null,
         "_source": {
           "incidentId": "A202434305427",
@@ -28,37 +28,37 @@
           "estimatedTimeOfRestoration": "2024-12-08T11:20:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-08T08:40:11"
+          "updateTime": "2024-12-08T09:00:10"
         },
         "sort": [
-          1733647211000,
+          1733648410000,
           "A202434305427"
         ]
       },
       {
-        "_index": "geopoints-prod-2479581b-978b-4555-952e-74afb9466211",
-        "_id": "TrN_ppMByzIO-BRU8AiG",
+        "_index": "geopoints-prod-3a9eae70-8db6-4843-8ebf-7cb24592bd65",
+        "_id": "XgiSppMBvHAO_3AuPkmi",
         "_score": null,
         "_source": {
           "incidentId": "A202434305475",
           "polygonCenter": [
-            -82.50840771486854,
-            27.91910042227489
+            -82.50799856468207,
+            27.919089497175253
           ],
-          "customerCount": 16,
+          "customerCount": 25,
           "estimatedTimeOfRestoration": "2024-12-08T11:40:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-08T08:40:11"
+          "status": "We're working onsite",
+          "updateTime": "2024-12-08T09:00:10"
         },
         "sort": [
-          1733647211000,
+          1733648410000,
           "A202434305475"
         ]
       },
       {
-        "_index": "geopoints-prod-2479581b-978b-4555-952e-74afb9466211",
-        "_id": "T7N_ppMByzIO-BRU8AiG",
+        "_index": "geopoints-prod-3a9eae70-8db6-4843-8ebf-7cb24592bd65",
+        "_id": "XwiSppMBvHAO_3AuPkmi",
         "_score": null,
         "_source": {
           "incidentId": "A202434306249",
@@ -69,12 +69,54 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-12-08T12:40:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-08T08:40:11"
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-08T09:00:10"
         },
         "sort": [
-          1733647211000,
+          1733648410000,
           "A202434306249"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3a9eae70-8db6-4843-8ebf-7cb24592bd65",
+        "_id": "YAiSppMBvHAO_3AuPkmi",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434306328",
+          "polygonCenter": [
+            -81.78058353444993,
+            28.085579996682497
+          ],
+          "customerCount": 2,
+          "estimatedTimeOfRestoration": "2024-12-08T12:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-08T09:00:10"
+        },
+        "sort": [
+          1733648410000,
+          "A202434306328"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3a9eae70-8db6-4843-8ebf-7cb24592bd65",
+        "_id": "YQiSppMBvHAO_3AuPkmi",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434306375",
+          "polygonCenter": [
+            -81.80854051141077,
+            28.043884513166475
+          ],
+          "customerCount": 18,
+          "estimatedTimeOfRestoration": "2024-12-08T12:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-08T09:00:10"
+        },
+        "sort": [
+          1733648410000,
+          "A202434306375"
         ]
       }
     ]
