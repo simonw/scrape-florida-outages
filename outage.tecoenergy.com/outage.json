@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-22baec0b-a5a6-4f19-a348-74418d12f390",
-        "_id": "MBFgqJMBvHAO_3AukVzi",
+        "_index": "geopoints-prod-445a04db-d696-47c8-8340-9c525f4edd2d",
+        "_id": "CBFuqJMBvHAO_3AuQ6t_",
         "_score": null,
         "_source": {
           "incidentId": "A202434306928",
@@ -25,19 +25,19 @@
             27.95516798641934
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-08T18:04:00",
+          "estimatedTimeOfRestoration": "2024-12-09T06:04:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-08T17:25:10"
+          "updateTime": "2024-12-08T17:40:12"
         },
         "sort": [
-          1733678710000,
+          1733679612000,
           "A202434306928"
         ]
       },
       {
-        "_index": "geopoints-prod-22baec0b-a5a6-4f19-a348-74418d12f390",
-        "_id": "LxFgqJMBvHAO_3AukVzi",
+        "_index": "geopoints-prod-445a04db-d696-47c8-8340-9c525f4edd2d",
+        "_id": "BxFuqJMBvHAO_3AuQ6t_",
         "_score": null,
         "_source": {
           "incidentId": "A202434312831",
@@ -49,16 +49,16 @@
           "estimatedTimeOfRestoration": "2024-12-08T21:10:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-12-08T17:25:10"
+          "updateTime": "2024-12-08T17:40:12"
         },
         "sort": [
-          1733678710000,
+          1733679612000,
           "A202434312831"
         ]
       },
       {
-        "_index": "geopoints-prod-22baec0b-a5a6-4f19-a348-74418d12f390",
-        "_id": "LhFgqJMBvHAO_3AukVzi",
+        "_index": "geopoints-prod-445a04db-d696-47c8-8340-9c525f4edd2d",
+        "_id": "BhFuqJMBvHAO_3AuQ6t_",
         "_score": null,
         "_source": {
           "incidentId": "A202434312925",
@@ -69,17 +69,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-12-08T21:30:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-08T17:25:10"
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-08T17:40:12"
         },
         "sort": [
-          1733678710000,
+          1733679612000,
           "A202434312925"
         ]
       },
       {
-        "_index": "geopoints-prod-22baec0b-a5a6-4f19-a348-74418d12f390",
-        "_id": "LRFgqJMBvHAO_3AukVzi",
+        "_index": "geopoints-prod-445a04db-d696-47c8-8340-9c525f4edd2d",
+        "_id": "BBFuqJMBvHAO_3AuQ6t_",
         "_score": null,
         "_source": {
           "incidentId": "A202434312977",
@@ -90,12 +90,33 @@
           "customerCount": 149,
           "estimatedTimeOfRestoration": "2024-12-08T21:30:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-08T17:25:10"
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-08T17:40:12"
         },
         "sort": [
-          1733678710000,
+          1733679612000,
           "A202434312977"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-445a04db-d696-47c8-8340-9c525f4edd2d",
+        "_id": "BRFuqJMBvHAO_3AuQ6t_",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434313035",
+          "polygonCenter": [
+            -82.48738510626389,
+            28.06206645724705
+          ],
+          "customerCount": 4,
+          "estimatedTimeOfRestoration": "2024-12-08T21:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-08T17:40:12"
+        },
+        "sort": [
+          1733679612000,
+          "A202434313035"
         ]
       }
     ]
