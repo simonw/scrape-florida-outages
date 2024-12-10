@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-8119b9ef-27cd-4b8a-8e72-febb48e0acff",
-        "_id": "jAXRsJMByzIO-BRUNj6H",
+        "_index": "geopoints-prod-3765992d-30cd-421f-ad71-f6b66b0640a2",
+        "_id": "TgXesJMByzIO-BRU9IcK",
         "_score": null,
         "_source": {
           "incidentId": "A202434504102",
@@ -25,19 +25,19 @@
             27.99107752543295
           ],
           "customerCount": 8,
-          "estimatedTimeOfRestoration": "2024-12-10T09:20:00",
+          "estimatedTimeOfRestoration": "2024-12-10T14:53:00",
           "reason": "Tree or tree limbs in contact with equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2024-12-10T08:45:10"
+          "status": "We're working onsite",
+          "updateTime": "2024-12-10T09:00:12"
         },
         "sort": [
-          1733820310000,
+          1733821212000,
           "A202434504102"
         ]
       },
       {
-        "_index": "geopoints-prod-8119b9ef-27cd-4b8a-8e72-febb48e0acff",
-        "_id": "jQXRsJMByzIO-BRUNj6H",
+        "_index": "geopoints-prod-3765992d-30cd-421f-ad71-f6b66b0640a2",
+        "_id": "TwXesJMByzIO-BRU9IcK",
         "_score": null,
         "_source": {
           "incidentId": "A202434505198",
@@ -49,16 +49,16 @@
           "estimatedTimeOfRestoration": "2024-12-10T11:00:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-12-10T08:45:10"
+          "updateTime": "2024-12-10T09:00:12"
         },
         "sort": [
-          1733820310000,
+          1733821212000,
           "A202434505198"
         ]
       },
       {
-        "_index": "geopoints-prod-8119b9ef-27cd-4b8a-8e72-febb48e0acff",
-        "_id": "jgXRsJMByzIO-BRUNj6H",
+        "_index": "geopoints-prod-3765992d-30cd-421f-ad71-f6b66b0640a2",
+        "_id": "UAXesJMByzIO-BRU9IcK",
         "_score": null,
         "_source": {
           "incidentId": "A202434505519",
@@ -70,16 +70,16 @@
           "estimatedTimeOfRestoration": "2024-12-10T11:10:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-12-10T08:45:10"
+          "updateTime": "2024-12-10T09:00:12"
         },
         "sort": [
-          1733820310000,
+          1733821212000,
           "A202434505519"
         ]
       },
       {
-        "_index": "geopoints-prod-8119b9ef-27cd-4b8a-8e72-febb48e0acff",
-        "_id": "jwXRsJMByzIO-BRUNj6H",
+        "_index": "geopoints-prod-3765992d-30cd-421f-ad71-f6b66b0640a2",
+        "_id": "UQXesJMByzIO-BRU9IcK",
         "_score": null,
         "_source": {
           "incidentId": "A202434505527",
@@ -91,13 +91,35 @@
           "estimatedTimeOfRestoration": "2024-12-10T11:20:00",
           "reason": "Pending Investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-10T08:45:10"
+          "updateTime": "2024-12-10T09:00:12"
         },
         "sort": [
-          1733820310000,
+          1733821212000,
           "A202434505527"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3765992d-30cd-421f-ad71-f6b66b0640a2",
+        "_id": "UgXesJMByzIO-BRU9IcK",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434506724",
+          "polygonCenter": [
+            -82.35696000083061,
+            27.992639996731427
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-10T12:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2024-12-10T09:00:12"
+        },
+        "sort": [
+          1733821212000,
+          "A202434506724"
         ]
       }
     ]
-  }
+  },
+  "cache": true
 }
