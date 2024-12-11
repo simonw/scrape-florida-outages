@@ -9,10 +9,75 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
-  }
+    "hits": [
+      {
+        "_index": "geopoints-prod-0ea58c4b-e091-4ff1-91aa-5f346dee6d05",
+        "_id": "OCUFtpMByzIO-BRUMzqw",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434605307",
+          "polygonCenter": [
+            -82.57262626969396,
+            28.01024631079943
+          ],
+          "customerCount": 28,
+          "estimatedTimeOfRestoration": "2024-12-11T11:10:00",
+          "reason": "Damage to Tampa Electric equipment",
+          "status": "Additional support enroute",
+          "updateTime": "2024-12-11T09:00:13"
+        },
+        "sort": [
+          1733907613000,
+          "A202434605307"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0ea58c4b-e091-4ff1-91aa-5f346dee6d05",
+        "_id": "OSUFtpMByzIO-BRUMzqw",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434606556",
+          "polygonCenter": [
+            -82.50051118989985,
+            27.917445127302763
+          ],
+          "customerCount": 3,
+          "estimatedTimeOfRestoration": "2024-12-11T12:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-11T09:00:13"
+        },
+        "sort": [
+          1733907613000,
+          "A202434606556"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0ea58c4b-e091-4ff1-91aa-5f346dee6d05",
+        "_id": "OiUFtpMByzIO-BRUMzqw",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434606677",
+          "polygonCenter": [
+            -81.79184000115174,
+            28.059779996697195
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-11T13:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-11T09:00:13"
+        },
+        "sort": [
+          1733907613000,
+          "A202434606677"
+        ]
+      }
+    ]
+  },
+  "cache": true
 }
