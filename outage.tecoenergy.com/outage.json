@@ -9,11 +9,75 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-0bfef016-421e-4c9a-9df2-4d32944d906b",
+        "_id": "oFzrupMBvHAO_3Aubw6I",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434707980",
+          "polygonCenter": [
+            -81.76631000116618,
+            28.063959996695097
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-12T11:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-12T07:50:10"
+        },
+        "sort": [
+          1733989810000,
+          "A202434707980"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0bfef016-421e-4c9a-9df2-4d32944d906b",
+        "_id": "oVzrupMBvHAO_3Aubw6I",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434708066",
+          "polygonCenter": [
+            -82.44100000078316,
+            28.025929996711938
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-12T11:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-12T07:50:10"
+        },
+        "sort": [
+          1733989810000,
+          "A202434708066"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0bfef016-421e-4c9a-9df2-4d32944d906b",
+        "_id": "olzrupMBvHAO_3Aubw6I",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434708072",
+          "polygonCenter": [
+            -82.55271000073475,
+            28.079229996681008
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-12T11:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-12T07:50:10"
+        },
+        "sort": [
+          1733989810000,
+          "A202434708072"
+        ]
+      }
+    ]
   },
   "cache": true
 }
