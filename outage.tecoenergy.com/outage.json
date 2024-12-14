@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
-        "_id": "CoivxpMByzIO-BRUmULi",
+        "_index": "geopoints-prod-0f3bf925-530d-4419-b439-f49435752649",
+        "_id": "SonBxpMByzIO-BRU5AAf",
         "_score": null,
         "_source": {
           "incidentId": "A202434914164",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2024-12-14T15:54:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-14T14:40:12"
+          "updateTime": "2024-12-14T15:00:12"
         },
         "sort": [
-          1734187212000,
+          1734188412000,
           "A202434914164"
         ]
       },
       {
-        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
-        "_id": "C4ivxpMByzIO-BRUmULi",
+        "_index": "geopoints-prod-0f3bf925-530d-4419-b439-f49435752649",
+        "_id": "S4nBxpMByzIO-BRU5AAf",
         "_score": null,
         "_source": {
           "incidentId": "A202434921062",
@@ -49,16 +49,16 @@
           "estimatedTimeOfRestoration": "2024-12-14T16:00:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2024-12-14T14:40:12"
+          "updateTime": "2024-12-14T15:00:12"
         },
         "sort": [
-          1734187212000,
+          1734188412000,
           "A202434921062"
         ]
       },
       {
-        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
-        "_id": "DYivxpMByzIO-BRUmULi",
+        "_index": "geopoints-prod-0f3bf925-530d-4419-b439-f49435752649",
+        "_id": "TonBxpMByzIO-BRU5AAf",
         "_score": null,
         "_source": {
           "incidentId": "A202434924271",
@@ -70,32 +70,53 @@
           "estimatedTimeOfRestoration": "2024-12-14T17:20:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-14T14:40:12"
+          "updateTime": "2024-12-14T15:00:12"
         },
         "sort": [
-          1734187212000,
+          1734188412000,
           "A202434924271"
         ]
       },
       {
-        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
-        "_id": "DIivxpMByzIO-BRUmULi",
+        "_index": "geopoints-prod-0f3bf925-530d-4419-b439-f49435752649",
+        "_id": "TInBxpMByzIO-BRU5AAf",
         "_score": null,
         "_source": {
-          "incidentId": "A202434927713",
+          "incidentId": "A202434928015",
           "polygonCenter": [
-            -82.51177000075702,
-            27.9346099967637
+            -82.44111000078267,
+            27.96704999674556
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-14T18:40:00",
+          "estimatedTimeOfRestoration": "2024-12-14T18:50:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2024-12-14T14:40:12"
+          "updateTime": "2024-12-14T15:00:12"
         },
         "sort": [
-          1734187212000,
-          "A202434927713"
+          1734188412000,
+          "A202434928015"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0f3bf925-530d-4419-b439-f49435752649",
+        "_id": "TYnBxpMByzIO-BRU5AAf",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434928038",
+          "polygonCenter": [
+            -82.14272000095232,
+            28.0221399967159
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-14T18:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-14T15:00:12"
+        },
+        "sort": [
+          1734188412000,
+          "A202434928038"
         ]
       }
     ]
