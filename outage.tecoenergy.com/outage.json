@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 4,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-a9202e54-cada-46bb-9552-659e204f1c5d",
-        "_id": "NYadxpMBvHAO_3AuSBRB",
+        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
+        "_id": "CoivxpMByzIO-BRUmULi",
         "_score": null,
         "_source": {
           "incidentId": "A202434914164",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2024-12-14T15:54:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-14T14:20:12"
+          "updateTime": "2024-12-14T14:40:12"
         },
         "sort": [
-          1734186012000,
+          1734187212000,
           "A202434914164"
         ]
       },
       {
-        "_index": "geopoints-prod-a9202e54-cada-46bb-9552-659e204f1c5d",
-        "_id": "NoadxpMBvHAO_3AuSBRB",
+        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
+        "_id": "C4ivxpMByzIO-BRUmULi",
         "_score": null,
         "_source": {
           "incidentId": "A202434921062",
@@ -48,17 +48,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-12-14T16:00:00",
           "reason": "Damage to Tampa Electric equipment",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-14T14:20:12"
+          "status": "Additional support enroute",
+          "updateTime": "2024-12-14T14:40:12"
         },
         "sort": [
-          1734186012000,
+          1734187212000,
           "A202434921062"
         ]
       },
       {
-        "_index": "geopoints-prod-a9202e54-cada-46bb-9552-659e204f1c5d",
-        "_id": "N4adxpMBvHAO_3AuSBRB",
+        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
+        "_id": "DYivxpMByzIO-BRUmULi",
         "_score": null,
         "_source": {
           "incidentId": "A202434924271",
@@ -70,11 +70,32 @@
           "estimatedTimeOfRestoration": "2024-12-14T17:20:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-14T14:20:12"
+          "updateTime": "2024-12-14T14:40:12"
         },
         "sort": [
-          1734186012000,
+          1734187212000,
           "A202434924271"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-4c9b66b6-e0d8-436b-958f-1952dfa65c85",
+        "_id": "DIivxpMByzIO-BRUmULi",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202434927713",
+          "polygonCenter": [
+            -82.51177000075702,
+            27.9346099967637
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-14T18:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-14T14:40:12"
+        },
+        "sort": [
+          1734187212000,
+          "A202434927713"
         ]
       }
     ]
