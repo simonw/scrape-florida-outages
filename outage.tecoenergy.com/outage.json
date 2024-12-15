@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,75 +9,11 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 0,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": [
-      {
-        "_index": "geopoints-prod-5e7ead0a-bec6-4b69-a533-aba5c6857564",
-        "_id": "Z51WzJMBvHAO_3AuHCuS",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202435022977",
-          "polygonCenter": [
-            -82.56499584473778,
-            27.993940899270854
-          ],
-          "customerCount": 8,
-          "estimatedTimeOfRestoration": "2024-12-15T19:10:00",
-          "reason": "Under investigation",
-          "status": "Additional support enroute",
-          "updateTime": "2024-12-15T17:00:14"
-        },
-        "sort": [
-          1734282014000,
-          "A202435022977"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-5e7ead0a-bec6-4b69-a533-aba5c6857564",
-        "_id": "Zp1WzJMBvHAO_3AuHCuS",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202435028234",
-          "polygonCenter": [
-            -82.56783163687251,
-            27.997612147659346
-          ],
-          "customerCount": 21,
-          "estimatedTimeOfRestoration": "2024-12-15T19:50:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2024-12-15T17:00:14"
-        },
-        "sort": [
-          1734282014000,
-          "A202435028234"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-5e7ead0a-bec6-4b69-a533-aba5c6857564",
-        "_id": "aJ1WzJMBvHAO_3AuHCuS",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202435035967",
-          "polygonCenter": [
-            -82.49584458485685,
-            27.935436677689747
-          ],
-          "customerCount": 2,
-          "estimatedTimeOfRestoration": "2024-12-15T17:50:00",
-          "reason": "Tree or tree limbs in contact with equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2024-12-15T17:00:14"
-        },
-        "sort": [
-          1734282014000,
-          "A202435035967"
-        ]
-      }
-    ]
+    "hits": []
   },
   "cache": true
 }
