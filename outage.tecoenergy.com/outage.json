@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-33f38770-76a9-4f25-a83f-66f039fcec58",
-        "_id": "_Nrpz5MByzIO-BRU33k3",
+        "_index": "geopoints-prod-d0254ee9-ee52-4f82-9e5e-c5ed443e00be",
+        "_id": "aaz8z5MBvHAO_3AuzGnH",
         "_score": null,
         "_source": {
           "incidentId": "A202435129044",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2024-12-16T12:50:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-12-16T09:40:20"
+          "updateTime": "2024-12-16T10:00:38"
         },
         "sort": [
-          1734342020000,
+          1734343238000,
           "A202435129044"
         ]
       },
       {
-        "_index": "geopoints-prod-33f38770-76a9-4f25-a83f-66f039fcec58",
-        "_id": "-9rpz5MByzIO-BRU33k3",
+        "_index": "geopoints-prod-d0254ee9-ee52-4f82-9e5e-c5ed443e00be",
+        "_id": "Zqz8z5MBvHAO_3AuzGnH",
         "_score": null,
         "_source": {
           "incidentId": "A202435131901",
@@ -49,32 +49,74 @@
           "estimatedTimeOfRestoration": "2024-12-16T13:30:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2024-12-16T09:40:20"
+          "updateTime": "2024-12-16T10:00:38"
         },
         "sort": [
-          1734342020000,
+          1734343238000,
           "A202435131901"
         ]
       },
       {
-        "_index": "geopoints-prod-33f38770-76a9-4f25-a83f-66f039fcec58",
-        "_id": "-trpz5MByzIO-BRU33k3",
+        "_index": "geopoints-prod-d0254ee9-ee52-4f82-9e5e-c5ed443e00be",
+        "_id": "Z6z8z5MBvHAO_3AuzGnH",
         "_score": null,
         "_source": {
-          "incidentId": "A202435132364",
+          "incidentId": "A202435133017",
           "polygonCenter": [
-            -82.49021000075496,
-            27.97744999673938
+            -82.4736545225211,
+            27.987538736894344
           ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-16T13:40:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-16T09:40:20"
+          "customerCount": 29,
+          "estimatedTimeOfRestoration": "2024-12-16T13:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2024-12-16T10:00:38"
         },
         "sort": [
-          1734342020000,
-          "A202435132364"
+          1734343238000,
+          "A202435133017"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-d0254ee9-ee52-4f82-9e5e-c5ed443e00be",
+        "_id": "aKz8z5MBvHAO_3AuzGnH",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202435133086",
+          "polygonCenter": [
+            -82.53422500042424,
+            28.04358499659181
+          ],
+          "customerCount": 2,
+          "estimatedTimeOfRestoration": "2024-12-16T13:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2024-12-16T10:00:38"
+        },
+        "sort": [
+          1734343238000,
+          "A202435133086"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-d0254ee9-ee52-4f82-9e5e-c5ed443e00be",
+        "_id": "aqz8z5MBvHAO_3AuzGnH",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202435133736",
+          "polygonCenter": [
+            -82.47529538171493,
+            27.97460499659265
+          ],
+          "customerCount": 5,
+          "estimatedTimeOfRestoration": "2024-12-16T14:00:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2024-12-16T10:00:38"
+        },
+        "sort": [
+          1734343238000,
+          "A202435133736"
         ]
       }
     ]
