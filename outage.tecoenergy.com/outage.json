@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,35 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-2b1ae091-5b53-47f8-ae64-7ef7cfb6c72b",
-        "_id": "hbK00ZMBvHAO_3AuRVBK",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202435148602",
-          "polygonCenter": [
-            -81.73404759182421,
-            28.03250760230339
-          ],
-          "customerCount": 7,
-          "estimatedTimeOfRestoration": "2024-12-16T21:30:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-16T18:00:29"
-        },
-        "sort": [
-          1734372029000,
-          "A202435148602"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2b1ae091-5b53-47f8-ae64-7ef7cfb6c72b",
-        "_id": "g7K00ZMBvHAO_3AuRVBK",
+        "_index": "geopoints-prod-00c75d21-5c12-4405-906d-cb594d6be2c2",
+        "_id": "ibLK0ZMBvHAO_3AuhZkv",
         "_score": null,
         "_source": {
           "incidentId": "A202435148890",
@@ -48,17 +27,17 @@
           "customerCount": 105,
           "estimatedTimeOfRestoration": "2024-12-16T22:00:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-16T18:00:29"
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-16T18:25:25"
         },
         "sort": [
-          1734372029000,
+          1734373525000,
           "A202435148890"
         ]
       },
       {
-        "_index": "geopoints-prod-2b1ae091-5b53-47f8-ae64-7ef7cfb6c72b",
-        "_id": "hLK00ZMBvHAO_3AuRVBK",
+        "_index": "geopoints-prod-00c75d21-5c12-4405-906d-cb594d6be2c2",
+        "_id": "irLK0ZMBvHAO_3AuhZkv",
         "_score": null,
         "_source": {
           "incidentId": "A202435148935",
@@ -69,11 +48,11 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-12-16T22:00:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-16T18:00:29"
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-16T18:25:25"
         },
         "sort": [
-          1734372029000,
+          1734373525000,
           "A202435148935"
         ]
       }
