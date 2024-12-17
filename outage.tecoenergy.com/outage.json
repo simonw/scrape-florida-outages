@@ -9,11 +9,33 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-67731573-749b-442f-b4a6-29faf37bb921",
+        "_id": "L7ch05MBvHAO_3Aune4X",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202435200563",
+          "polygonCenter": [
+            -82.22617000094087,
+            28.367860589390006
+          ],
+          "customerCount": 4,
+          "estimatedTimeOfRestoration": "2024-12-17T04:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-17T00:40:11"
+        },
+        "sort": [
+          1734396011000,
+          "A202435200563"
+        ]
+      }
+    ]
   },
   "cache": true
 }
