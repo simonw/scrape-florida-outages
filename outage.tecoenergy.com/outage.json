@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,8 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-59322c06-73e2-4ada-a0ff-447c8fc4f941",
-        "_id": "-M3D15MBvHAO_3AuNiFk",
+        "_index": "geopoints-prod-9e7fbddc-5a0f-4eb6-b931-ef5905576680",
+        "_id": "EBPQ15MByzIO-BRU81kt",
         "_score": null,
         "_source": {
           "incidentId": "A202435213864",
@@ -28,37 +28,16 @@
           "estimatedTimeOfRestoration": "2024-12-18T02:11:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We are working onsite",
-          "updateTime": "2024-12-17T22:15:06"
+          "updateTime": "2024-12-17T22:30:06"
         },
         "sort": [
-          1734473706000,
+          1734474606000,
           "A202435213864"
         ]
       },
       {
-        "_index": "geopoints-prod-59322c06-73e2-4ada-a0ff-447c8fc4f941",
-        "_id": "983D15MBvHAO_3AuNiFk",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202435215245",
-          "polygonCenter": [
-            -82.24196523861352,
-            28.446478311996543
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-17T23:55:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We are working onsite",
-          "updateTime": "2024-12-17T22:15:06"
-        },
-        "sort": [
-          1734473706000,
-          "A202435215245"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-59322c06-73e2-4ada-a0ff-447c8fc4f941",
-        "_id": "-c3D15MBvHAO_3AuNiFk",
+        "_index": "geopoints-prod-9e7fbddc-5a0f-4eb6-b931-ef5905576680",
+        "_id": "ERPQ15MByzIO-BRU81kt",
         "_score": null,
         "_source": {
           "incidentId": "A202435215253",
@@ -70,11 +49,32 @@
           "estimatedTimeOfRestoration": "2024-12-18T01:50:00",
           "reason": "Pending Investigation",
           "status": "Additional support enroute",
-          "updateTime": "2024-12-17T22:15:06"
+          "updateTime": "2024-12-17T22:30:06"
         },
         "sort": [
-          1734473706000,
+          1734474606000,
           "A202435215253"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-9e7fbddc-5a0f-4eb6-b931-ef5905576680",
+        "_id": "DxPQ15MByzIO-BRU81kt",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202435217495",
+          "polygonCenter": [
+            -82.16208346072847,
+            27.78088697874093
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-18T02:30:00",
+          "reason": "Pending Investigation",
+          "status": "We are aware of the outage",
+          "updateTime": "2024-12-17T22:30:06"
+        },
+        "sort": [
+          1734474606000,
+          "A202435217495"
         ]
       }
     ]
