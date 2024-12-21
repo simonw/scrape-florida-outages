@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-dd236687-16d9-41a9-9b9d-2ee6992615e2",
-        "_id": "WxB36pMBvHAO_3AuZy2f",
+        "_index": "geopoints-prod-c3a3249f-f025-470b-8032-70c4b544af21",
+        "_id": "GpWF6pMByzIO-BRULkN3",
         "_score": null,
         "_source": {
           "incidentId": "A202435608044",
@@ -27,38 +27,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-12-21T18:12:00",
           "reason": "Tree or tree limbs in contact with equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2024-12-21T13:25:04"
+          "status": "We're working onsite",
+          "updateTime": "2024-12-21T13:40:06"
         },
         "sort": [
-          1734787504000,
+          1734788406000,
           "A202435608044"
         ]
       },
       {
-        "_index": "geopoints-prod-dd236687-16d9-41a9-9b9d-2ee6992615e2",
-        "_id": "WhB36pMBvHAO_3AuZy2f",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202435612264",
-          "polygonCenter": [
-            -82.53101000074685,
-            28.05564999669443
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-21T17:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-21T13:25:04"
-        },
-        "sort": [
-          1734787504000,
-          "A202435612264"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-dd236687-16d9-41a9-9b9d-2ee6992615e2",
-        "_id": "WRB36pMBvHAO_3AuZy2f",
+        "_index": "geopoints-prod-c3a3249f-f025-470b-8032-70c4b544af21",
+        "_id": "GZWF6pMByzIO-BRULkN3",
         "_score": null,
         "_source": {
           "incidentId": "A202435612357",
@@ -68,12 +47,12 @@
           ],
           "customerCount": 14,
           "estimatedTimeOfRestoration": "2024-12-21T17:20:00",
-          "reason": "Pending Investigation",
+          "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2024-12-21T13:25:04"
+          "updateTime": "2024-12-21T13:40:06"
         },
         "sort": [
-          1734787504000,
+          1734788406000,
           "A202435612357"
         ]
       }
