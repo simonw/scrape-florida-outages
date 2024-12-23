@@ -1,5 +1,5 @@
 {
-  "took": 6,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-c0e470c3-7019-4360-b4c5-bf8d26c0751e",
-        "_id": "1Cke8pMBvHAO_3AuqZ3i",
+        "_index": "geopoints-prod-8cf843af-7eff-4ae7-a609-4cd45f5a4fa0",
+        "_id": "8c018pMByzIO-BRUmVY_",
         "_score": null,
         "_source": {
           "incidentId": "A202435800842",
@@ -28,11 +28,53 @@
           "estimatedTimeOfRestoration": "2024-12-23T05:00:00",
           "reason": "Under investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2024-12-23T01:05:06"
+          "updateTime": "2024-12-23T01:30:08"
         },
         "sort": [
-          1734915906000,
+          1734917408000,
           "A202435800842"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-8cf843af-7eff-4ae7-a609-4cd45f5a4fa0",
+        "_id": "8s018pMByzIO-BRUmVY_",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202435801004",
+          "polygonCenter": [
+            -82.48178128298684,
+            28.0740532140466
+          ],
+          "customerCount": 3,
+          "estimatedTimeOfRestoration": "2024-12-23T05:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-23T01:30:08"
+        },
+        "sort": [
+          1734917408000,
+          "A202435801004"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-8cf843af-7eff-4ae7-a609-4cd45f5a4fa0",
+        "_id": "8M018pMByzIO-BRUmVY_",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202435801246",
+          "polygonCenter": [
+            -82.53747536414423,
+            27.943743411973777
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-23T05:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-23T01:30:08"
+        },
+        "sort": [
+          1734917408000,
+          "A202435801246"
         ]
       }
     ]
