@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,29 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-e325bfad-643d-4c0f-a06e-d7087d9a2123",
-        "_id": "vTjk9ZMBvHAO_3Aui0YQ",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202435817157",
-          "polygonCenter": [
-            -81.67986000121456,
-            27.99979999673242
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-23T22:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-23T18:40:06"
-        },
-        "sort": [
-          1734979206000,
-          "A202435817157"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-e325bfad-643d-4c0f-a06e-d7087d9a2123",
-        "_id": "vjjk9ZMBvHAO_3Aui0YQ",
+        "_index": "geopoints-prod-7a0782f4-5fa2-45a2-b666-685e124e966a",
+        "_id": "IeME9pMByzIO-BRUohcR",
         "_score": null,
         "_source": {
           "incidentId": "A202435817303",
@@ -47,13 +26,34 @@
           ],
           "customerCount": 3,
           "estimatedTimeOfRestoration": "2024-12-23T22:40:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-23T18:40:06"
+          "reason": "Damage to Tampa Electric equipment",
+          "status": "Additional support enroute",
+          "updateTime": "2024-12-23T19:15:07"
         },
         "sort": [
-          1734979206000,
+          1734981307000,
           "A202435817303"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-7a0782f4-5fa2-45a2-b666-685e124e966a",
+        "_id": "IOME9pMByzIO-BRUohcR",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202435817433",
+          "polygonCenter": [
+            -82.26977569799999,
+            27.938350011932556
+          ],
+          "customerCount": 2,
+          "estimatedTimeOfRestoration": "2024-12-23T23:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're working onsite",
+          "updateTime": "2024-12-23T19:15:07"
+        },
+        "sort": [
+          1734981307000,
+          "A202435817433"
         ]
       }
     ]
