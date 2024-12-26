@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,72 +9,30 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-99e0ad4f-0fa8-4018-976b-4f27a6383a7b",
-        "_id": "QiwxAJQByzIO-BRUSJ0e",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202436013802",
-          "polygonCenter": [
-            -82.45309349302485,
-            28.077827931098824
-          ],
-          "customerCount": 135,
-          "estimatedTimeOfRestoration": "2024-12-25T21:40:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-25T18:40:04"
-        },
-        "sort": [
-          1735152004000,
-          "A202436013802"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-99e0ad4f-0fa8-4018-976b-4f27a6383a7b",
-        "_id": "QSwxAJQByzIO-BRUSJ0e",
+        "_index": "geopoints-prod-a9006c38-2e80-48b1-9a0d-1d8ebcdf7390",
+        "_id": "xi1RAJQByzIO-BRUVZjc",
         "_score": null,
         "_source": {
           "incidentId": "A202436014490",
           "polygonCenter": [
-            -82.4515508532595,
-            28.077555629686916
-          ],
-          "customerCount": 749,
-          "estimatedTimeOfRestoration": "2024-12-25T22:30:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-25T18:40:04"
-        },
-        "sort": [
-          1735152004000,
-          "A202436014490"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-99e0ad4f-0fa8-4018-976b-4f27a6383a7b",
-        "_id": "QywxAJQByzIO-BRUSJ0e",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202436014760",
-          "polygonCenter": [
-            -82.43699000078551,
-            28.034549996707028
+            -82.45400000077615,
+            28.081379996680216
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-25T22:40:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2024-12-25T18:40:04"
+          "estimatedTimeOfRestoration": "2024-12-25T22:30:00",
+          "reason": "Damage to Tampa Electric equipment",
+          "status": "Additional support enroute",
+          "updateTime": "2024-12-25T19:15:07"
         },
         "sort": [
-          1735152004000,
-          "A202436014760"
+          1735154107000,
+          "A202436014490"
         ]
       }
     ]
