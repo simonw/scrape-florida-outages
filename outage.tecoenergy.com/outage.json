@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-86b3346a-fb20-4a2c-8775-4c57227ae03f",
-        "_id": "x01pBJQByzIO-BRUp7RI",
+        "_index": "geopoints-prod-b4a1ff10-fc4e-48ac-8853-a9fdf574a18b",
+        "_id": "o3F7BJQBvHAO_3Au_eTT",
         "_score": null,
         "_source": {
           "incidentId": "A202436110031",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2024-12-26T15:40:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-26T14:20:04"
+          "updateTime": "2024-12-26T14:40:05"
         },
         "sort": [
-          1735222804000,
+          1735224005000,
           "A202436110031"
         ]
       },
       {
-        "_index": "geopoints-prod-86b3346a-fb20-4a2c-8775-4c57227ae03f",
-        "_id": "yE1pBJQByzIO-BRUp7RI",
+        "_index": "geopoints-prod-b4a1ff10-fc4e-48ac-8853-a9fdf574a18b",
+        "_id": "pHF7BJQBvHAO_3Au_eTT",
         "_score": null,
         "_source": {
           "incidentId": "A202436110307",
@@ -48,17 +48,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-12-26T15:50:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-26T14:20:04"
+          "status": "We're working onsite",
+          "updateTime": "2024-12-26T14:40:05"
         },
         "sort": [
-          1735222804000,
+          1735224005000,
           "A202436110307"
         ]
       },
       {
-        "_index": "geopoints-prod-86b3346a-fb20-4a2c-8775-4c57227ae03f",
-        "_id": "yU1pBJQByzIO-BRUp7RI",
+        "_index": "geopoints-prod-b4a1ff10-fc4e-48ac-8853-a9fdf574a18b",
+        "_id": "pXF7BJQBvHAO_3Au_eTT",
         "_score": null,
         "_source": {
           "incidentId": "A202436111959",
@@ -70,32 +70,53 @@
           "estimatedTimeOfRestoration": "2024-12-26T17:40:00",
           "reason": "Pending Investigation",
           "status": "We're working onsite",
-          "updateTime": "2024-12-26T14:20:04"
+          "updateTime": "2024-12-26T14:40:05"
         },
         "sort": [
-          1735222804000,
+          1735224005000,
           "A202436111959"
         ]
       },
       {
-        "_index": "geopoints-prod-86b3346a-fb20-4a2c-8775-4c57227ae03f",
-        "_id": "yk1pBJQByzIO-BRUp7RI",
+        "_index": "geopoints-prod-b4a1ff10-fc4e-48ac-8853-a9fdf574a18b",
+        "_id": "pnF7BJQBvHAO_3Au_eTT",
         "_score": null,
         "_source": {
-          "incidentId": "A202436112488",
+          "incidentId": "A202436112518",
           "polygonCenter": [
-            -81.73530650999056,
-            28.136117384189767
+            -82.41296000079879,
+            27.982969996736642
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-26T18:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-26T14:40:05"
+        },
+        "sort": [
+          1735224005000,
+          "A202436112518"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-b4a1ff10-fc4e-48ac-8853-a9fdf574a18b",
+        "_id": "p3F7BJQBvHAO_3Au_eTT",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202436112541",
+          "polygonCenter": [
+            -82.45302000077609,
+            27.984499996735366
           ],
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2024-12-26T18:20:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2024-12-26T14:20:04"
+          "updateTime": "2024-12-26T14:40:05"
         },
         "sort": [
-          1735222804000,
-          "A202436112488"
+          1735224005000,
+          "A202436112541"
         ]
       }
     ]
