@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-d8a46033-c61d-47b4-8e88-5c546147b761",
-        "_id": "7FCjDJQByzIO-BRUY5Kt",
+        "_index": "geopoints-prod-bf5323d5-e4de-43c3-a289-60af0cc68ead",
+        "_id": "NlC1DJQByzIO-BRUt5RS",
         "_score": null,
         "_source": {
           "incidentId": "A202436301103",
@@ -25,14 +25,56 @@
             27.996920905547906
           ],
           "customerCount": 34,
-          "estimatedTimeOfRestoration": "2024-12-28T05:10:00",
+          "estimatedTimeOfRestoration": "2024-12-28T07:40:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2024-12-28T04:40:05"
+          "updateTime": "2024-12-28T05:00:07"
         },
         "sort": [
-          1735360805000,
+          1735362007000,
           "A202436301103"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-bf5323d5-e4de-43c3-a289-60af0cc68ead",
+        "_id": "N1C1DJQByzIO-BRUt5RS",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202436304496",
+          "polygonCenter": [
+            -81.96315670105233,
+            27.83563089682366
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-28T08:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2024-12-28T05:00:07"
+        },
+        "sort": [
+          1735362007000,
+          "A202436304496"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-bf5323d5-e4de-43c3-a289-60af0cc68ead",
+        "_id": "OFC1DJQByzIO-BRUt5RS",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202436304641",
+          "polygonCenter": [
+            -82.28771000086954,
+            27.949269996756424
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-28T09:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2024-12-28T05:00:07"
+        },
+        "sort": [
+          1735362007000,
+          "A202436304641"
         ]
       }
     ]
