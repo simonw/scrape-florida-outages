@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-697e9014-9a8e-4c78-aa04-020224eaf8d1",
-        "_id": "UnXxGZQBvHAO_3AuLvZf",
+        "_index": "geopoints-prod-6c8f59e3-f7ff-478c-96d8-b01a9738f753",
+        "_id": "wHURGpQBvHAO_3AuMPhy",
         "_score": null,
         "_source": {
           "incidentId": "A202436513542",
@@ -25,19 +25,19 @@
             27.68616999690579
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2024-12-30T19:10:00",
+          "estimatedTimeOfRestoration": "2024-12-30T21:41:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2024-12-30T18:40:06"
+          "updateTime": "2024-12-30T19:15:06"
         },
         "sort": [
-          1735584006000,
+          1735586106000,
           "A202436513542"
         ]
       },
       {
-        "_index": "geopoints-prod-697e9014-9a8e-4c78-aa04-020224eaf8d1",
-        "_id": "U3XxGZQBvHAO_3AuLvZf",
+        "_index": "geopoints-prod-6c8f59e3-f7ff-478c-96d8-b01a9738f753",
+        "_id": "wXURGpQBvHAO_3AuMPhy",
         "_score": null,
         "_source": {
           "incidentId": "A202436517235",
@@ -48,17 +48,17 @@
           "customerCount": 38,
           "estimatedTimeOfRestoration": "2024-12-30T21:20:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-30T18:40:06"
+          "status": "We're working onsite",
+          "updateTime": "2024-12-30T19:15:06"
         },
         "sort": [
-          1735584006000,
+          1735586106000,
           "A202436517235"
         ]
       },
       {
-        "_index": "geopoints-prod-697e9014-9a8e-4c78-aa04-020224eaf8d1",
-        "_id": "UXXxGZQBvHAO_3AuLvZf",
+        "_index": "geopoints-prod-6c8f59e3-f7ff-478c-96d8-b01a9738f753",
+        "_id": "v3URGpQBvHAO_3AuMPhy",
         "_score": null,
         "_source": {
           "incidentId": "A202436517731",
@@ -70,16 +70,16 @@
           "estimatedTimeOfRestoration": "2024-12-30T21:50:00",
           "reason": "Under investigation",
           "status": "Additional support enroute",
-          "updateTime": "2024-12-30T18:40:06"
+          "updateTime": "2024-12-30T19:15:06"
         },
         "sort": [
-          1735584006000,
+          1735586106000,
           "A202436517731"
         ]
       },
       {
-        "_index": "geopoints-prod-697e9014-9a8e-4c78-aa04-020224eaf8d1",
-        "_id": "VHXxGZQBvHAO_3AuLvZf",
+        "_index": "geopoints-prod-6c8f59e3-f7ff-478c-96d8-b01a9738f753",
+        "_id": "wnURGpQBvHAO_3AuMPhy",
         "_score": null,
         "_source": {
           "incidentId": "A202436518132",
@@ -89,13 +89,34 @@
           ],
           "customerCount": 13,
           "estimatedTimeOfRestoration": "2024-12-30T22:30:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2024-12-30T18:40:06"
+          "reason": "Damage to Tampa Electric equipment",
+          "status": "Additional support enroute",
+          "updateTime": "2024-12-30T19:15:06"
         },
         "sort": [
-          1735584006000,
+          1735586106000,
           "A202436518132"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-6c8f59e3-f7ff-478c-96d8-b01a9738f753",
+        "_id": "vnURGpQBvHAO_3AuMPhy",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202436518396",
+          "polygonCenter": [
+            -82.0631890459835,
+            27.87913001098645
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2024-12-30T22:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're working onsite",
+          "updateTime": "2024-12-30T19:15:06"
+        },
+        "sort": [
+          1735586106000,
+          "A202436518396"
         ]
       }
     ]
