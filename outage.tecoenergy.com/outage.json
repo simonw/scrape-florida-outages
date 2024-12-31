@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,75 +9,11 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 0,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": [
-      {
-        "_index": "geopoints-prod-2ff6f2c3-8286-4c01-9138-ada53692dd9e",
-        "_id": "5VFRG5QByzIO-BRUo6v2",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202436518132",
-          "polygonCenter": [
-            -82.60188693898476,
-            28.040590551153237
-          ],
-          "customerCount": 13,
-          "estimatedTimeOfRestoration": "2024-12-31T03:31:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're working onsite",
-          "updateTime": "2024-12-31T01:05:05"
-        },
-        "sort": [
-          1735607105000,
-          "A202436518132"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2ff6f2c3-8286-4c01-9138-ada53692dd9e",
-        "_id": "5FFRG5QByzIO-BRUo6v2",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202436600206",
-          "polygonCenter": [
-            -82.59991218200274,
-            28.040779268185
-          ],
-          "customerCount": 160,
-          "estimatedTimeOfRestoration": "2024-12-31T04:10:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2024-12-31T01:05:05"
-        },
-        "sort": [
-          1735607105000,
-          "A202436600206"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2ff6f2c3-8286-4c01-9138-ada53692dd9e",
-        "_id": "41FRG5QByzIO-BRUo6v2",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202436600490",
-          "polygonCenter": [
-            -82.29776063513745,
-            28.05872754682529
-          ],
-          "customerCount": 2,
-          "estimatedTimeOfRestoration": "2024-12-31T04:30:00",
-          "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2024-12-31T01:05:05"
-        },
-        "sort": [
-          1735607105000,
-          "A202436600490"
-        ]
-      }
-    ]
+    "hits": []
   },
   "cache": true
 }
