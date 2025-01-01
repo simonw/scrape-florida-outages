@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-ea1dc006-d19f-4142-b9e7-e5405c9e875e",
-        "_id": "e1LBIZQByzIO-BRUpScn",
+        "_index": "geopoints-prod-30ac9258-d9bb-4847-b1b7-835099975c1b",
+        "_id": "GXbYIZQBvHAO_3AuhXPw",
         "_score": null,
         "_source": {
           "incidentId": "A202500102802",
@@ -28,32 +28,53 @@
           "estimatedTimeOfRestoration": "2025-01-01T09:03:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-01-01T07:05:04"
+          "updateTime": "2025-01-01T07:30:06"
         },
         "sort": [
-          1735715104000,
+          1735716606000,
           "A202500102802"
         ]
       },
       {
-        "_index": "geopoints-prod-ea1dc006-d19f-4142-b9e7-e5405c9e875e",
-        "_id": "elLBIZQByzIO-BRUpScn",
+        "_index": "geopoints-prod-30ac9258-d9bb-4847-b1b7-835099975c1b",
+        "_id": "F3bYIZQBvHAO_3AuhXPw",
         "_score": null,
         "_source": {
-          "incidentId": "A202500107172",
+          "incidentId": "A202500107595",
           "polygonCenter": [
-            -82.28646524094708,
-            28.000244981955007
+            -82.28762371690658,
+            28.000983171212127
           ],
-          "customerCount": 75,
-          "estimatedTimeOfRestoration": "2025-01-01T10:40:00",
+          "customerCount": 30,
+          "estimatedTimeOfRestoration": "2025-01-01T11:10:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-01-01T07:05:04"
+          "updateTime": "2025-01-01T07:30:06"
         },
         "sort": [
-          1735715104000,
-          "A202500107172"
+          1735716606000,
+          "A202500107595"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-30ac9258-d9bb-4847-b1b7-835099975c1b",
+        "_id": "GHbYIZQBvHAO_3AuhXPw",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202500107999",
+          "polygonCenter": [
+            -82.48988000075497,
+            27.942779996759086
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-01-01T11:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-01-01T07:30:06"
+        },
+        "sort": [
+          1735716606000,
+          "A202500107999"
         ]
       }
     ]
