@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-432c1761-1760-4b18-aef5-be47704d60ec",
-        "_id": "D1YEUJQByzIO-BRUFjBO",
+        "_index": "geopoints-prod-5b138b7c-67e9-4ed2-94d6-87c8b43c0a51",
+        "_id": "AngaUJQBvHAO_3Au9_dA",
         "_score": null,
         "_source": {
           "incidentId": "A202500918095",
@@ -27,33 +27,54 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-01-10T11:00:00",
           "reason": "Under investigation",
-          "status": "Additional support enroute",
-          "updateTime": "2025-01-10T06:40:07"
+          "status": "We're working onsite",
+          "updateTime": "2025-01-10T07:05:06"
         },
         "sort": [
-          1736491207000,
+          1736492706000,
           "A202500918095"
         ]
       },
       {
-        "_index": "geopoints-prod-432c1761-1760-4b18-aef5-be47704d60ec",
-        "_id": "DlYEUJQByzIO-BRUFjBO",
+        "_index": "geopoints-prod-5b138b7c-67e9-4ed2-94d6-87c8b43c0a51",
+        "_id": "AXgaUJQBvHAO_3Au9_dA",
         "_score": null,
         "_source": {
-          "incidentId": "A202501004837",
+          "incidentId": "A202501005019",
           "polygonCenter": [
             -82.25037000167134,
             28.33877931926959
           ],
           "customerCount": 10,
-          "estimatedTimeOfRestoration": "2025-01-10T10:40:00",
+          "estimatedTimeOfRestoration": "2025-01-10T10:50:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-01-10T06:40:07"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-01-10T07:05:06"
         },
         "sort": [
-          1736491207000,
-          "A202501004837"
+          1736492706000,
+          "A202501005019"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-5b138b7c-67e9-4ed2-94d6-87c8b43c0a51",
+        "_id": "AHgaUJQBvHAO_3Au9_dA",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202501005041",
+          "polygonCenter": [
+            -82.41452000079806,
+            28.00555999672374
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-01-10T10:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-01-10T07:05:06"
+        },
+        "sort": [
+          1736492706000,
+          "A202501005041"
         ]
       }
     ]
