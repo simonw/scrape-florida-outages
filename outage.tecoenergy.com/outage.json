@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-8784dcc1-db75-4f89-959c-e50d0f7137c9",
-        "_id": "GlesW5QByzIO-BRUsl8O",
+        "_index": "geopoints-prod-5259446d-87a4-46bf-aefc-ec80394a189f",
+        "_id": "CFfDW5QByzIO-BRUvWFU",
         "_score": null,
         "_source": {
           "incidentId": "A202501206533",
@@ -27,38 +27,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-01-12T15:20:00",
           "reason": "Damage to Tampa Electric equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2025-01-12T13:00:07"
+          "status": "We're working onsite",
+          "updateTime": "2025-01-12T13:25:05"
         },
         "sort": [
-          1736686807000,
+          1736688305000,
           "A202501206533"
         ]
       },
       {
-        "_index": "geopoints-prod-8784dcc1-db75-4f89-959c-e50d0f7137c9",
-        "_id": "GVesW5QByzIO-BRUsl8O",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202501207484",
-          "polygonCenter": [
-            -82.35551050083173,
-            28.033275326708107
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-01-12T16:40:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-01-12T13:00:07"
-        },
-        "sort": [
-          1736686807000,
-          "A202501207484"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-8784dcc1-db75-4f89-959c-e50d0f7137c9",
-        "_id": "GFesW5QByzIO-BRUsl8O",
+        "_index": "geopoints-prod-5259446d-87a4-46bf-aefc-ec80394a189f",
+        "_id": "B1fDW5QByzIO-BRUvWFU",
         "_score": null,
         "_source": {
           "incidentId": "A202501207520",
@@ -70,10 +49,10 @@
           "estimatedTimeOfRestoration": "2025-01-12T16:50:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-01-12T13:00:07"
+          "updateTime": "2025-01-12T13:25:05"
         },
         "sort": [
-          1736686807000,
+          1736688305000,
           "A202501207520"
         ]
       }
