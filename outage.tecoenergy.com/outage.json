@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,11 +9,33 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-7485b676-dc28-4b23-bfcf-df8132bfdf09",
+        "_id": "hFd-WpQByzIO-BRUokXz",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202501203927",
+          "polygonCenter": [
+            -81.72370000118991,
+            28.023879996718104
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-01-12T11:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-01-12T07:30:09"
+        },
+        "sort": [
+          1736667009000,
+          "A202501203927"
+        ]
+      }
+    ]
   },
   "cache": true
 }
