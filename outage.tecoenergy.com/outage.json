@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-d5ba2b04-ac3c-4eb5-90cf-42839f54a45b",
-        "_id": "jnyriJQBvHAO_3AuFOrC",
+        "_index": "geopoints-prod-2540bf97-f1e4-45a0-9019-0d55fe1cc67f",
+        "_id": "23zBiJQBvHAO_3AuEezz",
         "_score": null,
         "_source": {
           "incidentId": "A202502112872",
@@ -28,11 +28,53 @@
           "estimatedTimeOfRestoration": "2025-01-21T10:30:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-01-21T06:41:19"
+          "updateTime": "2025-01-21T07:05:04"
         },
         "sort": [
-          1737441679000,
+          1737443104000,
           "A202502112872"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-2540bf97-f1e4-45a0-9019-0d55fe1cc67f",
+        "_id": "2XzBiJQBvHAO_3AuEezz",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202502114284",
+          "polygonCenter": [
+            -82.5204988954917,
+            27.997120026052215
+          ],
+          "customerCount": 2,
+          "estimatedTimeOfRestoration": "2025-01-21T10:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-01-21T07:05:04"
+        },
+        "sort": [
+          1737443104000,
+          "A202502114284"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-2540bf97-f1e4-45a0-9019-0d55fe1cc67f",
+        "_id": "2nzBiJQBvHAO_3AuEezz",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202502114844",
+          "polygonCenter": [
+            -82.51489017093996,
+            27.995844810083852
+          ],
+          "customerCount": 2,
+          "estimatedTimeOfRestoration": "2025-01-21T11:00:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-01-21T07:05:04"
+        },
+        "sort": [
+          1737443104000,
+          "A202502114844"
         ]
       }
     ]
