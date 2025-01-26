@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-e9140699-cd81-43f7-9c13-e341ee569ee6",
-        "_id": "e2AOpJQByzIO-BRUpb_F",
+        "_index": "geopoints-prod-a3e18df1-5741-4fa4-8903-a106ecfb3ee9",
+        "_id": "RWAhpJQByzIO-BRUBMFO",
         "_score": null,
         "_source": {
           "incidentId": "A202502609161",
@@ -27,33 +27,96 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-01-26T18:10:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-01-26T14:20:06"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-01-26T14:40:06"
         },
         "sort": [
-          1737901206000,
+          1737902406000,
           "A202502609161"
         ]
       },
       {
-        "_index": "geopoints-prod-e9140699-cd81-43f7-9c13-e341ee569ee6",
-        "_id": "fGAOpJQByzIO-BRUpb_F",
+        "_index": "geopoints-prod-a3e18df1-5741-4fa4-8903-a106ecfb3ee9",
+        "_id": "R2AhpJQByzIO-BRUBMFO",
         "_score": null,
         "_source": {
-          "incidentId": "A202502609256",
+          "incidentId": "A202502609458",
           "polygonCenter": [
-            -82.51149000075753,
-            27.98365999673578
+            -82.3094726423702,
+            28.060685181878497
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-01-26T18:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-01-26T14:20:06"
+          "estimatedTimeOfRestoration": "2025-01-26T18:40:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-01-26T14:40:06"
         },
         "sort": [
-          1737901206000,
-          "A202502609256"
+          1737902406000,
+          "A202502609458"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a3e18df1-5741-4fa4-8903-a106ecfb3ee9",
+        "_id": "SGAhpJQByzIO-BRUBMFO",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202502609459",
+          "polygonCenter": [
+            -82.3095013343567,
+            28.06077310616947
+          ],
+          "customerCount": 13,
+          "estimatedTimeOfRestoration": "2025-01-26T18:40:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-01-26T14:40:06"
+        },
+        "sort": [
+          1737902406000,
+          "A202502609459"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a3e18df1-5741-4fa4-8903-a106ecfb3ee9",
+        "_id": "RmAhpJQByzIO-BRUBMFO",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202502609491",
+          "polygonCenter": [
+            -82.4721600007655,
+            28.02922999670985
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-01-26T18:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-01-26T14:40:06"
+        },
+        "sort": [
+          1737902406000,
+          "A202502609491"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a3e18df1-5741-4fa4-8903-a106ecfb3ee9",
+        "_id": "SWAhpJQByzIO-BRUBMFO",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202502609512",
+          "polygonCenter": [
+            -82.51147450896215,
+            27.983660054342774
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-01-26T18:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-01-26T14:40:06"
+        },
+        "sort": [
+          1737902406000,
+          "A202502609512"
         ]
       }
     ]
