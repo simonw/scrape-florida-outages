@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-3de5c56e-755c-47d6-8c24-0261b3a268d5",
-        "_id": "poGWrpQBvHAO_3Au8FMn",
+        "_index": "geopoints-prod-513a98a9-ab3f-4fc2-a89c-6f815b7e9dbf",
+        "_id": "RYGkrpQBvHAO_3Aus1Sz",
         "_score": null,
         "_source": {
           "incidentId": "A202502808889",
@@ -28,53 +28,32 @@
           "estimatedTimeOfRestoration": "2025-01-28T18:10:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-01-28T15:25:04"
+          "updateTime": "2025-01-28T15:40:04"
         },
         "sort": [
-          1738077904000,
+          1738078804000,
           "A202502808889"
         ]
       },
       {
-        "_index": "geopoints-prod-3de5c56e-755c-47d6-8c24-0261b3a268d5",
-        "_id": "qIGWrpQBvHAO_3Au8FMn",
+        "_index": "geopoints-prod-513a98a9-ab3f-4fc2-a89c-6f815b7e9dbf",
+        "_id": "RoGkrpQBvHAO_3Aus1Sz",
         "_score": null,
         "_source": {
-          "incidentId": "A202502812636",
+          "incidentId": "A202502812689",
           "polygonCenter": [
-            -82.56396000072775,
-            27.980569996737163
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-01-28T19:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-01-28T15:25:04"
-        },
-        "sort": [
-          1738077904000,
-          "A202502812636"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-3de5c56e-755c-47d6-8c24-0261b3a268d5",
-        "_id": "p4GWrpQBvHAO_3Au8FMn",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202502812666",
-          "polygonCenter": [
-            -82.2437512885015,
-            27.822678344229644
+            -81.66096859326152,
+            27.956993835090444
           ],
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-01-28T19:30:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-01-28T15:25:04"
+          "updateTime": "2025-01-28T15:40:04"
         },
         "sort": [
-          1738077904000,
-          "A202502812666"
+          1738078804000,
+          "A202502812689"
         ]
       }
     ]
