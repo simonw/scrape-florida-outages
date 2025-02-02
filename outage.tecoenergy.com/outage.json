@@ -9,11 +9,54 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-2b80c52d-75e1-4b21-988e-0b18b2dcbc91",
+        "_id": "2YXWxpQBvHAO_3AuT_xa",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202503304316",
+          "polygonCenter": [
+            -82.3237665403978,
+            27.847862346174466
+          ],
+          "customerCount": 52,
+          "estimatedTimeOfRestoration": "2025-02-02T12:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-02-02T08:25:05"
+        },
+        "sort": [
+          1738484705000,
+          "A202503304316"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-2b80c52d-75e1-4b21-988e-0b18b2dcbc91",
+        "_id": "2IXWxpQBvHAO_3AuT_xa",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202503304431",
+          "polygonCenter": [
+            -82.45963724677864,
+            28.011402834469752
+          ],
+          "customerCount": 4,
+          "estimatedTimeOfRestoration": "2025-02-02T12:20:00",
+          "reason": "Animal coming into contact with equipment",
+          "status": "We're working onsite",
+          "updateTime": "2025-02-02T08:25:05"
+        },
+        "sort": [
+          1738484705000,
+          "A202503304431"
+        ]
+      }
+    ]
   },
   "cache": true
 }
