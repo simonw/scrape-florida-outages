@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-e5dac07e-81a6-4001-857b-b50796fd7ade",
-        "_id": "gmPFyZQByzIO-BRUA2-F",
+        "_index": "geopoints-prod-30860038-e74c-45aa-b2fd-1a233716ecd6",
+        "_id": "a2PXyZQByzIO-BRUWXD-",
         "_score": null,
         "_source": {
           "incidentId": "A202503309082",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-02-03T01:31:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-02-02T22:05:08"
+          "updateTime": "2025-02-02T22:25:05"
         },
         "sort": [
-          1738533908000,
+          1738535105000,
           "A202503309082"
         ]
       },
       {
-        "_index": "geopoints-prod-e5dac07e-81a6-4001-857b-b50796fd7ade",
-        "_id": "g2PFyZQByzIO-BRUA2-F",
+        "_index": "geopoints-prod-30860038-e74c-45aa-b2fd-1a233716ecd6",
+        "_id": "bGPXyZQByzIO-BRUWXD-",
         "_score": null,
         "_source": {
           "incidentId": "A202503310943",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-02-03T01:40:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-02-02T22:05:08"
+          "updateTime": "2025-02-02T22:25:05"
         },
         "sort": [
-          1738533908000,
+          1738535105000,
           "A202503310943"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-30860038-e74c-45aa-b2fd-1a233716ecd6",
+        "_id": "bWPXyZQByzIO-BRUWXD-",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202503311439",
+          "polygonCenter": [
+            -82.32891782460857,
+            28.14283161609924
+          ],
+          "customerCount": 8,
+          "estimatedTimeOfRestoration": "2025-02-03T02:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-02-02T22:25:05"
+        },
+        "sort": [
+          1738535105000,
+          "A202503311439"
         ]
       }
     ]
