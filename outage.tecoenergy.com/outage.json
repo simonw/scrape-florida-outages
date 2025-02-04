@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,11 +9,33 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-d2468b23-2515-4b9a-a57b-fd43e360de86",
+        "_id": "tIcQ0ZQBvHAO_3AutJ0L",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202503504023",
+          "polygonCenter": [
+            -82.2889407615224,
+            27.954715048305015
+          ],
+          "customerCount": 80,
+          "estimatedTimeOfRestoration": "2025-02-04T11:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-02-04T08:05:06"
+        },
+        "sort": [
+          1738656306000,
+          "A202503504023"
+        ]
+      }
+    ]
   },
   "cache": true
 }
