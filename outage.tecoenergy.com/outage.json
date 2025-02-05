@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-d293238a-26b8-4d0d-9505-dbbec23b6006",
-        "_id": "hIcj1JQBvHAO_3Au4vvd",
+        "_index": "geopoints-prod-c519dd6e-8c09-4031-b92a-e155f29fb410",
+        "_id": "I4cx1JQBvHAO_3Auzf3v",
         "_score": null,
         "_source": {
           "incidentId": "A202503513093",
@@ -25,19 +25,19 @@
             28.003313396741014
           ],
           "customerCount": 4,
-          "estimatedTimeOfRestoration": "2025-02-05T01:20:00",
+          "estimatedTimeOfRestoration": "2025-02-05T06:32:00",
           "reason": "Under investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-02-04T22:25:07"
+          "updateTime": "2025-02-04T22:40:04"
         },
         "sort": [
-          1738707907000,
+          1738708804000,
           "A202503513093"
         ]
       },
       {
-        "_index": "geopoints-prod-d293238a-26b8-4d0d-9505-dbbec23b6006",
-        "_id": "hYcj1JQBvHAO_3Au4vvd",
+        "_index": "geopoints-prod-c519dd6e-8c09-4031-b92a-e155f29fb410",
+        "_id": "JIcx1JQBvHAO_3Auzf3v",
         "_score": null,
         "_source": {
           "incidentId": "A202503513094",
@@ -46,14 +46,35 @@
             28.00286999673022
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-02-05T01:20:00",
+          "estimatedTimeOfRestoration": "2025-02-05T06:32:00",
           "reason": "Under investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-02-04T22:25:07"
+          "updateTime": "2025-02-04T22:40:04"
         },
         "sort": [
-          1738707907000,
+          1738708804000,
           "A202503513094"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-c519dd6e-8c09-4031-b92a-e155f29fb410",
+        "_id": "JYcx1JQBvHAO_3Auzf3v",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202503513852",
+          "polygonCenter": [
+            -81.77785000115912,
+            28.018699996720706
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-05T02:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-04T22:40:04"
+        },
+        "sort": [
+          1738708804000,
+          "A202503513852"
         ]
       }
     ]
