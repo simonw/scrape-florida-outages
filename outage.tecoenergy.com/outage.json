@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-ea0ea0bb-9255-4621-ba70-94b8655ab7c1",
-        "_id": "OmUD7JQByzIO-BRUDcYD",
+        "_index": "geopoints-prod-fc2a96f4-569a-49ef-82d5-ccd68669a0f6",
+        "_id": "f2UW7JQByzIO-BRUF8eq",
         "_score": null,
         "_source": {
           "incidentId": "A202504007070",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-02-09T16:10:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-02-09T13:40:05"
+          "updateTime": "2025-02-09T14:00:08"
         },
         "sort": [
-          1739108405000,
+          1739109608000,
           "A202504007070"
         ]
       },
       {
-        "_index": "geopoints-prod-ea0ea0bb-9255-4621-ba70-94b8655ab7c1",
-        "_id": "OWUD7JQByzIO-BRUDcYD",
+        "_index": "geopoints-prod-fc2a96f4-569a-49ef-82d5-ccd68669a0f6",
+        "_id": "fmUW7JQByzIO-BRUF8eq",
         "_score": null,
         "_source": {
           "incidentId": "A202504007314",
@@ -48,17 +48,17 @@
           "customerCount": 2,
           "estimatedTimeOfRestoration": "2025-02-09T16:50:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-02-09T13:40:05"
+          "status": "We're working onsite",
+          "updateTime": "2025-02-09T14:00:08"
         },
         "sort": [
-          1739108405000,
+          1739109608000,
           "A202504007314"
         ]
       },
       {
-        "_index": "geopoints-prod-ea0ea0bb-9255-4621-ba70-94b8655ab7c1",
-        "_id": "O2UD7JQByzIO-BRUDcYD",
+        "_index": "geopoints-prod-fc2a96f4-569a-49ef-82d5-ccd68669a0f6",
+        "_id": "gGUW7JQByzIO-BRUF8eq",
         "_score": null,
         "_source": {
           "incidentId": "A202504007415",
@@ -70,32 +70,53 @@
           "estimatedTimeOfRestoration": "2025-02-09T17:00:00",
           "reason": "Under investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-02-09T13:40:05"
+          "updateTime": "2025-02-09T14:00:08"
         },
         "sort": [
-          1739108405000,
+          1739109608000,
           "A202504007415"
         ]
       },
       {
-        "_index": "geopoints-prod-ea0ea0bb-9255-4621-ba70-94b8655ab7c1",
-        "_id": "PGUD7JQByzIO-BRUDcYD",
+        "_index": "geopoints-prod-fc2a96f4-569a-49ef-82d5-ccd68669a0f6",
+        "_id": "gWUW7JQByzIO-BRUF8eq",
         "_score": null,
         "_source": {
-          "incidentId": "A202504007564",
+          "incidentId": "A202504008167",
           "polygonCenter": [
-            -82.46059500077286,
-            28.15195666663987
+            -82.52890465552754,
+            27.893677561299683
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-02-09T17:20:00",
+          "estimatedTimeOfRestoration": "2025-02-09T17:50:00",
           "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-02-09T13:40:05"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-02-09T14:00:08"
         },
         "sort": [
-          1739108405000,
-          "A202504007564"
+          1739109608000,
+          "A202504008167"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-fc2a96f4-569a-49ef-82d5-ccd68669a0f6",
+        "_id": "fWUW7JQByzIO-BRUF8eq",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504008189",
+          "polygonCenter": [
+            -82.46100749528665,
+            28.150753331700976
+          ],
+          "customerCount": 2,
+          "estimatedTimeOfRestoration": "2025-02-09T17:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-02-09T14:00:08"
+        },
+        "sort": [
+          1739109608000,
+          "A202504008189"
         ]
       }
     ]
