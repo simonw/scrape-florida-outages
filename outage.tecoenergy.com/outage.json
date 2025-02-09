@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,11 +9,75 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-68616e1f-564f-4737-976e-846dd1fa504b",
+        "_id": "5mXe7JQByzIO-BRUyNDB",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504010162",
+          "polygonCenter": [
+            -82.3976345012239,
+            28.036370041569114
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-09T21:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-09T17:40:07"
+        },
+        "sort": [
+          1739122807000,
+          "A202504010162"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-68616e1f-564f-4737-976e-846dd1fa504b",
+        "_id": "6GXe7JQByzIO-BRUyNDB",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504010178",
+          "polygonCenter": [
+            -82.33275267743528,
+            27.96157537493733
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-09T21:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-09T17:40:07"
+        },
+        "sort": [
+          1739122807000,
+          "A202504010178"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-68616e1f-564f-4737-976e-846dd1fa504b",
+        "_id": "52Xe7JQByzIO-BRUyNDB",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504010227",
+          "polygonCenter": [
+            -82.55051000073527,
+            27.96861999674416
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-09T21:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-09T17:40:07"
+        },
+        "sort": [
+          1739122807000,
+          "A202504010227"
+        ]
+      }
+    ]
   },
   "cache": true
 }
