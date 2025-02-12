@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-3eff5dc6-5702-45ab-9c2f-289f1550483f",
-        "_id": "Do-H-JQBvHAO_3AudOt5",
+        "_index": "geopoints-prod-92af782f-77a4-406f-ad8a-316c75c3e9cd",
+        "_id": "S4-e-JQBvHAO_3AuUfCx",
         "_score": null,
         "_source": {
           "incidentId": "A202504210261",
@@ -28,11 +28,53 @@
           "estimatedTimeOfRestoration": "2025-02-12T00:49:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-02-12T00:00:08"
+          "updateTime": "2025-02-12T00:25:05"
         },
         "sort": [
-          1739318408000,
+          1739319905000,
           "A202504210261"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-92af782f-77a4-406f-ad8a-316c75c3e9cd",
+        "_id": "TI-e-JQBvHAO_3AuUfCx",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504216189",
+          "polygonCenter": [
+            -81.66110000122492,
+            27.983099996741934
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-12T04:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-12T00:25:05"
+        },
+        "sort": [
+          1739319905000,
+          "A202504216189"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-92af782f-77a4-406f-ad8a-316c75c3e9cd",
+        "_id": "So-e-JQBvHAO_3AuUfCx",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504300370",
+          "polygonCenter": [
+            -82.21885000091193,
+            28.357949996524198
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-12T04:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-12T00:25:05"
+        },
+        "sort": [
+          1739319905000,
+          "A202504300370"
         ]
       }
     ]
