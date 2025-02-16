@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-05a58098-8d50-4996-b6a2-d2fe20e41f77",
-        "_id": "h5P9EJUBvHAO_3Auu4pF",
+        "_index": "geopoints-prod-972aaca9-6eff-481b-849b-d2f2b925fbf5",
+        "_id": "ZJMQEZUBvHAO_3AuC4sg",
         "_score": null,
         "_source": {
           "incidentId": "A202504710629",
@@ -28,32 +28,53 @@
           "estimatedTimeOfRestoration": "2025-02-16T20:20:00",
           "reason": "Weather-related damage to equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-02-16T18:00:07"
+          "updateTime": "2025-02-16T18:20:06"
         },
         "sort": [
-          1739728807000,
+          1739730006000,
           "A202504710629"
         ]
       },
       {
-        "_index": "geopoints-prod-05a58098-8d50-4996-b6a2-d2fe20e41f77",
-        "_id": "hpP9EJUBvHAO_3Auu4pF",
+        "_index": "geopoints-prod-972aaca9-6eff-481b-849b-d2f2b925fbf5",
+        "_id": "Y5MQEZUBvHAO_3AuC4sg",
         "_score": null,
         "_source": {
-          "incidentId": "A202504711057",
+          "incidentId": "A202504712984",
           "polygonCenter": [
-            -82.4185100007943,
-            27.778169996853123
+            -82.41866406442256,
+            27.778374876150348
           ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-02-16T20:50:00",
+          "customerCount": 28,
+          "estimatedTimeOfRestoration": "2025-02-16T22:10:00",
           "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-02-16T18:00:07"
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-16T18:20:06"
         },
         "sort": [
-          1739728807000,
-          "A202504711057"
+          1739730006000,
+          "A202504712984"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-972aaca9-6eff-481b-849b-d2f2b925fbf5",
+        "_id": "YpMQEZUBvHAO_3AuC4sg",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504713124",
+          "polygonCenter": [
+            -82.52464000074929,
+            27.87297999679879
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-16T22:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-16T18:20:06"
+        },
+        "sort": [
+          1739730006000,
+          "A202504713124"
         ]
       }
     ]
