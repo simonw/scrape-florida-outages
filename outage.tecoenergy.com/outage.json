@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,35 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-6cf2defd-d245-4f59-a721-5aee35569c56",
-        "_id": "N2kPD5UByzIO-BRUR-su",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202504700598",
-          "polygonCenter": [
-            -82.15950871332387,
-            27.887928506603206
-          ],
-          "customerCount": 12,
-          "estimatedTimeOfRestoration": "2025-02-16T12:24:00",
-          "reason": "Tree or tree limbs in contact with equipment",
-          "status": "We're working onsite",
-          "updateTime": "2025-02-16T09:00:08"
-        },
-        "sort": [
-          1739696408000,
-          "A202504700598"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-6cf2defd-d245-4f59-a721-5aee35569c56",
-        "_id": "OGkPD5UByzIO-BRUR-su",
+        "_index": "geopoints-prod-8eed193b-133c-4286-9e74-51f5f853d080",
+        "_id": "ZWkmD5UByzIO-BRUK-yH",
         "_score": null,
         "_source": {
           "incidentId": "A202504706417",
@@ -49,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-02-16T12:40:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-02-16T09:00:08"
+          "updateTime": "2025-02-16T09:25:06"
         },
         "sort": [
-          1739696408000,
+          1739697906000,
           "A202504706417"
         ]
       },
       {
-        "_index": "geopoints-prod-6cf2defd-d245-4f59-a721-5aee35569c56",
-        "_id": "OWkPD5UByzIO-BRUR-su",
+        "_index": "geopoints-prod-8eed193b-133c-4286-9e74-51f5f853d080",
+        "_id": "ZmkmD5UByzIO-BRUK-yH",
         "_score": null,
         "_source": {
           "incidentId": "A202504706712",
@@ -69,11 +48,11 @@
           "customerCount": 76,
           "estimatedTimeOfRestoration": "2025-02-16T13:00:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-02-16T09:00:08"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-02-16T09:25:06"
         },
         "sort": [
-          1739696408000,
+          1739697906000,
           "A202504706712"
         ]
       }
