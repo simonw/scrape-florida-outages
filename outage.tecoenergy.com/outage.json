@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,29 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-2e9f156d-eb98-4864-a01a-32a5686b79ce",
-        "_id": "GJPLD5UBvHAO_3AuAnpb",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202504707594",
-          "polygonCenter": [
-            -82.27530000087643,
-            27.93578999676423
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-02-16T14:40:00",
-          "reason": "Tree or tree limbs in contact with equipment",
-          "status": "We're working onsite",
-          "updateTime": "2025-02-16T12:25:06"
-        },
-        "sort": [
-          1739708706000,
-          "A202504707594"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2e9f156d-eb98-4864-a01a-32a5686b79ce",
-        "_id": "F5PLD5UBvHAO_3AuAnpb",
+        "_index": "geopoints-prod-3ce59989-9cc2-4627-931a-575786383262",
+        "_id": "qJPYD5UBvHAO_3AutXp1",
         "_score": null,
         "_source": {
           "incidentId": "A202504708105",
@@ -49,11 +28,32 @@
           "estimatedTimeOfRestoration": "2025-02-16T15:40:00",
           "reason": "Tree or tree limbs in contact with equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-02-16T12:25:06"
+          "updateTime": "2025-02-16T12:40:05"
         },
         "sort": [
-          1739708706000,
+          1739709605000,
           "A202504708105"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3ce59989-9cc2-4627-931a-575786383262",
+        "_id": "qZPYD5UBvHAO_3AutXp1",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202504708350",
+          "polygonCenter": [
+            -82.43758355611004,
+            27.910730144284873
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-16T16:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-02-16T12:40:05"
+        },
+        "sort": [
+          1739709605000,
+          "A202504708350"
         ]
       }
     ]
