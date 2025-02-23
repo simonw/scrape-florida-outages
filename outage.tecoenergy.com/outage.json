@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,29 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-f1db1b45-fe92-45ff-ae83-135a0b222a2c",
-        "_id": "-5QNMZUBvHAO_3AuUuUi",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202505315712",
-          "polygonCenter": [
-            -82.46103000077206,
-            28.06500999668962
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-02-22T23:50:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-02-22T23:25:05"
-        },
-        "sort": [
-          1740266705000,
-          "A202505315712"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-f1db1b45-fe92-45ff-ae83-135a0b222a2c",
-        "_id": "_JQNMZUBvHAO_3AuUuUi",
+        "_index": "geopoints-prod-37cc45bc-f53b-402e-b93e-6370c96e69f4",
+        "_id": "ipQbMZUBvHAO_3AuDebd",
         "_score": null,
         "_source": {
           "incidentId": "A202505315721",
@@ -49,11 +28,32 @@
           "estimatedTimeOfRestoration": "2025-02-22T23:50:00",
           "reason": "Under investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-02-22T23:25:05"
+          "updateTime": "2025-02-22T23:40:05"
         },
         "sort": [
-          1740266705000,
+          1740267605000,
           "A202505315721"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-37cc45bc-f53b-402e-b93e-6370c96e69f4",
+        "_id": "iZQbMZUBvHAO_3AuDebd",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202505318513",
+          "polygonCenter": [
+            -81.71347000119596,
+            28.044539996706604
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-02-23T03:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-02-22T23:40:05"
+        },
+        "sort": [
+          1740267605000,
+          "A202505318513"
         ]
       }
     ]
