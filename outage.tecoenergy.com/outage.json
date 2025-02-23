@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-175b7e42-273d-4548-ab22-e8179d5e2ae0",
-        "_id": "KWuzNJUByzIO-BRUMrqz",
+        "_index": "geopoints-prod-1f48fe4f-cddc-4300-8867-bf82185c5ccd",
+        "_id": "zmvBNJUByzIO-BRUGbpT",
         "_score": null,
         "_source": {
           "incidentId": "A202505410038",
@@ -28,37 +28,16 @@
           "estimatedTimeOfRestoration": "2025-02-23T19:00:00",
           "reason": "Weather-related damage to equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-02-23T16:25:05"
+          "updateTime": "2025-02-23T16:40:04"
         },
         "sort": [
-          1740327905000,
+          1740328804000,
           "A202505410038"
         ]
       },
       {
-        "_index": "geopoints-prod-175b7e42-273d-4548-ab22-e8179d5e2ae0",
-        "_id": "KGuzNJUByzIO-BRUMrqz",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202505410532",
-          "polygonCenter": [
-            -82.44374212316706,
-            28.040733587447534
-          ],
-          "customerCount": 13,
-          "estimatedTimeOfRestoration": "2025-02-23T19:40:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-02-23T16:25:05"
-        },
-        "sort": [
-          1740327905000,
-          "A202505410532"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-175b7e42-273d-4548-ab22-e8179d5e2ae0",
-        "_id": "J2uzNJUByzIO-BRUMrqz",
+        "_index": "geopoints-prod-1f48fe4f-cddc-4300-8867-bf82185c5ccd",
+        "_id": "zWvBNJUByzIO-BRUGbpT",
         "_score": null,
         "_source": {
           "incidentId": "A202505411072",
@@ -69,14 +48,15 @@
           "customerCount": 8,
           "estimatedTimeOfRestoration": "2025-02-23T20:30:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-02-23T16:25:05"
+          "status": "We're working onsite",
+          "updateTime": "2025-02-23T16:40:04"
         },
         "sort": [
-          1740327905000,
+          1740328804000,
           "A202505411072"
         ]
       }
     ]
-  }
+  },
+  "cache": true
 }
