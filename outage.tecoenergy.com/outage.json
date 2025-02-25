@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-c50947c5-648e-4526-8c86-70945b8502bd",
-        "_id": "WGw6PJUByzIO-BRUXRy0",
+        "_index": "geopoints-prod-6e0fcdcc-a8f4-41fe-9a23-fda82c899791",
+        "_id": "sGxDPJUByzIO-BRUhxwx",
         "_score": null,
         "_source": {
           "incidentId": "A202505520081",
@@ -28,37 +28,16 @@
           "estimatedTimeOfRestoration": "2025-02-25T05:11:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-02-25T03:30:04"
+          "updateTime": "2025-02-25T03:40:05"
         },
         "sort": [
-          1740454204000,
+          1740454805000,
           "A202505520081"
         ]
       },
       {
-        "_index": "geopoints-prod-c50947c5-648e-4526-8c86-70945b8502bd",
-        "_id": "Vmw6PJUByzIO-BRUXRy0",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202505603547",
-          "polygonCenter": [
-            -82.31371536035954,
-            27.830819962581664
-          ],
-          "customerCount": 1025,
-          "estimatedTimeOfRestoration": "2025-02-25T07:10:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-02-25T03:30:04"
-        },
-        "sort": [
-          1740454204000,
-          "A202505603547"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-c50947c5-648e-4526-8c86-70945b8502bd",
-        "_id": "V2w6PJUByzIO-BRUXRy0",
+        "_index": "geopoints-prod-6e0fcdcc-a8f4-41fe-9a23-fda82c899791",
+        "_id": "r2xDPJUByzIO-BRUhxwx",
         "_score": null,
         "_source": {
           "incidentId": "A202505605181",
@@ -70,13 +49,14 @@
           "estimatedTimeOfRestoration": "2025-02-25T07:10:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-02-25T03:30:04"
+          "updateTime": "2025-02-25T03:40:05"
         },
         "sort": [
-          1740454204000,
+          1740454805000,
           "A202505605181"
         ]
       }
     ]
-  }
+  },
+  "cache": true
 }
