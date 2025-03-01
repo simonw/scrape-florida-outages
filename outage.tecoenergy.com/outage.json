@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-dd4da385-b014-45e9-a7b4-1cd2be41fe15",
-        "_id": "Q5gBUJUBvHAO_3AuVWVA",
+        "_index": "geopoints-prod-50e45063-38b5-4d1c-8bc0-c903f6cf9531",
+        "_id": "AW8TUJUByzIO-BRUxF_6",
         "_score": null,
         "_source": {
           "incidentId": "A202505917615",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-03-01T01:20:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-02-28T23:40:07"
+          "updateTime": "2025-03-01T00:00:09"
         },
         "sort": [
-          1740786007000,
+          1740787209000,
           "A202505917615"
         ]
       },
       {
-        "_index": "geopoints-prod-dd4da385-b014-45e9-a7b4-1cd2be41fe15",
-        "_id": "QpgBUJUBvHAO_3AuVWVA",
+        "_index": "geopoints-prod-50e45063-38b5-4d1c-8bc0-c903f6cf9531",
+        "_id": "AG8TUJUByzIO-BRUxF_6",
         "_score": null,
         "_source": {
           "incidentId": "A202505918050",
@@ -48,12 +48,33 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-03-01T01:30:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-02-28T23:40:07"
+          "status": "We're working onsite",
+          "updateTime": "2025-03-01T00:00:09"
         },
         "sort": [
-          1740786007000,
+          1740787209000,
           "A202505918050"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-50e45063-38b5-4d1c-8bc0-c903f6cf9531",
+        "_id": "Am8TUJUByzIO-BRUxF_6",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202505920514",
+          "polygonCenter": [
+            -82.54385625531467,
+            28.012816063544953
+          ],
+          "customerCount": 4,
+          "estimatedTimeOfRestoration": "2025-03-01T03:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-03-01T00:00:09"
+        },
+        "sort": [
+          1740787209000,
+          "A202505920514"
         ]
       }
     ]
