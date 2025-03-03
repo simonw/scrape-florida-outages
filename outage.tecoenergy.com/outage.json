@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-dd1a1751-bf57-4513-8571-f42b95361b93",
-        "_id": "A_0vXZUBz1EOesA9GbKU",
+        "_index": "geopoints-prod-a1533e9e-6e06-4188-a8b9-e17841dad170",
+        "_id": "gP1FXZUBz1EOesA9-rjx",
         "_score": null,
         "_source": {
           "incidentId": "A202506216763",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-03-03T15:30:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-03-03T13:05:08"
+          "updateTime": "2025-03-03T13:30:06"
         },
         "sort": [
-          1741007108000,
+          1741008606000,
           "A202506216763"
         ]
       },
       {
-        "_index": "geopoints-prod-dd1a1751-bf57-4513-8571-f42b95361b93",
-        "_id": "Av0vXZUBz1EOesA9GbKU",
+        "_index": "geopoints-prod-a1533e9e-6e06-4188-a8b9-e17841dad170",
+        "_id": "fv1FXZUBz1EOesA9-rjx",
         "_score": null,
         "_source": {
           "incidentId": "A202506225696",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-03-03T15:50:00",
           "reason": "Under investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-03-03T13:05:08"
+          "updateTime": "2025-03-03T13:30:06"
         },
         "sort": [
-          1741007108000,
+          1741008606000,
           "A202506225696"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a1533e9e-6e06-4188-a8b9-e17841dad170",
+        "_id": "f_1FXZUBz1EOesA9-rjx",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202506230175",
+          "polygonCenter": [
+            -82.45953852757718,
+            28.009727996721047
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-03T17:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-03-03T13:30:06"
+        },
+        "sort": [
+          1741008606000,
+          "A202506230175"
         ]
       }
     ]
