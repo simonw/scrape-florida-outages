@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-480a0356-388a-42f1-85dc-04394a1c06b6",
-        "_id": "qf40X5UBz1EOesA9TjJ_",
+        "_index": "geopoints-prod-3488d509-5e58-45ac-84d0-3330e002fb67",
+        "_id": "hv5CX5UBz1EOesA9ETQO",
         "_score": null,
         "_source": {
           "incidentId": "A202506252985",
@@ -25,19 +25,19 @@
             27.827161842094462
           ],
           "customerCount": 23,
-          "estimatedTimeOfRestoration": "2025-03-03T23:00:00",
+          "estimatedTimeOfRestoration": "2025-03-04T22:37:00",
           "reason": "Tree or tree limbs in contact with equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-03-03T22:30:08"
+          "updateTime": "2025-03-03T22:45:04"
         },
         "sort": [
-          1741041008000,
+          1741041904000,
           "A202506252985"
         ]
       },
       {
-        "_index": "geopoints-prod-480a0356-388a-42f1-85dc-04394a1c06b6",
-        "_id": "qv40X5UBz1EOesA9TjJ_",
+        "_index": "geopoints-prod-3488d509-5e58-45ac-84d0-3330e002fb67",
+        "_id": "h_5CX5UBz1EOesA9ETQO",
         "_score": null,
         "_source": {
           "incidentId": "A202506261051",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-03-04T00:50:00",
           "reason": "Under investigation",
           "status": "Additional support enroute",
-          "updateTime": "2025-03-03T22:30:08"
+          "updateTime": "2025-03-03T22:45:04"
         },
         "sort": [
-          1741041008000,
+          1741041904000,
           "A202506261051"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3488d509-5e58-45ac-84d0-3330e002fb67",
+        "_id": "hf5CX5UBz1EOesA9ETQO",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202506269430",
+          "polygonCenter": [
+            -82.12725926695597,
+            28.00224160821906
+          ],
+          "customerCount": 47,
+          "estimatedTimeOfRestoration": "2025-03-04T02:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-03-03T22:45:04"
+        },
+        "sort": [
+          1741041904000,
+          "A202506269430"
         ]
       }
     ]
