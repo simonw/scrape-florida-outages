@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,33 +9,11 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 0,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": [
-      {
-        "_index": "geopoints-prod-c6c16748-244b-48aa-8da7-239d471f0bd3",
-        "_id": "sBMfcpUBIpPAWwcIjnXm",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202506625103",
-          "polygonCenter": [
-            -82.69502680065393,
-            28.061881896689993
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-03-07T15:40:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're working onsite",
-          "updateTime": "2025-03-07T14:40:07"
-        },
-        "sort": [
-          1741358407000,
-          "A202506625103"
-        ]
-      }
-    ]
+    "hits": []
   },
   "cache": true
 }
