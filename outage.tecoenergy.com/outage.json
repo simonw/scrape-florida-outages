@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-da6b755d-6918-48db-8bb0-32342a00d543",
-        "_id": "0xiofpUBIpPAWwcId9r5",
+        "_index": "geopoints-prod-4b3c0380-157c-4cda-aeb3-ae06f29f4611",
+        "_id": "3Bi6fpUBIpPAWwcIzeHi",
         "_score": null,
         "_source": {
           "incidentId": "A202506861637",
@@ -28,32 +28,11 @@
           "estimatedTimeOfRestoration": "2025-03-10T03:07:00",
           "reason": "Animal coming into contact with equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-03-10T02:05:04"
+          "updateTime": "2025-03-10T02:25:06"
         },
         "sort": [
-          1741572304000,
+          1741573506000,
           "A202506861637"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-da6b755d-6918-48db-8bb0-32342a00d543",
-        "_id": "1BiofpUBIpPAWwcId9r5",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202506900651",
-          "polygonCenter": [
-            -82.2271752269925,
-            27.910790167711234
-          ],
-          "customerCount": 10,
-          "estimatedTimeOfRestoration": "2025-03-10T04:30:00",
-          "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-03-10T02:05:04"
-        },
-        "sort": [
-          1741572304000,
-          "A202506900651"
         ]
       }
     ]
