@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,29 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-08b8b873-834e-46ed-854e-883b2cea40ca",
-        "_id": "Khg2fpUBIpPAWwcIAaSQ",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202506859907",
-          "polygonCenter": [
-            -82.2271752269925,
-            27.910790167711234
-          ],
-          "customerCount": 10,
-          "estimatedTimeOfRestoration": "2025-03-10T01:00:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're working onsite",
-          "updateTime": "2025-03-10T00:00:08"
-        },
-        "sort": [
-          1741564808000,
-          "A202506859907"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-08b8b873-834e-46ed-854e-883b2cea40ca",
-        "_id": "KRg2fpUBIpPAWwcIAaSQ",
+        "_index": "geopoints-prod-0a418fec-5e8a-4d95-ab62-bbc613909129",
+        "_id": "_wRMfpUBRYTiIU0X8L1I",
         "_score": null,
         "_source": {
           "incidentId": "A202506861637",
@@ -49,11 +28,32 @@
           "estimatedTimeOfRestoration": "2025-03-10T01:30:00",
           "reason": "Animal coming into contact with equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-03-10T00:00:08"
+          "updateTime": "2025-03-10T00:25:07"
         },
         "sort": [
-          1741564808000,
+          1741566307000,
           "A202506861637"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0a418fec-5e8a-4d95-ab62-bbc613909129",
+        "_id": "AARMfpUBRYTiIU0X8L5I",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202506900651",
+          "polygonCenter": [
+            -82.2271752269925,
+            27.910790167711234
+          ],
+          "customerCount": 10,
+          "estimatedTimeOfRestoration": "2025-03-10T04:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-03-10T00:25:07"
+        },
+        "sort": [
+          1741566307000,
+          "A202506900651"
         ]
       }
     ]
