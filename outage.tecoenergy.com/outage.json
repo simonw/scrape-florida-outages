@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,29 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-31a29918-990c-4cdb-ac36-f07ff3450192",
-        "_id": "sBm2f5UBIpPAWwcIkEuF",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202506912696",
-          "polygonCenter": [
-            -82.32241122000156,
-            27.691271302506713
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-03-10T10:50:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-03-10T07:00:07"
-        },
-        "sort": [
-          1741590007000,
-          "A202506912696"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-31a29918-990c-4cdb-ac36-f07ff3450192",
-        "_id": "sRm2f5UBIpPAWwcIkEuF",
+        "_index": "geopoints-prod-c2b00817-60c7-420b-b205-9d704d31a7fa",
+        "_id": "tRnIf5UBIpPAWwcI3FM6",
         "_score": null,
         "_source": {
           "incidentId": "A202506913001",
@@ -45,15 +24,36 @@
             -82.57606340413699,
             27.988555801287546
           ],
-          "customerCount": 2034,
+          "customerCount": 2035,
           "estimatedTimeOfRestoration": "2025-03-10T11:00:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-03-10T07:00:07"
+          "status": "We're working onsite",
+          "updateTime": "2025-03-10T07:20:06"
         },
         "sort": [
-          1741590007000,
+          1741591206000,
           "A202506913001"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-c2b00817-60c7-420b-b205-9d704d31a7fa",
+        "_id": "tBnIf5UBIpPAWwcI3FM6",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202506913482",
+          "polygonCenter": [
+            -82.4961350516898,
+            28.00084367221237
+          ],
+          "customerCount": 8,
+          "estimatedTimeOfRestoration": "2025-03-10T11:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-03-10T07:20:06"
+        },
+        "sort": [
+          1741591206000,
+          "A202506913482"
         ]
       }
     ]
