@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-d6748e60-3197-47c1-abd5-8baad55e7f43",
-        "_id": "dR-NjZUBIpPAWwcIs50e",
+        "_index": "geopoints-prod-1b8a4f4b-6430-47fc-a6a9-3a526a0b9ce7",
+        "_id": "ix-bjZUBIpPAWwcImaYQ",
         "_score": null,
         "_source": {
           "incidentId": "A202507171776",
@@ -28,11 +28,53 @@
           "estimatedTimeOfRestoration": "2025-03-13T02:10:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-03-12T23:30:06"
+          "updateTime": "2025-03-12T23:45:04"
         },
         "sort": [
-          1741822206000,
+          1741823104000,
           "A202507171776"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-1b8a4f4b-6430-47fc-a6a9-3a526a0b9ce7",
+        "_id": "jB-bjZUBIpPAWwcImaYQ",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202507176203",
+          "polygonCenter": [
+            -82.52217500299204,
+            27.88738999598145
+          ],
+          "customerCount": 4,
+          "estimatedTimeOfRestoration": "2025-03-13T03:40:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-03-12T23:45:04"
+        },
+        "sort": [
+          1741823104000,
+          "A202507176203"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-1b8a4f4b-6430-47fc-a6a9-3a526a0b9ce7",
+        "_id": "ih-bjZUBIpPAWwcImaYQ",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202507176574",
+          "polygonCenter": [
+            -82.52201500075094,
+            27.88799499679019
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-13T03:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-03-12T23:45:04"
+        },
+        "sort": [
+          1741823104000,
+          "A202507176574"
         ]
       }
     ]
