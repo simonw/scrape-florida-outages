@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-bccc8085-450b-4427-b265-c43ab5fab9e8",
-        "_id": "SiC7jpUBIpPAWwcI2S4x",
+        "_index": "geopoints-prod-3dd8f3a2-d5e1-418e-874a-b8f6906ea683",
+        "_id": "JSDSjpUBIpPAWwcIujm9",
         "_score": null,
         "_source": {
           "incidentId": "A202507202332",
@@ -28,11 +28,53 @@
           "estimatedTimeOfRestoration": "2025-03-13T05:00:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-03-13T05:00:06"
+          "updateTime": "2025-03-13T05:25:06"
         },
         "sort": [
-          1741842006000,
+          1741843506000,
           "A202507202332"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3dd8f3a2-d5e1-418e-874a-b8f6906ea683",
+        "_id": "JCDSjpUBIpPAWwcIujm9",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202507218907",
+          "polygonCenter": [
+            -82.43097361177456,
+            28.111989838292008
+          ],
+          "customerCount": 35,
+          "estimatedTimeOfRestoration": "2025-03-13T09:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-03-13T05:25:06"
+        },
+        "sort": [
+          1741843506000,
+          "A202507218907"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-3dd8f3a2-d5e1-418e-874a-b8f6906ea683",
+        "_id": "IyDSjpUBIpPAWwcIujm9",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202507219230",
+          "polygonCenter": [
+            -82.52697000074923,
+            28.05123999669703
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-13T09:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-03-13T05:25:06"
+        },
+        "sort": [
+          1741843506000,
+          "A202507219230"
         ]
       }
     ]
