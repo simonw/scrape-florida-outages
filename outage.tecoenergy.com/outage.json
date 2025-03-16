@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 5,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-fbb51422-04ab-4430-abe9-2f566d0f389e",
-        "_id": "uCbUoJUBIpPAWwcIafjZ",
+        "_index": "geopoints-prod-2fbe1b70-b304-4c4d-aa63-020a9d69d710",
+        "_id": "4AbmoJUBRYTiIU0XyG8U",
         "_score": null,
         "_source": {
           "incidentId": "A202507202332",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-03-13T05:00:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-03-16T17:20:06"
+          "updateTime": "2025-03-16T17:40:05"
         },
         "sort": [
-          1742145606000,
+          1742146805000,
           "A202507202332"
         ]
       },
       {
-        "_index": "geopoints-prod-fbb51422-04ab-4430-abe9-2f566d0f389e",
-        "_id": "uSbUoJUBIpPAWwcIafjZ",
+        "_index": "geopoints-prod-2fbe1b70-b304-4c4d-aa63-020a9d69d710",
+        "_id": "4QbmoJUBRYTiIU0XyG8U",
         "_score": null,
         "_source": {
           "incidentId": "A202507530636",
@@ -49,74 +49,32 @@
           "estimatedTimeOfRestoration": "2025-03-16T22:10:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-03-16T17:20:06"
+          "updateTime": "2025-03-16T17:40:05"
         },
         "sort": [
-          1742145606000,
+          1742146805000,
           "A202507530636"
         ]
       },
       {
-        "_index": "geopoints-prod-fbb51422-04ab-4430-abe9-2f566d0f389e",
-        "_id": "tybUoJUBIpPAWwcIafjZ",
+        "_index": "geopoints-prod-2fbe1b70-b304-4c4d-aa63-020a9d69d710",
+        "_id": "3wbmoJUBRYTiIU0XyG8U",
         "_score": null,
         "_source": {
-          "incidentId": "A202507535239",
+          "incidentId": "A202507538984",
           "polygonCenter": [
-            -82.49111327832594,
-            27.960141677555015
+            -82.48968746298806,
+            27.960131913115482
           ],
-          "customerCount": 31,
-          "estimatedTimeOfRestoration": "2025-03-16T20:10:00",
+          "customerCount": 9,
+          "estimatedTimeOfRestoration": "2025-03-16T21:40:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-03-16T17:20:06"
+          "updateTime": "2025-03-16T17:40:05"
         },
         "sort": [
-          1742145606000,
-          "A202507535239"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-fbb51422-04ab-4430-abe9-2f566d0f389e",
-        "_id": "tSbUoJUBIpPAWwcIafjZ",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202507538046",
-          "polygonCenter": [
-            -82.09477546925561,
-            27.961130530311486
-          ],
-          "customerCount": 7,
-          "estimatedTimeOfRestoration": "2025-03-16T21:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-03-16T17:20:06"
-        },
-        "sort": [
-          1742145606000,
-          "A202507538046"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-fbb51422-04ab-4430-abe9-2f566d0f389e",
-        "_id": "tibUoJUBIpPAWwcIafjZ",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202507538098",
-          "polygonCenter": [
-            -82.36754391954759,
-            28.014762192779955
-          ],
-          "customerCount": 1319,
-          "estimatedTimeOfRestoration": "2025-03-16T21:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-03-16T17:20:06"
-        },
-        "sort": [
-          1742145606000,
-          "A202507538098"
+          1742146805000,
+          "A202507538984"
         ]
       }
     ]
