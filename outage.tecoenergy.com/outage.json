@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,11 +9,54 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-6a9abd6e-c60c-49ce-b901-41c25427c4fb",
+        "_id": "MSdvrZUBIpPAWwcIs4uA",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202507667949",
+          "polygonCenter": [
+            -82.2378410900308,
+            28.13786460511887
+          ],
+          "customerCount": 3,
+          "estimatedTimeOfRestoration": "2025-03-19T06:48:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-03-19T04:05:06"
+        },
+        "sort": [
+          1742357106000,
+          "A202507667949"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-6a9abd6e-c60c-49ce-b901-41c25427c4fb",
+        "_id": "MidvrZUBIpPAWwcIs4uA",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202507756122",
+          "polygonCenter": [
+            -82.66830000066903,
+            28.045449996699606
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-19T06:48:00",
+          "reason": "Damage to Tampa Electric equipment",
+          "status": "We're working onsite",
+          "updateTime": "2025-03-19T04:05:06"
+        },
+        "sort": [
+          1742357106000,
+          "A202507756122"
+        ]
+      }
+    ]
   },
   "cache": true
 }
