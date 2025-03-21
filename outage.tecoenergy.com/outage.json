@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-1734153e-9ae5-4410-a97e-8df2f15e77cb",
-        "_id": "PyvPupUBIpPAWwcIZ1HS",
+        "_index": "geopoints-prod-b8757709-a14d-4417-bb7e-78e65de2bf6a",
+        "_id": "_ivdupUBIpPAWwcIJlU0",
         "_score": null,
         "_source": {
           "incidentId": "A202508042202",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-03-21T20:06:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-03-21T18:25:04"
+          "updateTime": "2025-03-21T18:40:06"
         },
         "sort": [
-          1742581504000,
+          1742582406000,
           "A202508042202"
         ]
       },
       {
-        "_index": "geopoints-prod-1734153e-9ae5-4410-a97e-8df2f15e77cb",
-        "_id": "PSvPupUBIpPAWwcIZ1HS",
+        "_index": "geopoints-prod-b8757709-a14d-4417-bb7e-78e65de2bf6a",
+        "_id": "_SvdupUBIpPAWwcIJlU0",
         "_score": null,
         "_source": {
           "incidentId": "A202508048948",
@@ -49,37 +49,16 @@
           "estimatedTimeOfRestoration": "2025-03-21T20:30:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-03-21T18:25:04"
+          "updateTime": "2025-03-21T18:40:06"
         },
         "sort": [
-          1742581504000,
+          1742582406000,
           "A202508048948"
         ]
       },
       {
-        "_index": "geopoints-prod-1734153e-9ae5-4410-a97e-8df2f15e77cb",
-        "_id": "PivPupUBIpPAWwcIZ1HS",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202508053852",
-          "polygonCenter": [
-            -82.32038000085174,
-            28.03999999670451
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-03-21T22:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-03-21T18:25:04"
-        },
-        "sort": [
-          1742581504000,
-          "A202508053852"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-1734153e-9ae5-4410-a97e-8df2f15e77cb",
-        "_id": "PCvPupUBIpPAWwcIZ1HS",
+        "_index": "geopoints-prod-b8757709-a14d-4417-bb7e-78e65de2bf6a",
+        "_id": "-yvdupUBIpPAWwcIJlU0",
         "_score": null,
         "_source": {
           "incidentId": "A202508054764",
@@ -90,12 +69,54 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-03-21T22:20:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-03-21T18:25:04"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-03-21T18:40:06"
         },
         "sort": [
-          1742581504000,
+          1742582406000,
           "A202508054764"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-b8757709-a14d-4417-bb7e-78e65de2bf6a",
+        "_id": "_CvdupUBIpPAWwcIJlU0",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202508054879",
+          "polygonCenter": [
+            -81.72934897080144,
+            28.023883688408507
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-21T22:30:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-03-21T18:40:06"
+        },
+        "sort": [
+          1742582406000,
+          "A202508054879"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-b8757709-a14d-4417-bb7e-78e65de2bf6a",
+        "_id": "_yvdupUBIpPAWwcIJlU0",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202508055295",
+          "polygonCenter": [
+            -82.4636900007712,
+            28.17025999662947
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-21T22:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-03-21T18:40:06"
+        },
+        "sort": [
+          1742582406000,
+          "A202508055295"
         ]
       }
     ]
