@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-8d55c19c-9fee-4e86-8dba-575bf0563a52",
-        "_id": "SSs5vJUBIpPAWwcIEMd2",
+        "_index": "geopoints-prod-c53cf480-1dac-4374-b930-2b1290d4502f",
+        "_id": "MytPvJUBIpPAWwcI6dCE",
         "_score": null,
         "_source": {
           "incidentId": "A202508069816",
@@ -28,11 +28,32 @@
           "estimatedTimeOfRestoration": "2025-03-22T02:50:00",
           "reason": "Pending Investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-03-22T01:00:03"
+          "updateTime": "2025-03-22T01:25:05"
         },
         "sort": [
-          1742605203000,
+          1742606705000,
           "A202508069816"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-c53cf480-1dac-4374-b930-2b1290d4502f",
+        "_id": "NCtPvJUBIpPAWwcI6dCE",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202508101567",
+          "polygonCenter": [
+            -82.35101000083506,
+            28.147099996643266
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-22T05:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-03-22T01:25:05"
+        },
+        "sort": [
+          1742606705000,
+          "A202508101567"
         ]
       }
     ]
