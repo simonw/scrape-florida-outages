@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-165afbda-6308-43eb-aeca-065cb38cbfa6",
-        "_id": "8SvivJUBIpPAWwcIYftv",
+        "_index": "geopoints-prod-a3f28e2f-1939-4772-91e4-4dc91b87801a",
+        "_id": "pwv1vJUBRYTiIU0XI_NI",
         "_score": null,
         "_source": {
           "incidentId": "A202508102153",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-03-22T05:40:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-03-22T04:05:04"
+          "updateTime": "2025-03-22T04:25:03"
         },
         "sort": [
-          1742616304000,
+          1742617503000,
           "A202508102153"
         ]
       },
       {
-        "_index": "geopoints-prod-165afbda-6308-43eb-aeca-065cb38cbfa6",
-        "_id": "8ivivJUBIpPAWwcIYftv",
+        "_index": "geopoints-prod-a3f28e2f-1939-4772-91e4-4dc91b87801a",
+        "_id": "qQv1vJUBRYTiIU0XI_NI",
         "_score": null,
         "_source": {
           "incidentId": "A202508105212",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-03-22T07:20:00",
           "reason": "Pending Investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-03-22T04:05:04"
+          "updateTime": "2025-03-22T04:25:03"
         },
         "sort": [
-          1742616304000,
+          1742617503000,
           "A202508105212"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a3f28e2f-1939-4772-91e4-4dc91b87801a",
+        "_id": "qAv1vJUBRYTiIU0XI_NI",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202508106945",
+          "polygonCenter": [
+            -82.60641530070383,
+            28.01105819671963
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-03-22T08:20:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-03-22T04:25:03"
+        },
+        "sort": [
+          1742617503000,
+          "A202508106945"
         ]
       }
     ]
