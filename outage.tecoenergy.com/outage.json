@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-69cf363a-b381-4c6d-a532-1dabfcb82a0d",
-        "_id": "6ReR55UBRYTiIU0XUtje",
+        "_index": "geopoints-prod-004e646c-5d63-409a-a950-2d3337b4ee01",
+        "_id": "JBeo55UBRYTiIU0XONoN",
         "_score": null,
         "_source": {
           "incidentId": "A202508913152",
@@ -25,19 +25,19 @@
             28.161375021314935
           ],
           "customerCount": 3,
-          "estimatedTimeOfRestoration": "2025-03-30T11:30:00",
+          "estimatedTimeOfRestoration": "2025-03-30T14:10:00",
           "reason": "Animal coming into contact with equipment",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-03-30T11:00:06"
+          "status": "We're working onsite",
+          "updateTime": "2025-03-30T11:25:05"
         },
         "sort": [
-          1743332406000,
+          1743333905000,
           "A202508913152"
         ]
       },
       {
-        "_index": "geopoints-prod-69cf363a-b381-4c6d-a532-1dabfcb82a0d",
-        "_id": "6heR55UBRYTiIU0XUtje",
+        "_index": "geopoints-prod-004e646c-5d63-409a-a950-2d3337b4ee01",
+        "_id": "JReo55UBRYTiIU0XONoN",
         "_score": null,
         "_source": {
           "incidentId": "A202508914073",
@@ -49,16 +49,16 @@
           "estimatedTimeOfRestoration": "2025-03-30T12:00:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-03-30T11:00:06"
+          "updateTime": "2025-03-30T11:25:05"
         },
         "sort": [
-          1743332406000,
+          1743333905000,
           "A202508914073"
         ]
       },
       {
-        "_index": "geopoints-prod-69cf363a-b381-4c6d-a532-1dabfcb82a0d",
-        "_id": "6BeR55UBRYTiIU0XUtje",
+        "_index": "geopoints-prod-004e646c-5d63-409a-a950-2d3337b4ee01",
+        "_id": "Ixeo55UBRYTiIU0XONoN",
         "_score": null,
         "_source": {
           "incidentId": "A202508918778",
@@ -69,33 +69,12 @@
           "customerCount": 36,
           "estimatedTimeOfRestoration": "2025-03-30T14:10:00",
           "reason": "Under investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-03-30T11:00:06"
+          "status": "Additional support enroute",
+          "updateTime": "2025-03-30T11:25:05"
         },
         "sort": [
-          1743332406000,
+          1743333905000,
           "A202508918778"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-69cf363a-b381-4c6d-a532-1dabfcb82a0d",
-        "_id": "6xeR55UBRYTiIU0XUtje",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202508918993",
-          "polygonCenter": [
-            -82.53268000074522,
-            27.94321999675868
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-03-30T14:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-03-30T11:00:06"
-        },
-        "sort": [
-          1743332406000,
-          "A202508918993"
         ]
       }
     ]
