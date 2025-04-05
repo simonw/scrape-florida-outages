@@ -9,11 +9,33 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-19c0123d-e599-4a8c-a64f-15d5f7241bfd",
+        "_id": "mUxTB5YBIpPAWwcIIAgd",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202509517201",
+          "polygonCenter": [
+            -82.46116739848867,
+            27.70273075990532
+          ],
+          "customerCount": 3,
+          "estimatedTimeOfRestoration": "2025-04-05T15:41:00",
+          "reason": "Tree or tree limbs in contact with equipment",
+          "status": "We're working onsite",
+          "updateTime": "2025-04-05T15:00:06"
+        },
+        "sort": [
+          1743865206000,
+          "A202509517201"
+        ]
+      }
+    ]
   },
   "cache": true
 }
