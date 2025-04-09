@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-9fb4a33c-4c91-4a41-884d-374be2639830",
-        "_id": "fCxIHJYBRYTiIU0XIjpi",
+        "_index": "geopoints-prod-69ecced7-4b6c-4456-979f-78e912c9e1dc",
+        "_id": "fSxaHJYBRYTiIU0XqTsa",
         "_score": null,
         "_source": {
           "incidentId": "A202509925540",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-04-09T18:12:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-04-09T16:40:08"
+          "updateTime": "2025-04-09T17:00:08"
         },
         "sort": [
-          1744216808000,
+          1744218008000,
           "A202509925540"
         ]
       },
       {
-        "_index": "geopoints-prod-9fb4a33c-4c91-4a41-884d-374be2639830",
-        "_id": "fixIHJYBRYTiIU0XIjpi",
+        "_index": "geopoints-prod-69ecced7-4b6c-4456-979f-78e912c9e1dc",
+        "_id": "fixaHJYBRYTiIU0XqTsa",
         "_score": null,
         "_source": {
           "incidentId": "A202509932579",
@@ -49,32 +49,11 @@
           "estimatedTimeOfRestoration": "2025-04-09T19:12:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-04-09T16:40:08"
+          "updateTime": "2025-04-09T17:00:08"
         },
         "sort": [
-          1744216808000,
+          1744218008000,
           "A202509932579"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-9fb4a33c-4c91-4a41-884d-374be2639830",
-        "_id": "fSxIHJYBRYTiIU0XIjpi",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202509945713",
-          "polygonCenter": [
-            -82.48409450273232,
-            28.02676005131146
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-04-09T20:40:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-04-09T16:40:08"
-        },
-        "sort": [
-          1744216808000,
-          "A202509945713"
         ]
       }
     ]
