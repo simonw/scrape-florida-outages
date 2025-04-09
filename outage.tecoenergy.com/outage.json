@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,35 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 5,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-d0a07bdc-abf7-48df-a7a9-9f2d4eb6332f",
-        "_id": "zywoHJYBRYTiIU0XUzhp",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202509922237",
-          "polygonCenter": [
-            -81.74397790669269,
-            28.045821393523774
-          ],
-          "customerCount": 9,
-          "estimatedTimeOfRestoration": "2025-04-09T17:40:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-04-09T16:05:04"
-        },
-        "sort": [
-          1744214704000,
-          "A202509922237"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-d0a07bdc-abf7-48df-a7a9-9f2d4eb6332f",
-        "_id": "ziwoHJYBRYTiIU0XUzhp",
+        "_index": "geopoints-prod-7f58cc18-48e6-4829-a8d9-c2b5ee9d85ee",
+        "_id": "uSw6HJYBRYTiIU0XbjkV",
         "_score": null,
         "_source": {
           "incidentId": "A202509925540",
@@ -46,19 +25,19 @@
             28.02536999671361
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-04-09T16:41:00",
+          "estimatedTimeOfRestoration": "2025-04-09T18:12:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-04-09T16:05:04"
+          "updateTime": "2025-04-09T16:25:06"
         },
         "sort": [
-          1744214704000,
+          1744215906000,
           "A202509925540"
         ]
       },
       {
-        "_index": "geopoints-prod-d0a07bdc-abf7-48df-a7a9-9f2d4eb6332f",
-        "_id": "0CwoHJYBRYTiIU0XUzhp",
+        "_index": "geopoints-prod-7f58cc18-48e6-4829-a8d9-c2b5ee9d85ee",
+        "_id": "uiw6HJYBRYTiIU0XbjkV",
         "_score": null,
         "_source": {
           "incidentId": "A202509932579",
@@ -70,55 +49,35 @@
           "estimatedTimeOfRestoration": "2025-04-09T19:12:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-04-09T16:05:04"
+          "updateTime": "2025-04-09T16:25:06"
         },
         "sort": [
-          1744214704000,
+          1744215906000,
           "A202509932579"
         ]
       },
       {
-        "_index": "geopoints-prod-d0a07bdc-abf7-48df-a7a9-9f2d4eb6332f",
-        "_id": "zCwoHJYBRYTiIU0XUzhp",
+        "_index": "geopoints-prod-7f58cc18-48e6-4829-a8d9-c2b5ee9d85ee",
+        "_id": "uCw6HJYBRYTiIU0XbjkV",
         "_score": null,
         "_source": {
-          "incidentId": "A202509944465",
+          "incidentId": "A202509944981",
           "polygonCenter": [
-            -82.38884644867153,
-            27.676087492958864
+            -81.82479895765036,
+            28.033467462792707
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-04-09T20:10:00",
+          "estimatedTimeOfRestoration": "2025-04-09T20:20:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-04-09T16:05:04"
+          "updateTime": "2025-04-09T16:25:06"
         },
         "sort": [
-          1744214704000,
-          "A202509944465"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-d0a07bdc-abf7-48df-a7a9-9f2d4eb6332f",
-        "_id": "zSwoHJYBRYTiIU0XUzhp",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202509944522",
-          "polygonCenter": [
-            -82.02479000101825,
-            27.925149996772042
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-04-09T20:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-04-09T16:05:04"
-        },
-        "sort": [
-          1744214704000,
-          "A202509944522"
+          1744215906000,
+          "A202509944981"
         ]
       }
     ]
-  }
+  },
+  "cache": true
 }
