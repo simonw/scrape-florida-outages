@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-80d96dca-abd5-44b9-8e5a-e98a25ca7a99",
-        "_id": "4zSkRZYBRYTiIU0XOMR-",
+        "_index": "geopoints-prod-264a20a9-b351-4f86-9e60-810414e82828",
+        "_id": "2GGxRZYBIpPAWwcI8g_e",
         "_score": null,
         "_source": {
           "incidentId": "A202510746083",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-04-17T21:00:00",
           "reason": "Tree or tree limbs in contact with equipment",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-04-17T17:25:03"
+          "updateTime": "2025-04-17T17:40:03"
         },
         "sort": [
-          1744910703000,
+          1744911603000,
           "A202510746083"
         ]
       },
       {
-        "_index": "geopoints-prod-80d96dca-abd5-44b9-8e5a-e98a25ca7a99",
-        "_id": "5DSkRZYBRYTiIU0XOMR-",
+        "_index": "geopoints-prod-264a20a9-b351-4f86-9e60-810414e82828",
+        "_id": "2WGxRZYBIpPAWwcI8g_e",
         "_score": null,
         "_source": {
           "incidentId": "A202510746185",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-04-17T21:10:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-04-17T17:25:03"
+          "updateTime": "2025-04-17T17:40:03"
         },
         "sort": [
-          1744910703000,
+          1744911603000,
           "A202510746185"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-264a20a9-b351-4f86-9e60-810414e82828",
+        "_id": "12GxRZYBIpPAWwcI8g_e",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202510746890",
+          "polygonCenter": [
+            -82.22308443773017,
+            27.93142012565445
+          ],
+          "customerCount": 65,
+          "estimatedTimeOfRestoration": "2025-04-17T21:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-04-17T17:40:03"
+        },
+        "sort": [
+          1744911603000,
+          "A202510746890"
         ]
       }
     ]
