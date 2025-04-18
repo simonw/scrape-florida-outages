@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-0f1cb79f-f676-4bb8-9600-b769e23a58e8",
-        "_id": "QTYgSZYBRYTiIU0X1Rc4",
+        "_index": "geopoints-prod-357da1fc-6efc-47f1-9d51-d354fa2d8162",
+        "_id": "HGIzSZYBIpPAWwcIKIJu",
         "_score": null,
         "_source": {
           "incidentId": "A202510817429",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-04-18T11:40:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-04-18T09:40:05"
+          "updateTime": "2025-04-18T10:00:06"
         },
         "sort": [
-          1744969205000,
+          1744970406000,
           "A202510817429"
         ]
       },
       {
-        "_index": "geopoints-prod-0f1cb79f-f676-4bb8-9600-b769e23a58e8",
-        "_id": "QDYgSZYBRYTiIU0X1Rc4",
+        "_index": "geopoints-prod-357da1fc-6efc-47f1-9d51-d354fa2d8162",
+        "_id": "GmIzSZYBIpPAWwcIKIJu",
         "_score": null,
         "_source": {
           "incidentId": "A202510820858",
@@ -49,37 +49,16 @@
           "estimatedTimeOfRestoration": "2025-04-18T13:00:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-04-18T09:40:05"
+          "updateTime": "2025-04-18T10:00:06"
         },
         "sort": [
-          1744969205000,
+          1744970406000,
           "A202510820858"
         ]
       },
       {
-        "_index": "geopoints-prod-0f1cb79f-f676-4bb8-9600-b769e23a58e8",
-        "_id": "PzYgSZYBRYTiIU0X1Rc4",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202510821029",
-          "polygonCenter": [
-            -82.43359489498437,
-            28.080215145671012
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-04-18T13:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-04-18T09:40:05"
-        },
-        "sort": [
-          1744969205000,
-          "A202510821029"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-0f1cb79f-f676-4bb8-9600-b769e23a58e8",
-        "_id": "QjYgSZYBRYTiIU0X1Rc4",
+        "_index": "geopoints-prod-357da1fc-6efc-47f1-9d51-d354fa2d8162",
+        "_id": "HWIzSZYBIpPAWwcIKIJu",
         "_score": null,
         "_source": {
           "incidentId": "A202510821288",
@@ -90,12 +69,54 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-04-18T13:20:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-04-18T09:40:05"
+          "status": "We're working onsite",
+          "updateTime": "2025-04-18T10:00:06"
         },
         "sort": [
-          1744969205000,
+          1744970406000,
           "A202510821288"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-357da1fc-6efc-47f1-9d51-d354fa2d8162",
+        "_id": "G2IzSZYBIpPAWwcIKIJu",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202510822641",
+          "polygonCenter": [
+            -82.14795000095015,
+            28.119489996660576
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-04-18T13:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-04-18T10:00:06"
+        },
+        "sort": [
+          1744970406000,
+          "A202510822641"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-357da1fc-6efc-47f1-9d51-d354fa2d8162",
+        "_id": "GWIzSZYBIpPAWwcIKIJu",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202510822821",
+          "polygonCenter": [
+            -82.433466771297,
+            28.079882420083884
+          ],
+          "customerCount": 11,
+          "estimatedTimeOfRestoration": "2025-04-18T13:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-04-18T10:00:06"
+        },
+        "sort": [
+          1744970406000,
+          "A202510822821"
         ]
       }
     ]
