@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-09f56b98-ff0f-424e-953c-53704989f8cb",
-        "_id": "bD8UWpYBRYTiIU0XamUC",
+        "_index": "geopoints-prod-f1b35206-7d79-4ae9-855e-7516e66d3289",
+        "_id": "MmcmWpYBIpPAWwcIwmm3",
         "_score": null,
         "_source": {
           "incidentId": "A202511131088",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-04-21T17:50:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-04-21T16:40:04"
+          "updateTime": "2025-04-21T17:00:04"
         },
         "sort": [
-          1745253604000,
+          1745254804000,
           "A202511131088"
         ]
       },
       {
-        "_index": "geopoints-prod-09f56b98-ff0f-424e-953c-53704989f8cb",
-        "_id": "az8UWpYBRYTiIU0XamUC",
+        "_index": "geopoints-prod-f1b35206-7d79-4ae9-855e-7516e66d3289",
+        "_id": "MWcmWpYBIpPAWwcIwmm3",
         "_score": null,
         "_source": {
           "incidentId": "A202511133208",
@@ -49,16 +49,16 @@
           "estimatedTimeOfRestoration": "2025-04-21T18:40:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-04-21T16:40:04"
+          "updateTime": "2025-04-21T17:00:04"
         },
         "sort": [
-          1745253604000,
+          1745254804000,
           "A202511133208"
         ]
       },
       {
-        "_index": "geopoints-prod-09f56b98-ff0f-424e-953c-53704989f8cb",
-        "_id": "bT8UWpYBRYTiIU0XamUC",
+        "_index": "geopoints-prod-f1b35206-7d79-4ae9-855e-7516e66d3289",
+        "_id": "NGcmWpYBIpPAWwcIwmm3",
         "_score": null,
         "_source": {
           "incidentId": "A202511138186",
@@ -70,32 +70,53 @@
           "estimatedTimeOfRestoration": "2025-04-21T20:20:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-04-21T16:40:04"
+          "updateTime": "2025-04-21T17:00:04"
         },
         "sort": [
-          1745253604000,
+          1745254804000,
           "A202511138186"
         ]
       },
       {
-        "_index": "geopoints-prod-09f56b98-ff0f-424e-953c-53704989f8cb",
-        "_id": "aj8UWpYBRYTiIU0XamUC",
+        "_index": "geopoints-prod-f1b35206-7d79-4ae9-855e-7516e66d3289",
+        "_id": "M2cmWpYBIpPAWwcIwmm3",
         "_score": null,
         "_source": {
-          "incidentId": "A202511139039",
+          "incidentId": "A202511139357",
           "polygonCenter": [
-            -82.43856000078459,
-            28.041389996703238
+            -82.58102820071841,
+            28.03204899670783
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-04-21T20:40:00",
+          "estimatedTimeOfRestoration": "2025-04-21T20:50:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-04-21T16:40:04"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-04-21T17:00:04"
         },
         "sort": [
-          1745253604000,
-          "A202511139039"
+          1745254804000,
+          "A202511139357"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-f1b35206-7d79-4ae9-855e-7516e66d3289",
+        "_id": "MGcmWpYBIpPAWwcIwmm3",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202511139762",
+          "polygonCenter": [
+            -82.39916899727817,
+            28.051600086816006
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-04-21T20:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-04-21T17:00:04"
+        },
+        "sort": [
+          1745254804000,
+          "A202511139762"
         ]
       }
     ]
