@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-2c3f0ac9-7922-4422-bdaa-f455d95a3d46",
-        "_id": "JG1QapYBIpPAWwcI8oqY",
+        "_index": "geopoints-prod-b2fcfd6f-2277-4f37-bd41-3a5267cd5cfc",
+        "_id": "oEd1apYBRYTiIU0Xi1kp",
         "_score": null,
         "_source": {
           "incidentId": "A202511437119",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-04-24T23:59:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-04-24T20:20:05"
+          "updateTime": "2025-04-24T21:00:08"
         },
         "sort": [
-          1745526005000,
+          1745528408000,
           "A202511437119"
         ]
       },
       {
-        "_index": "geopoints-prod-2c3f0ac9-7922-4422-bdaa-f455d95a3d46",
-        "_id": "I21QapYBIpPAWwcI8oqY",
+        "_index": "geopoints-prod-b2fcfd6f-2277-4f37-bd41-3a5267cd5cfc",
+        "_id": "n0d1apYBRYTiIU0Xi1kp",
         "_score": null,
         "_source": {
           "incidentId": "A202511440860",
@@ -49,16 +49,16 @@
           "estimatedTimeOfRestoration": "2025-04-24T22:50:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-04-24T20:20:05"
+          "updateTime": "2025-04-24T21:00:08"
         },
         "sort": [
-          1745526005000,
+          1745528408000,
           "A202511440860"
         ]
       },
       {
-        "_index": "geopoints-prod-2c3f0ac9-7922-4422-bdaa-f455d95a3d46",
-        "_id": "JW1QapYBIpPAWwcI8oqY",
+        "_index": "geopoints-prod-b2fcfd6f-2277-4f37-bd41-3a5267cd5cfc",
+        "_id": "okd1apYBRYTiIU0Xi1kp",
         "_score": null,
         "_source": {
           "incidentId": "A202511442703",
@@ -69,17 +69,17 @@
           "customerCount": 92,
           "estimatedTimeOfRestoration": "2025-04-24T23:50:00",
           "reason": "Under investigation",
-          "status": "Additional support enroute",
-          "updateTime": "2025-04-24T20:20:05"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-04-24T21:00:08"
         },
         "sort": [
-          1745526005000,
+          1745528408000,
           "A202511442703"
         ]
       },
       {
-        "_index": "geopoints-prod-2c3f0ac9-7922-4422-bdaa-f455d95a3d46",
-        "_id": "Im1QapYBIpPAWwcI8oqY",
+        "_index": "geopoints-prod-b2fcfd6f-2277-4f37-bd41-3a5267cd5cfc",
+        "_id": "nkd1apYBRYTiIU0Xi1kp",
         "_score": null,
         "_source": {
           "incidentId": "A202511443711",
@@ -89,13 +89,34 @@
           ],
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-04-25T00:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-04-24T20:20:05"
+          "reason": "Damage to Tampa Electric equipment",
+          "status": "Additional support enroute",
+          "updateTime": "2025-04-24T21:00:08"
         },
         "sort": [
-          1745526005000,
+          1745528408000,
           "A202511443711"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-b2fcfd6f-2277-4f37-bd41-3a5267cd5cfc",
+        "_id": "oUd1apYBRYTiIU0Xi1kp",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202511444876",
+          "polygonCenter": [
+            -82.56626449099033,
+            28.109770060704093
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-04-25T00:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-04-24T21:00:08"
+        },
+        "sort": [
+          1745528408000,
+          "A202511444876"
         ]
       }
     ]
