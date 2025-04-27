@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-b8e18b17-5df2-4d0e-ada0-198f0e9244ea",
-        "_id": "GFCReJYBRYTiIU0XURJM",
+        "_index": "geopoints-prod-d510fde5-2e74-4222-aa71-dab4cd1b7616",
+        "_id": "NXCfeJYBIpPAWwcICPaQ",
         "_score": null,
         "_source": {
           "incidentId": "A202511735549",
@@ -27,14 +27,36 @@
           "customerCount": 15,
           "estimatedTimeOfRestoration": "2025-04-27T18:40:00",
           "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-04-27T14:45:05"
+          "status": "We're working onsite",
+          "updateTime": "2025-04-27T15:00:07"
         },
         "sort": [
-          1745765105000,
+          1745766007000,
           "A202511735549"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-d510fde5-2e74-4222-aa71-dab4cd1b7616",
+        "_id": "NHCfeJYBIpPAWwcICPaQ",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202511736160",
+          "polygonCenter": [
+            -82.39859898766983,
+            27.90291800675596
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-04-27T18:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-04-27T15:00:07"
+        },
+        "sort": [
+          1745766007000,
+          "A202511736160"
         ]
       }
     ]
-  }
+  },
+  "cache": true
 }
