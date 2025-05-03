@@ -9,11 +9,33 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-17fec6c7-39e7-4dc1-912e-69bad97d9447",
+        "_id": "eXx2lZYBIpPAWwcIva1t",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202512313335",
+          "polygonCenter": [
+            -82.43362849356231,
+            27.943699996131077
+          ],
+          "customerCount": 10,
+          "estimatedTimeOfRestoration": "2025-05-03T09:10:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-05-03T05:25:06"
+        },
+        "sort": [
+          1746249906000,
+          "A202512313335"
+        ]
+      }
+    ]
   },
   "cache": true
 }
