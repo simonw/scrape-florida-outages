@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,11 +9,75 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-feb310c9-8295-455a-bcb2-06a0afc4def6",
+        "_id": "MX7Up5YBIpPAWwcIAAeR",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202512644803",
+          "polygonCenter": [
+            -81.94231000106835,
+            28.257459996583513
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-06T22:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-05-06T19:00:05"
+        },
+        "sort": [
+          1746558005000,
+          "A202512644803"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-feb310c9-8295-455a-bcb2-06a0afc4def6",
+        "_id": "Mn7Up5YBIpPAWwcIAAeR",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202512645271",
+          "polygonCenter": [
+            -82.44649120977414,
+            28.05149236715709
+          ],
+          "customerCount": 33,
+          "estimatedTimeOfRestoration": "2025-05-06T22:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-05-06T19:00:05"
+        },
+        "sort": [
+          1746558005000,
+          "A202512645271"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-feb310c9-8295-455a-bcb2-06a0afc4def6",
+        "_id": "MH7Up5YBIpPAWwcIAAeR",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202512645369",
+          "polygonCenter": [
+            -82.20689218483116,
+            28.00648038222155
+          ],
+          "customerCount": 8,
+          "estimatedTimeOfRestoration": "2025-05-06T22:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-05-06T19:00:05"
+        },
+        "sort": [
+          1746558005000,
+          "A202512645369"
+        ]
+      }
+    ]
   },
   "cache": true
 }
