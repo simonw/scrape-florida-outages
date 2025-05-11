@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-cd5a7794-28c6-4eb2-b048-4cc90faca28a",
-        "_id": "bF3gvpYBRYTiIU0XivHt",
+        "_index": "geopoints-prod-068d683f-6f8a-4e50-95d6-180b2a60c9e7",
+        "_id": "VX_uvpYBIpPAWwcISEJq",
         "_score": null,
         "_source": {
           "incidentId": "A202513103558",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-05-11T08:47:00",
           "reason": "Tree or tree limbs in contact with equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-05-11T06:25:06"
+          "updateTime": "2025-05-11T06:40:05"
         },
         "sort": [
-          1746944706000,
+          1746945605000,
           "A202513103558"
         ]
       },
       {
-        "_index": "geopoints-prod-cd5a7794-28c6-4eb2-b048-4cc90faca28a",
-        "_id": "bV3gvpYBRYTiIU0XivHt",
+        "_index": "geopoints-prod-068d683f-6f8a-4e50-95d6-180b2a60c9e7",
+        "_id": "Vn_uvpYBIpPAWwcISEJq",
         "_score": null,
         "_source": {
           "incidentId": "A202513104379",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-05-11T09:11:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-05-11T06:25:06"
+          "updateTime": "2025-05-11T06:40:05"
         },
         "sort": [
-          1746944706000,
+          1746945605000,
           "A202513104379"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-068d683f-6f8a-4e50-95d6-180b2a60c9e7",
+        "_id": "V3_uvpYBIpPAWwcISEJq",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202513113271",
+          "polygonCenter": [
+            -82.36922496406558,
+            28.132355013733136
+          ],
+          "customerCount": 8,
+          "estimatedTimeOfRestoration": "2025-05-11T10:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-11T06:40:05"
+        },
+        "sort": [
+          1746945605000,
+          "A202513113271"
         ]
       }
     ]
