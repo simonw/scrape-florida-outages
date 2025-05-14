@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,75 +9,11 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 0,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": [
-      {
-        "_index": "geopoints-prod-dde730e4-b418-43ed-8c5c-85a7114db16f",
-        "_id": "n4Cr0JYBIpPAWwcIYjoq",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202513422879",
-          "polygonCenter": [
-            -82.53758122180724,
-            27.979773229912063
-          ],
-          "customerCount": 2,
-          "estimatedTimeOfRestoration": "2025-05-14T22:26:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-05-14T17:20:08"
-        },
-        "sort": [
-          1747243208000,
-          "A202513422879"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-dde730e4-b418-43ed-8c5c-85a7114db16f",
-        "_id": "noCr0JYBIpPAWwcIYjoq",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202513430147",
-          "polygonCenter": [
-            -82.48882081124792,
-            28.10246499579419
-          ],
-          "customerCount": 6,
-          "estimatedTimeOfRestoration": "2025-05-14T18:20:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-05-14T17:20:08"
-        },
-        "sort": [
-          1747243208000,
-          "A202513430147"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-dde730e4-b418-43ed-8c5c-85a7114db16f",
-        "_id": "oICr0JYBIpPAWwcIYjoq",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202513432974",
-          "polygonCenter": [
-            -82.56686993672145,
-            27.99955999645625
-          ],
-          "customerCount": 7,
-          "estimatedTimeOfRestoration": "2025-05-14T19:10:00",
-          "reason": "Tree or tree limbs in contact with equipment",
-          "status": "We're working onsite",
-          "updateTime": "2025-05-14T17:20:08"
-        },
-        "sort": [
-          1747243208000,
-          "A202513432974"
-        ]
-      }
-    ]
+    "hits": []
   },
   "cache": true
 }
