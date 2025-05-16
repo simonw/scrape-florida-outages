@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-d0df8323-3bb4-4e46-9f77-58b8171d2839",
-        "_id": "-1_l2JYBRYTiIU0XBcae",
+        "_index": "geopoints-prod-0fb9ff17-fb2c-4f25-b28d-c795bb09f93b",
+        "_id": "kYD72JYBIpPAWwcI48Ve",
         "_score": null,
         "_source": {
           "incidentId": "A202513613648",
@@ -28,11 +28,53 @@
           "estimatedTimeOfRestoration": "2025-05-16T11:02:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-05-16T07:40:09"
+          "updateTime": "2025-05-16T08:05:04"
         },
         "sort": [
-          1747381209000,
+          1747382704000,
           "A202513613648"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0fb9ff17-fb2c-4f25-b28d-c795bb09f93b",
+        "_id": "koD72JYBIpPAWwcI48Ve",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202513633406",
+          "polygonCenter": [
+            -82.6024714645749,
+            28.00608704256863
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-16T12:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-16T08:05:04"
+        },
+        "sort": [
+          1747382704000,
+          "A202513633406"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0fb9ff17-fb2c-4f25-b28d-c795bb09f93b",
+        "_id": "kID72JYBIpPAWwcI48Ve",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202513633620",
+          "polygonCenter": [
+            -82.46526000076932,
+            28.005919996723158
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-16T12:10:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-16T08:05:04"
+        },
+        "sort": [
+          1747382704000,
+          "A202513633620"
         ]
       }
     ]
