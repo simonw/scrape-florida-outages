@@ -9,11 +9,75 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-a3d4f4be-459e-458a-9340-4fb5a4fb521c",
+        "_id": "EGCe35YBRYTiIU0XNypJ",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202513775553",
+          "polygonCenter": [
+            -82.49009114058535,
+            27.88503499648656
+          ],
+          "customerCount": 6,
+          "estimatedTimeOfRestoration": "2025-05-17T18:50:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-05-17T15:00:08"
+        },
+        "sort": [
+          1747494008000,
+          "A202513775553"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a3d4f4be-459e-458a-9340-4fb5a4fb521c",
+        "_id": "EWCe35YBRYTiIU0XNypJ",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202513775851",
+          "polygonCenter": [
+            -82.26892719239783,
+            27.94046931146343
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-17T19:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-17T15:00:08"
+        },
+        "sort": [
+          1747494008000,
+          "A202513775851"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a3d4f4be-459e-458a-9340-4fb5a4fb521c",
+        "_id": "D2Ce35YBRYTiIU0XNypJ",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202513775968",
+          "polygonCenter": [
+            -82.36644000082413,
+            27.838349996819247
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-17T19:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-17T15:00:08"
+        },
+        "sort": [
+          1747494008000,
+          "A202513775968"
+        ]
+      }
+    ]
   },
   "cache": true
 }
