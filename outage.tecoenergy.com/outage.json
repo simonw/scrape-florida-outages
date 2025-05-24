@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-e216928a-b9f1-4e16-bf92-49bd690caae6",
-        "_id": "klpqApcBRYTiIU0XSE3P",
+        "_index": "geopoints-prod-1555bd9b-0fd1-42cb-bf25-632c0c71d391",
+        "_id": "n1t8ApcBRYTiIU0Xmxjx",
         "_score": null,
         "_source": {
           "incidentId": "A202514425015",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-05-24T12:40:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-05-24T09:10:07"
+          "updateTime": "2025-05-24T09:30:08"
         },
         "sort": [
-          1748077807000,
+          1748079008000,
           "A202514425015"
         ]
       },
       {
-        "_index": "geopoints-prod-e216928a-b9f1-4e16-bf92-49bd690caae6",
-        "_id": "lFpqApcBRYTiIU0XSE3P",
+        "_index": "geopoints-prod-1555bd9b-0fd1-42cb-bf25-632c0c71d391",
+        "_id": "oVt8ApcBRYTiIU0Xmxjx",
         "_score": null,
         "_source": {
           "incidentId": "A202514425118",
@@ -48,17 +48,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-05-24T12:50:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-05-24T09:10:07"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-05-24T09:30:08"
         },
         "sort": [
-          1748077807000,
+          1748079008000,
           "A202514425118"
         ]
       },
       {
-        "_index": "geopoints-prod-e216928a-b9f1-4e16-bf92-49bd690caae6",
-        "_id": "k1pqApcBRYTiIU0XSE3P",
+        "_index": "geopoints-prod-1555bd9b-0fd1-42cb-bf25-632c0c71d391",
+        "_id": "oFt8ApcBRYTiIU0Xmxjx",
         "_score": null,
         "_source": {
           "incidentId": "A202514425831",
@@ -69,17 +69,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-05-24T13:00:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-05-24T09:10:07"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-05-24T09:30:08"
         },
         "sort": [
-          1748077807000,
+          1748079008000,
           "A202514425831"
         ]
       },
       {
-        "_index": "geopoints-prod-e216928a-b9f1-4e16-bf92-49bd690caae6",
-        "_id": "kVpqApcBRYTiIU0XSE3P",
+        "_index": "geopoints-prod-1555bd9b-0fd1-42cb-bf25-632c0c71d391",
+        "_id": "nVt8ApcBRYTiIU0Xmxjx",
         "_score": null,
         "_source": {
           "incidentId": "A202514426559",
@@ -90,12 +90,33 @@
           "customerCount": 11,
           "estimatedTimeOfRestoration": "2025-05-24T13:10:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-05-24T09:10:07"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-05-24T09:30:08"
         },
         "sort": [
-          1748077807000,
+          1748079008000,
           "A202514426559"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-1555bd9b-0fd1-42cb-bf25-632c0c71d391",
+        "_id": "nlt8ApcBRYTiIU0Xmxjx",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202514428000",
+          "polygonCenter": [
+            -82.43488000078665,
+            28.034039996707232
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-24T13:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-24T09:30:08"
+        },
+        "sort": [
+          1748079008000,
+          "A202514428000"
         ]
       }
     ]
