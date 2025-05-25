@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 1,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-2fa3a707-5059-42d0-a000-a971fa46eb28",
-        "_id": "SqErB5cBRYTiIU0X8c0V",
+        "_index": "geopoints-prod-69413031-ab95-4d82-be16-a5d96a82b127",
+        "_id": "YKM-B5cBRYTiIU0XRQu6",
         "_score": null,
         "_source": {
           "incidentId": "A202514474800",
@@ -28,11 +28,53 @@
           "estimatedTimeOfRestoration": "2025-05-25T10:00:00",
           "reason": "Weather-related damage to equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-05-25T07:20:06"
+          "updateTime": "2025-05-25T07:40:08"
         },
         "sort": [
-          1748157606000,
+          1748158808000,
           "A202514474800"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-69413031-ab95-4d82-be16-a5d96a82b127",
+        "_id": "XqM-B5cBRYTiIU0XRQu6",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202514522943",
+          "polygonCenter": [
+            -81.78538000115563,
+            28.085369996682587
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-25T11:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-25T07:40:08"
+        },
+        "sort": [
+          1748158808000,
+          "A202514522943"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-69413031-ab95-4d82-be16-a5d96a82b127",
+        "_id": "X6M-B5cBRYTiIU0XRQu6",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202514523059",
+          "polygonCenter": [
+            -82.3316098008446,
+            27.948333796756632
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-05-25T11:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-05-25T07:40:08"
+        },
+        "sort": [
+          1748158808000,
+          "A202514523059"
         ]
       }
     ]
