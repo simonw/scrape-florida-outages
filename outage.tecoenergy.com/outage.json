@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 6,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-ee0d54ed-3b04-4aa0-8def-10e8e2266250",
-        "_id": "MqPhK5cBIpPAWwcI1d22",
+        "_index": "geopoints-prod-bede2061-516b-4928-aae4-694bfa6ed011",
+        "_id": "zqP0K5cBIpPAWwcILd08",
         "_score": null,
         "_source": {
           "incidentId": "A202515230966",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-01T12:30:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-06-01T10:25:06"
+          "updateTime": "2025-06-01T10:45:05"
         },
         "sort": [
-          1748773506000,
+          1748774705000,
           "A202515230966"
         ]
       },
       {
-        "_index": "geopoints-prod-ee0d54ed-3b04-4aa0-8def-10e8e2266250",
-        "_id": "MaPhK5cBIpPAWwcI1d22",
+        "_index": "geopoints-prod-bede2061-516b-4928-aae4-694bfa6ed011",
+        "_id": "zaP0K5cBIpPAWwcILd08",
         "_score": null,
         "_source": {
           "incidentId": "A202515231081",
@@ -49,37 +49,16 @@
           "estimatedTimeOfRestoration": "2025-06-01T12:30:00",
           "reason": "Animal coming into contact with equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-01T10:25:06"
+          "updateTime": "2025-06-01T10:45:05"
         },
         "sort": [
-          1748773506000,
+          1748774705000,
           "A202515231081"
         ]
       },
       {
-        "_index": "geopoints-prod-ee0d54ed-3b04-4aa0-8def-10e8e2266250",
-        "_id": "M6PhK5cBIpPAWwcI1d22",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515234239",
-          "polygonCenter": [
-            -82.20469445911142,
-            28.326910019855436
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-01T13:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-06-01T10:25:06"
-        },
-        "sort": [
-          1748773506000,
-          "A202515234239"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-ee0d54ed-3b04-4aa0-8def-10e8e2266250",
-        "_id": "NKPhK5cBIpPAWwcI1d22",
+        "_index": "geopoints-prod-bede2061-516b-4928-aae4-694bfa6ed011",
+        "_id": "z6P0K5cBIpPAWwcILd08",
         "_score": null,
         "_source": {
           "incidentId": "A202515236535",
@@ -91,56 +70,13 @@
           "estimatedTimeOfRestoration": "2025-06-01T14:20:00",
           "reason": "Pending Investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-06-01T10:25:06"
+          "updateTime": "2025-06-01T10:45:05"
         },
         "sort": [
-          1748773506000,
+          1748774705000,
           "A202515236535"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-ee0d54ed-3b04-4aa0-8def-10e8e2266250",
-        "_id": "MKPhK5cBIpPAWwcI1d22",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515236711",
-          "polygonCenter": [
-            -82.5939075010381,
-            28.16352599660126
-          ],
-          "customerCount": 2,
-          "estimatedTimeOfRestoration": "2025-06-01T14:00:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-06-01T10:25:06"
-        },
-        "sort": [
-          1748773506000,
-          "A202515236711"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-ee0d54ed-3b04-4aa0-8def-10e8e2266250",
-        "_id": "NaPhK5cBIpPAWwcI1d22",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515238194",
-          "polygonCenter": [
-            -82.49419000075213,
-            27.893149996787407
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-01T14:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-06-01T10:25:06"
-        },
-        "sort": [
-          1748773506000,
-          "A202515238194"
         ]
       }
     ]
-  },
-  "cache": true
+  }
 }
