@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-777c08f2-fc23-4863-9ede-6ce96c344a2f",
-        "_id": "Nhq3KZcBRYTiIU0X8VV2",
+        "_index": "geopoints-prod-95fa0d5b-1979-4d54-9299-60ae6bedeb58",
+        "_id": "4RrFKZcBRYTiIU0XqlWr",
         "_score": null,
         "_source": {
           "incidentId": "A202515179929",
@@ -27,17 +27,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-06-01T02:20:00",
           "reason": "Under investigation",
-          "status": "Additional support enroute",
-          "updateTime": "2025-06-01T00:20:05"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-06-01T00:35:05"
         },
         "sort": [
-          1748737205000,
+          1748738105000,
           "A202515179929"
         ]
       },
       {
-        "_index": "geopoints-prod-777c08f2-fc23-4863-9ede-6ce96c344a2f",
-        "_id": "Nxq3KZcBRYTiIU0X8VV2",
+        "_index": "geopoints-prod-95fa0d5b-1979-4d54-9299-60ae6bedeb58",
+        "_id": "4hrFKZcBRYTiIU0XqlWr",
         "_score": null,
         "_source": {
           "incidentId": "A202515180465",
@@ -48,33 +48,12 @@
           "customerCount": 6,
           "estimatedTimeOfRestoration": "2025-06-01T02:40:00",
           "reason": "Damage to Tampa Electric equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2025-06-01T00:20:05"
+          "status": "We're working onsite",
+          "updateTime": "2025-06-01T00:35:05"
         },
         "sort": [
-          1748737205000,
+          1748738105000,
           "A202515180465"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-777c08f2-fc23-4863-9ede-6ce96c344a2f",
-        "_id": "OBq3KZcBRYTiIU0X8VV2",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515183747",
-          "polygonCenter": [
-            -81.75605765879871,
-            27.974229100132817
-          ],
-          "customerCount": 6,
-          "estimatedTimeOfRestoration": "2025-06-01T03:40:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-06-01T00:20:05"
-        },
-        "sort": [
-          1748737205000,
-          "A202515183747"
         ]
       }
     ]
