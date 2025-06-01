@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-b67d3634-6c6c-4047-a0e1-d0209e88f75a",
-        "_id": "TxpiLZcBRYTiIU0XXYIR",
+        "_index": "geopoints-prod-bf0cfd5b-1e58-441c-aabf-c86d201cbf0e",
+        "_id": "6hpwLZcBRYTiIU0XFoIb",
         "_score": null,
         "_source": {
           "incidentId": "A202515251784",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-01T19:20:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-06-01T17:25:04"
+          "updateTime": "2025-06-01T17:40:05"
         },
         "sort": [
-          1748798704000,
+          1748799605000,
           "A202515251784"
         ]
       },
       {
-        "_index": "geopoints-prod-b67d3634-6c6c-4047-a0e1-d0209e88f75a",
-        "_id": "UBpiLZcBRYTiIU0XXYIR",
+        "_index": "geopoints-prod-bf0cfd5b-1e58-441c-aabf-c86d201cbf0e",
+        "_id": "7BpwLZcBRYTiIU0XFoIb",
         "_score": null,
         "_source": {
           "incidentId": "A202515260142",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-06-01T20:10:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-06-01T17:25:04"
+          "updateTime": "2025-06-01T17:40:05"
         },
         "sort": [
-          1748798704000,
+          1748799605000,
           "A202515260142"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-bf0cfd5b-1e58-441c-aabf-c86d201cbf0e",
+        "_id": "6xpwLZcBRYTiIU0XFoIb",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202515266349",
+          "polygonCenter": [
+            -82.52350000071291,
+            27.89456586574647
+          ],
+          "customerCount": 12,
+          "estimatedTimeOfRestoration": "2025-06-01T21:40:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-06-01T17:40:05"
+        },
+        "sort": [
+          1748799605000,
+          "A202515266349"
         ]
       }
     ]
