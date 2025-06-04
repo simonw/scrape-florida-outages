@@ -9,11 +9,33 @@
   },
   "hits": {
     "total": {
-      "value": 0,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
-    "hits": []
+    "hits": [
+      {
+        "_index": "geopoints-prod-b11a590d-a075-4943-9ec2-47db1d0b85aa",
+        "_id": "kxsdOpcBRYTiIU0XrmL_",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202515516244",
+          "polygonCenter": [
+            -82.42927263908639,
+            27.700933956084036
+          ],
+          "customerCount": 25,
+          "estimatedTimeOfRestoration": "2025-06-04T08:50:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-06-04T04:45:08"
+        },
+        "sort": [
+          1749012308000,
+          "A202515516244"
+        ]
+      }
+    ]
   },
   "cache": true
 }
