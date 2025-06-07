@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,98 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 6,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-2f4d314e-b911-464a-b7f0-e52ef2e7d710",
-        "_id": "tqWQSJcBIpPAWwcIYTtR",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515702610",
-          "polygonCenter": [
-            -82.31898000085037,
-            27.74015999687529
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-07T03:50:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-06-07T00:05:09"
-        },
-        "sort": [
-          1749254709000,
-          "A202515702610"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2f4d314e-b911-464a-b7f0-e52ef2e7d710",
-        "_id": "t6WQSJcBIpPAWwcIYTtR",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515703183",
-          "polygonCenter": [
-            -82.51747000075393,
-            27.956349996751186
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-07T04:00:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-06-07T00:05:09"
-        },
-        "sort": [
-          1749254709000,
-          "A202515703183"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2f4d314e-b911-464a-b7f0-e52ef2e7d710",
-        "_id": "uKWQSJcBIpPAWwcIYTtR",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515703191",
-          "polygonCenter": [
-            -82.51732000075404,
-            27.956349996751086
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-07T04:00:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-06-07T00:05:09"
-        },
-        "sort": [
-          1749254709000,
-          "A202515703191"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2f4d314e-b911-464a-b7f0-e52ef2e7d710",
-        "_id": "uqWQSJcBIpPAWwcIYTtR",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515703381",
-          "polygonCenter": [
-            -82.35856550764426,
-            27.705491049607858
-          ],
-          "customerCount": 10,
-          "estimatedTimeOfRestoration": "2025-06-07T04:00:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-06-07T00:05:09"
-        },
-        "sort": [
-          1749254709000,
-          "A202515703381"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-2f4d314e-b911-464a-b7f0-e52ef2e7d710",
-        "_id": "uaWQSJcBIpPAWwcIYTtR",
+        "_index": "geopoints-prod-79c7e3cc-4e38-49f2-86a9-8b667827a9a5",
+        "_id": "jqWnSJcBIpPAWwcIRzyg",
         "_score": null,
         "_source": {
           "incidentId": "A202515780367",
@@ -112,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-07T01:28:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-06-07T00:05:09"
+          "updateTime": "2025-06-07T00:30:05"
         },
         "sort": [
-          1749254709000,
+          1749256205000,
           "A202515780367"
         ]
       },
       {
-        "_index": "geopoints-prod-2f4d314e-b911-464a-b7f0-e52ef2e7d710",
-        "_id": "taWQSJcBIpPAWwcIYTtR",
+        "_index": "geopoints-prod-79c7e3cc-4e38-49f2-86a9-8b667827a9a5",
+        "_id": "jKWnSJcBIpPAWwcIRzyg",
         "_score": null,
         "_source": {
           "incidentId": "A202515795720",
@@ -131,13 +47,34 @@
           ],
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-06-07T02:10:00",
-          "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-06-07T00:05:09"
+          "reason": "Damage to Tampa Electric equipment",
+          "status": "We're working onsite",
+          "updateTime": "2025-06-07T00:30:05"
         },
         "sort": [
-          1749254709000,
+          1749256205000,
           "A202515795720"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-79c7e3cc-4e38-49f2-86a9-8b667827a9a5",
+        "_id": "jaWnSJcBIpPAWwcIRzyg",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202515800351",
+          "polygonCenter": [
+            -82.35856550764426,
+            27.705491049607858
+          ],
+          "customerCount": 10,
+          "estimatedTimeOfRestoration": "2025-06-07T04:10:00",
+          "reason": "Under investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-06-07T00:30:05"
+        },
+        "sort": [
+          1749256205000,
+          "A202515800351"
         ]
       }
     ]
