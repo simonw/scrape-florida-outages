@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,35 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-a9d7efe8-f72b-4208-a6f9-943a44f60055",
-        "_id": "5xyDSZcBRYTiIU0XBTfd",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515795720",
-          "polygonCenter": [
-            -82.48242000075871,
-            27.87834999679589
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-07T06:48:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're working onsite",
-          "updateTime": "2025-06-07T04:30:08"
-        },
-        "sort": [
-          1749270608000,
-          "A202515795720"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-a9d7efe8-f72b-4208-a6f9-943a44f60055",
-        "_id": "6RyDSZcBRYTiIU0XBTfd",
+        "_index": "geopoints-prod-34a48944-211d-4e0e-b993-ed3907257243",
+        "_id": "jqWQSZcBIpPAWwcIwkUi",
         "_score": null,
         "_source": {
           "incidentId": "A202515805353",
@@ -49,34 +28,35 @@
           "estimatedTimeOfRestoration": "2025-06-07T06:10:00",
           "reason": "Under investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-06-07T04:30:08"
+          "updateTime": "2025-06-07T04:45:05"
         },
         "sort": [
-          1749270608000,
+          1749271505000,
           "A202515805353"
         ]
       },
       {
-        "_index": "geopoints-prod-a9d7efe8-f72b-4208-a6f9-943a44f60055",
-        "_id": "6ByDSZcBRYTiIU0XBTfd",
+        "_index": "geopoints-prod-34a48944-211d-4e0e-b993-ed3907257243",
+        "_id": "jaWQSZcBIpPAWwcIwkUi",
         "_score": null,
         "_source": {
-          "incidentId": "A202515811025",
+          "incidentId": "A202515813885",
           "polygonCenter": [
-            -82.4295567855935,
-            28.059988356895147
+            -82.42975000078982,
+            28.060309996692414
           ],
-          "customerCount": 8,
-          "estimatedTimeOfRestoration": "2025-06-07T07:50:00",
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-07T08:40:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-06-07T04:30:08"
+          "updateTime": "2025-06-07T04:45:05"
         },
         "sort": [
-          1749270608000,
-          "A202515811025"
+          1749271505000,
+          "A202515813885"
         ]
       }
     ]
-  }
+  },
+  "cache": true
 }
