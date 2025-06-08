@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,51 +9,30 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 1,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-08ae6190-3875-4f11-969d-8d6e6c9c3764",
-        "_id": "Lhz8T5cBRYTiIU0XE59o",
+        "_index": "geopoints-prod-5fcfee11-5898-4d1f-81fb-07563f5a9eaf",
+        "_id": "6qUOUJcBIpPAWwcIbaBu",
         "_score": null,
         "_source": {
-          "incidentId": "A202515923463",
+          "incidentId": "A202515926180",
           "polygonCenter": [
-            -82.51628000075529,
-            28.04713999669965
+            -82.51640293927969,
+            28.046992823901736
           ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-08T14:00:00",
-          "reason": "Pending Investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-06-08T10:40:07"
+          "customerCount": 9,
+          "estimatedTimeOfRestoration": "2025-06-08T15:00:00",
+          "reason": "Animal coming into contact with equipment",
+          "status": "Additional support enroute",
+          "updateTime": "2025-06-08T11:00:08"
         },
         "sort": [
-          1749379207000,
-          "A202515923463"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-08ae6190-3875-4f11-969d-8d6e6c9c3764",
-        "_id": "LRz8T5cBRYTiIU0XE59o",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202515924820",
-          "polygonCenter": [
-            -82.47281000076518,
-            28.04114999670304
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-08T14:20:00",
-          "reason": "Pending Investigation",
-          "status": "We're on our way to investigate",
-          "updateTime": "2025-06-08T10:40:07"
-        },
-        "sort": [
-          1749379207000,
-          "A202515924820"
+          1749380408000,
+          "A202515926180"
         ]
       }
     ]
