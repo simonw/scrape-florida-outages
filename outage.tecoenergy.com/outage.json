@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-5837fdd5-b9fc-40be-aca2-755d24b5b94b",
-        "_id": "ERzETJcBRYTiIU0XIHkN",
+        "_index": "geopoints-prod-333febf7-f78a-4e92-b24e-a44cd79071ae",
+        "_id": "hhztTJcBRYTiIU0XUnve",
         "_score": null,
         "_source": {
           "incidentId": "A202515846019",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-07T22:20:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-06-07T19:40:07"
+          "updateTime": "2025-06-07T20:25:05"
         },
         "sort": [
-          1749325207000,
+          1749327905000,
           "A202515846019"
         ]
       },
       {
-        "_index": "geopoints-prod-5837fdd5-b9fc-40be-aca2-755d24b5b94b",
-        "_id": "EhzETJcBRYTiIU0XIHkN",
+        "_index": "geopoints-prod-333febf7-f78a-4e92-b24e-a44cd79071ae",
+        "_id": "ihztTJcBRYTiIU0XUnve",
         "_score": null,
         "_source": {
           "incidentId": "A202515849955",
@@ -49,32 +49,74 @@
           "estimatedTimeOfRestoration": "2025-06-07T21:10:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-06-07T19:40:07"
+          "updateTime": "2025-06-07T20:25:05"
         },
         "sort": [
-          1749325207000,
+          1749327905000,
           "A202515849955"
         ]
       },
       {
-        "_index": "geopoints-prod-5837fdd5-b9fc-40be-aca2-755d24b5b94b",
-        "_id": "EBzETJcBRYTiIU0XIHkN",
+        "_index": "geopoints-prod-333febf7-f78a-4e92-b24e-a44cd79071ae",
+        "_id": "iBztTJcBRYTiIU0XUnve",
         "_score": null,
         "_source": {
-          "incidentId": "A202515855952",
+          "incidentId": "A202515856933",
           "polygonCenter": [
-            -81.76528180376152,
-            28.04592878418661
+            -82.19699449880274,
+            28.052080018936305
           ],
-          "customerCount": 9,
-          "estimatedTimeOfRestoration": "2025-06-07T23:30:00",
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-08T00:00:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-06-07T19:40:07"
+          "updateTime": "2025-06-07T20:25:05"
         },
         "sort": [
-          1749325207000,
-          "A202515855952"
+          1749327905000,
+          "A202515856933"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-333febf7-f78a-4e92-b24e-a44cd79071ae",
+        "_id": "hxztTJcBRYTiIU0XUnve",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202515856995",
+          "polygonCenter": [
+            -82.35526000082957,
+            27.704069996895832
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-08T00:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-06-07T20:25:05"
+        },
+        "sort": [
+          1749327905000,
+          "A202515856995"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-333febf7-f78a-4e92-b24e-a44cd79071ae",
+        "_id": "iRztTJcBRYTiIU0XUnve",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202515857367",
+          "polygonCenter": [
+            -82.31544380724822,
+            27.870435104649612
+          ],
+          "customerCount": 3,
+          "estimatedTimeOfRestoration": "2025-06-08T00:10:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-06-07T20:25:05"
+        },
+        "sort": [
+          1749327905000,
+          "A202515857367"
         ]
       }
     ]
