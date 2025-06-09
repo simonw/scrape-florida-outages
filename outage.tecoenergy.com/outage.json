@@ -1,5 +1,5 @@
 {
-  "took": 3,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-0fa0a604-fd17-45ab-8491-83cd03e5669f",
-        "_id": "4qXsVpcBIpPAWwcIPefu",
+        "_index": "geopoints-prod-07a9d593-7400-4bdd-82bf-4ddac1d86ced",
+        "_id": "oBwDV5cBRYTiIU0XEfVi",
         "_score": null,
         "_source": {
           "incidentId": "A202516068027",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-09T21:00:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-09T19:00:09"
+          "updateTime": "2025-06-09T19:25:05"
         },
         "sort": [
-          1749495609000,
+          1749497105000,
           "A202516068027"
         ]
       },
       {
-        "_index": "geopoints-prod-0fa0a604-fd17-45ab-8491-83cd03e5669f",
-        "_id": "4KXsVpcBIpPAWwcIPefu",
+        "_index": "geopoints-prod-07a9d593-7400-4bdd-82bf-4ddac1d86ced",
+        "_id": "nRwDV5cBRYTiIU0XEfVi",
         "_score": null,
         "_source": {
           "incidentId": "A202516076742",
@@ -49,16 +49,16 @@
           "estimatedTimeOfRestoration": "2025-06-09T22:40:00",
           "reason": "Under investigation",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-09T19:00:09"
+          "updateTime": "2025-06-09T19:25:05"
         },
         "sort": [
-          1749495609000,
+          1749497105000,
           "A202516076742"
         ]
       },
       {
-        "_index": "geopoints-prod-0fa0a604-fd17-45ab-8491-83cd03e5669f",
-        "_id": "4aXsVpcBIpPAWwcIPefu",
+        "_index": "geopoints-prod-07a9d593-7400-4bdd-82bf-4ddac1d86ced",
+        "_id": "oRwDV5cBRYTiIU0XEfVi",
         "_score": null,
         "_source": {
           "incidentId": "A202516077499",
@@ -70,32 +70,53 @@
           "estimatedTimeOfRestoration": "2025-06-09T22:50:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-06-09T19:00:09"
+          "updateTime": "2025-06-09T19:25:05"
         },
         "sort": [
-          1749495609000,
+          1749497105000,
           "A202516077499"
         ]
       },
       {
-        "_index": "geopoints-prod-0fa0a604-fd17-45ab-8491-83cd03e5669f",
-        "_id": "36XsVpcBIpPAWwcIPefu",
+        "_index": "geopoints-prod-07a9d593-7400-4bdd-82bf-4ddac1d86ced",
+        "_id": "nhwDV5cBRYTiIU0XEfVi",
         "_score": null,
         "_source": {
-          "incidentId": "A202516078021",
+          "incidentId": "A202516080245",
           "polygonCenter": [
-            -82.36131325283444,
-            28.051049859776207
+            -82.44816349737303,
+            28.047900148452335
           ],
           "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-09T23:00:00",
+          "estimatedTimeOfRestoration": "2025-06-09T23:30:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-06-09T19:00:09"
+          "updateTime": "2025-06-09T19:25:05"
         },
         "sort": [
-          1749495609000,
-          "A202516078021"
+          1749497105000,
+          "A202516080245"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-07a9d593-7400-4bdd-82bf-4ddac1d86ced",
+        "_id": "nxwDV5cBRYTiIU0XEfVi",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202516080283",
+          "polygonCenter": [
+            -82.52631000074922,
+            28.004009996724065
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-09T23:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-06-09T19:25:05"
+        },
+        "sort": [
+          1749497105000,
+          "A202516080283"
         ]
       }
     ]
