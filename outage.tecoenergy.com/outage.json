@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-e00e907a-5250-430c-846d-238a61d23d95",
-        "_id": "gBzhUpcBRYTiIU0XtMCo",
+        "_index": "geopoints-prod-2bd71fcd-5a10-4e52-bee5-1bfff790cc57",
+        "_id": "ThzzUpcBRYTiIU0X-8Fy",
         "_score": null,
         "_source": {
           "incidentId": "A202515958691",
@@ -25,19 +25,19 @@
             28.12335239599014
           ],
           "customerCount": 6,
-          "estimatedTimeOfRestoration": "2025-06-09T00:30:00",
+          "estimatedTimeOfRestoration": "2025-06-09T05:17:00",
           "reason": "Damage to Tampa Electric equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-09T00:10:08"
+          "updateTime": "2025-06-09T00:30:06"
         },
         "sort": [
-          1749427808000,
+          1749429006000,
           "A202515958691"
         ]
       },
       {
-        "_index": "geopoints-prod-e00e907a-5250-430c-846d-238a61d23d95",
-        "_id": "fxzhUpcBRYTiIU0XtMCo",
+        "_index": "geopoints-prod-2bd71fcd-5a10-4e52-bee5-1bfff790cc57",
+        "_id": "TRzzUpcBRYTiIU0X-8Fy",
         "_score": null,
         "_source": {
           "incidentId": "A202515966408",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-06-09T03:30:00",
           "reason": "Pending Investigation",
           "status": "We're aware of the outage",
-          "updateTime": "2025-06-09T00:10:08"
+          "updateTime": "2025-06-09T00:30:06"
         },
         "sort": [
-          1749427808000,
+          1749429006000,
           "A202515966408"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-2bd71fcd-5a10-4e52-bee5-1bfff790cc57",
+        "_id": "TxzzUpcBRYTiIU0X-8Fy",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202516001206",
+          "polygonCenter": [
+            -82.44543000078005,
+            27.929149996767073
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-09T04:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-06-09T00:30:06"
+        },
+        "sort": [
+          1749429006000,
+          "A202516001206"
         ]
       }
     ]
