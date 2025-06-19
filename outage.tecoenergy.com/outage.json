@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,35 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 3,
+      "value": 2,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-bb85a04a-4f6c-45bd-80df-5806a49739b5",
-        "_id": "MiBdh5cBRYTiIU0XCB36",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202517006112",
-          "polygonCenter": [
-            -82.49505314510469,
-            27.98915432145646
-          ],
-          "customerCount": 6,
-          "estimatedTimeOfRestoration": "2025-06-19T06:00:00",
-          "reason": "Damage to Tampa Electric equipment",
-          "status": "We're working onsite",
-          "updateTime": "2025-06-19T04:45:06"
-        },
-        "sort": [
-          1750308306000,
-          "A202517006112"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-bb85a04a-4f6c-45bd-80df-5806a49739b5",
-        "_id": "MSBdh5cBRYTiIU0XCB36",
+        "_index": "geopoints-prod-0278707d-d95c-40d3-9bf2-5481c0831b0e",
+        "_id": "BKhvh5cBIpPAWwcIa6lB",
         "_score": null,
         "_source": {
           "incidentId": "A202517006937",
@@ -49,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-19T06:10:00",
           "reason": "Weather-related damage to equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-19T04:45:06"
+          "updateTime": "2025-06-19T05:05:06"
         },
         "sort": [
-          1750308306000,
+          1750309506000,
           "A202517006937"
         ]
       },
       {
-        "_index": "geopoints-prod-bb85a04a-4f6c-45bd-80df-5806a49739b5",
-        "_id": "MCBdh5cBRYTiIU0XCB36",
+        "_index": "geopoints-prod-0278707d-d95c-40d3-9bf2-5481c0831b0e",
+        "_id": "A6hvh5cBIpPAWwcIa6lB",
         "_score": null,
         "_source": {
           "incidentId": "A202517008141",
@@ -70,10 +49,10 @@
           "estimatedTimeOfRestoration": "2025-06-19T06:30:00",
           "reason": "Weather-related damage to equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-19T04:45:06"
+          "updateTime": "2025-06-19T05:05:06"
         },
         "sort": [
-          1750308306000,
+          1750309506000,
           "A202517008141"
         ]
       }
