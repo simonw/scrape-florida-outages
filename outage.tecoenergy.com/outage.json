@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-fbcecca6-7abf-4f41-b65d-c07234bf6b0f",
-        "_id": "-agVjJcBIpPAWwcIj9ih",
+        "_index": "geopoints-prod-c76efd1d-3be8-48ef-8dfe-f1318ec9d8f2",
+        "_id": "FCAnjJcBRYTiIU0X5WVp",
         "_score": null,
         "_source": {
           "incidentId": "A202517077089",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-20T03:39:00",
           "reason": "Weather-related damage to equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-20T02:45:08"
+          "updateTime": "2025-06-20T03:05:06"
         },
         "sort": [
-          1750387508000,
+          1750388706000,
           "A202517077089"
         ]
       },
       {
-        "_index": "geopoints-prod-fbcecca6-7abf-4f41-b65d-c07234bf6b0f",
-        "_id": "-qgVjJcBIpPAWwcIj9ih",
+        "_index": "geopoints-prod-c76efd1d-3be8-48ef-8dfe-f1318ec9d8f2",
+        "_id": "FiAnjJcBRYTiIU0X5WVp",
         "_score": null,
         "_source": {
           "incidentId": "A202517101595",
@@ -49,14 +49,34 @@
           "estimatedTimeOfRestoration": "2025-06-20T04:50:00",
           "reason": "Weather-related damage to equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-20T02:45:08"
+          "updateTime": "2025-06-20T03:05:06"
         },
         "sort": [
-          1750387508000,
+          1750388706000,
           "A202517101595"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-c76efd1d-3be8-48ef-8dfe-f1318ec9d8f2",
+        "_id": "FSAnjJcBRYTiIU0X5WVp",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202517107174",
+          "polygonCenter": [
+            -82.34120442204899,
+            27.682755259068855
+          ],
+          "customerCount": 4,
+          "estimatedTimeOfRestoration": "2025-06-20T07:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-06-20T03:05:06"
+        },
+        "sort": [
+          1750388706000,
+          "A202517107174"
         ]
       }
     ]
-  },
-  "cache": true
+  }
 }
