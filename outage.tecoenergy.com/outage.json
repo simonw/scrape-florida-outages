@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 91,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 4,
+      "value": 5,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-e0bd094e-3f99-4a8a-bbcd-113596fe4f8e",
-        "_id": "2iDejJcBRYTiIU0X-m1L",
+        "_index": "geopoints-prod-4941a7d5-d790-4703-8b43-329dbac3c593",
+        "_id": "u6jxjJcBIpPAWwcIS-L7",
         "_score": null,
         "_source": {
           "incidentId": "A202517101595",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-20T09:05:00",
           "reason": "Weather-related damage to equipment",
           "status": "We're working onsite",
-          "updateTime": "2025-06-20T06:25:06"
+          "updateTime": "2025-06-20T06:45:04"
         },
         "sort": [
-          1750400706000,
+          1750401904000,
           "A202517101595"
         ]
       },
       {
-        "_index": "geopoints-prod-e0bd094e-3f99-4a8a-bbcd-113596fe4f8e",
-        "_id": "2SDejJcBRYTiIU0X-m1L",
+        "_index": "geopoints-prod-4941a7d5-d790-4703-8b43-329dbac3c593",
+        "_id": "uqjxjJcBIpPAWwcIS-L7",
         "_score": null,
         "_source": {
           "incidentId": "A202517107174",
@@ -46,19 +46,19 @@
             27.682755259068855
           ],
           "customerCount": 4,
-          "estimatedTimeOfRestoration": "2025-06-20T07:00:00",
+          "estimatedTimeOfRestoration": "2025-06-20T08:30:00",
           "reason": "Tree or tree limbs in contact with equipment",
-          "status": "Additional support enroute",
-          "updateTime": "2025-06-20T06:25:06"
+          "status": "We're working onsite",
+          "updateTime": "2025-06-20T06:45:04"
         },
         "sort": [
-          1750400706000,
+          1750401904000,
           "A202517107174"
         ]
       },
       {
-        "_index": "geopoints-prod-e0bd094e-3f99-4a8a-bbcd-113596fe4f8e",
-        "_id": "2CDejJcBRYTiIU0X-m1L",
+        "_index": "geopoints-prod-4941a7d5-d790-4703-8b43-329dbac3c593",
+        "_id": "vKjxjJcBIpPAWwcIS-L7",
         "_score": null,
         "_source": {
           "incidentId": "A202517108478",
@@ -66,20 +66,20 @@
             -82.37914226500688,
             27.700179574795932
           ],
-          "customerCount": 274,
+          "customerCount": 164,
           "estimatedTimeOfRestoration": "2025-06-20T07:20:00",
           "reason": "Pending Investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-06-20T06:25:06"
+          "updateTime": "2025-06-20T06:45:04"
         },
         "sort": [
-          1750400706000,
+          1750401904000,
           "A202517108478"
         ]
       },
       {
-        "_index": "geopoints-prod-e0bd094e-3f99-4a8a-bbcd-113596fe4f8e",
-        "_id": "2yDejJcBRYTiIU0X-m1L",
+        "_index": "geopoints-prod-4941a7d5-d790-4703-8b43-329dbac3c593",
+        "_id": "vajxjJcBIpPAWwcIS-L7",
         "_score": null,
         "_source": {
           "incidentId": "A202517113929",
@@ -91,11 +91,32 @@
           "estimatedTimeOfRestoration": "2025-06-20T09:30:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-06-20T06:25:06"
+          "updateTime": "2025-06-20T06:45:04"
         },
         "sort": [
-          1750400706000,
+          1750401904000,
           "A202517113929"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-4941a7d5-d790-4703-8b43-329dbac3c593",
+        "_id": "uajxjJcBIpPAWwcIS-L7",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202517116372",
+          "polygonCenter": [
+            -82.12177400096404,
+            28.007120996724716
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-20T10:30:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-06-20T06:45:04"
+        },
+        "sort": [
+          1750401904000,
+          "A202517116372"
         ]
       }
     ]
