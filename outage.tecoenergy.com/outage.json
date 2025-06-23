@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-8704a4ae-5aba-4f3b-902e-0d1d67563c80",
-        "_id": "a6lynJcBIpPAWwcIJLG2",
+        "_index": "geopoints-prod-0316b1ee-11ad-4c28-8746-66e24e5579f8",
+        "_id": "IqmInJcBIpPAWwcI8rKI",
         "_score": null,
         "_source": {
           "incidentId": "A202517424802",
@@ -27,17 +27,17 @@
           "customerCount": 1,
           "estimatedTimeOfRestoration": "2025-06-23T10:20:00",
           "reason": "Pending Investigation",
-          "status": "We're aware of the outage",
-          "updateTime": "2025-06-23T07:00:06"
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-06-23T07:25:06"
         },
         "sort": [
-          1750662006000,
+          1750663506000,
           "A202517424802"
         ]
       },
       {
-        "_index": "geopoints-prod-8704a4ae-5aba-4f3b-902e-0d1d67563c80",
-        "_id": "bKlynJcBIpPAWwcIJLG2",
+        "_index": "geopoints-prod-0316b1ee-11ad-4c28-8746-66e24e5579f8",
+        "_id": "I6mInJcBIpPAWwcI8rKI",
         "_score": null,
         "_source": {
           "incidentId": "A202517426707",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-06-23T10:40:00",
           "reason": "Pending Investigation",
           "status": "We're on our way to investigate",
-          "updateTime": "2025-06-23T07:00:06"
+          "updateTime": "2025-06-23T07:25:06"
         },
         "sort": [
-          1750662006000,
+          1750663506000,
           "A202517426707"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-0316b1ee-11ad-4c28-8746-66e24e5579f8",
+        "_id": "IamInJcBIpPAWwcI8rKI",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202517430487",
+          "polygonCenter": [
+            -82.36776353807767,
+            27.95206012089544
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-23T11:20:00",
+          "reason": "Pending Investigation",
+          "status": "We're on our way to investigate",
+          "updateTime": "2025-06-23T07:25:06"
+        },
+        "sort": [
+          1750663506000,
+          "A202517430487"
         ]
       }
     ]
