@@ -9,14 +9,14 @@
   },
   "hits": {
     "total": {
-      "value": 2,
+      "value": 3,
       "relation": "eq"
     },
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-3f9e8364-81fb-4e39-991e-302e062381b6",
-        "_id": "q6q1spcBIpPAWwcIT7WY",
+        "_index": "geopoints-prod-c6795a8f-0f5b-464a-9b62-c5c0cdf47983",
+        "_id": "miLDspcBRYTiIU0XCNNW",
         "_score": null,
         "_source": {
           "incidentId": "A202517824004",
@@ -28,16 +28,16 @@
           "estimatedTimeOfRestoration": "2025-06-27T17:10:00",
           "reason": "Under investigation",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-27T14:45:08"
+          "updateTime": "2025-06-27T15:00:04"
         },
         "sort": [
-          1751035508000,
+          1751036404000,
           "A202517824004"
         ]
       },
       {
-        "_index": "geopoints-prod-3f9e8364-81fb-4e39-991e-302e062381b6",
-        "_id": "qqq1spcBIpPAWwcIT7WY",
+        "_index": "geopoints-prod-c6795a8f-0f5b-464a-9b62-c5c0cdf47983",
+        "_id": "mSLDspcBRYTiIU0XCNNW",
         "_score": null,
         "_source": {
           "incidentId": "A202517825218",
@@ -49,11 +49,32 @@
           "estimatedTimeOfRestoration": "2025-06-27T17:50:00",
           "reason": "Tree or tree limbs in contact with equipment",
           "status": "Additional support enroute",
-          "updateTime": "2025-06-27T14:45:08"
+          "updateTime": "2025-06-27T15:00:04"
         },
         "sort": [
-          1751035508000,
+          1751036404000,
           "A202517825218"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-c6795a8f-0f5b-464a-9b62-c5c0cdf47983",
+        "_id": "myLDspcBRYTiIU0XCNNW",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202517826823",
+          "polygonCenter": [
+            -82.35929526038768,
+            27.748426812272193
+          ],
+          "customerCount": 1,
+          "estimatedTimeOfRestoration": "2025-06-27T19:00:00",
+          "reason": "Pending Investigation",
+          "status": "We're aware of the outage",
+          "updateTime": "2025-06-27T15:00:04"
+        },
+        "sort": [
+          1751036404000,
+          "A202517826823"
         ]
       }
     ]
