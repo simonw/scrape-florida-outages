@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 0,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,29 +15,8 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "geopoints-prod-703b6e21-a691-4817-9aef-945acde79795",
-        "_id": "9CPNt5cBRYTiIU0X2ScH",
-        "_score": null,
-        "_source": {
-          "incidentId": "A202517910908",
-          "polygonCenter": [
-            -82.18641000093058,
-            28.377419996513094
-          ],
-          "customerCount": 1,
-          "estimatedTimeOfRestoration": "2025-06-28T16:01:00",
-          "reason": "Under investigation",
-          "status": "We're working onsite",
-          "updateTime": "2025-06-28T14:30:05"
-        },
-        "sort": [
-          1751121005000,
-          "A202517910908"
-        ]
-      },
-      {
-        "_index": "geopoints-prod-703b6e21-a691-4817-9aef-945acde79795",
-        "_id": "9SPNt5cBRYTiIU0X2ScH",
+        "_index": "geopoints-prod-a1f0e987-114c-4e59-b10d-2301bcec0390",
+        "_id": "earbt5cBIpPAWwcInu5B",
         "_score": null,
         "_source": {
           "incidentId": "A202517919040",
@@ -49,11 +28,32 @@
           "estimatedTimeOfRestoration": "2025-06-28T18:30:00",
           "reason": "Under investigation",
           "status": "We're working onsite",
-          "updateTime": "2025-06-28T14:30:05"
+          "updateTime": "2025-06-28T14:45:04"
         },
         "sort": [
-          1751121005000,
+          1751121904000,
           "A202517919040"
+        ]
+      },
+      {
+        "_index": "geopoints-prod-a1f0e987-114c-4e59-b10d-2301bcec0390",
+        "_id": "eKrbt5cBIpPAWwcInu5B",
+        "_score": null,
+        "_source": {
+          "incidentId": "A202517919293",
+          "polygonCenter": [
+            -81.69362965651098,
+            28.02528673524037
+          ],
+          "customerCount": 5,
+          "estimatedTimeOfRestoration": "2025-06-28T18:40:00",
+          "reason": "Under investigation",
+          "status": "We're working onsite",
+          "updateTime": "2025-06-28T14:45:04"
+        },
+        "sort": [
+          1751121904000,
+          "A202517919293"
         ]
       }
     ]
